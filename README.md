@@ -27,36 +27,61 @@ episodes/          ... エピソード別の設計書・プロンプト
 diff-log/          ... 生成の成功/失敗記録
 references/        ... 参照画像の管理
 migration/         ... 既存プロジェクトからの情報移行ツール
+scripts/           ... 操作用ヘルパースクリプト
 ```
 
 ---
 
-## クイックスタート
+## 使い方（Claude Codeに話しかけるだけ）
+
+すべての操作はClaude Codeに日本語で伝えるだけで完了します。
+コマンドやGitHubの操作は不要です。
+
+### できること一覧
+
+| やりたいこと | Claude Codeへの伝え方 |
+|---|---|
+| 新しいエピソードを作る | 「EP02を作って」 |
+| ページ設計書を作る | 「EP01のP04を作って」 |
+| 設計書を編集する | 「P03のコマ2を修正して。構図を俯瞰に変えたい」 |
+| プロンプトに変換する | 「P03のプロンプトを作って」 |
+| 差分ログを記録する | 「P01の生成結果を記録して。コマ1の構図が崩れた」 |
+| バイブルを更新する | 「クロちゃんの服装設定を変更して」 |
+| 統合版ナレッジを更新する | 「バイブルを統合して」 |
+| 現在の状態を確認する | 「ステータスを見せて」 |
+| 保存する | 「保存して」 |
+| キャラクターを追加する | 「新キャラ○○を追加して」 |
 
 ### 初回セットアップ（情報の移行）
 
-1. `migration/extraction-prompts.md` を開く
-2. 各プロンプトを既存のClaude Projectsチャットにコピペして投げる
-3. Claudeの出力を、指定された `bible/` 配下のファイルに貼り付ける
-4. 全項目の引き出しが完了したら、`claude-knowledge/01_manga-bible.md` に統合する
-5. `claude-knowledge/` の6ファイルをClaude Projectsの新しいプロジェクトにアップロードする
+既にClaude Projectsに詳細設定がある場合:
 
-### 新エピソードの開始
+1. Claude Codeに「移行プロンプトを見せて」と伝える
+2. 表示されたプロンプトを既存のClaude Projectsチャットにコピペ
+3. Claudeの出力をClaude Codeに「これ貼り付けて」と渡す
+4. Claude Codeが適切なファイルに書き込みます
+5. 全項目が終わったら「バイブルを統合して」と伝える
+6. `claude-knowledge/` の6ファイルをClaude Projectsの新プロジェクトにアップロード
 
-```bash
-cp -r episodes/_episode-template/ episodes/ep02/
+---
+
+## 制作サイクル
+
 ```
-
-### 制作サイクル
-
-1. **企画**: アイデアをClaude Thread Aに渡す → 固定フォーマットで整形される
-2. **ページ設計**: 3パスループ（構図→表情→セリフ）で確定する
-3. **プロンプト変換**: Claude Thread Bで機械的に英語プロンプトに変換する
-4. **画像生成**: Nano Bananaにプロンプト+参照画像を投入する
-5. **記録**: 結果を差分ログに記録する
-6. **改善**: 差分ログからバイブルを更新する（まれに）
-
-詳細は `claude-knowledge/05_workflow-guide.md` を参照。
+  あなたのアイデア
+       ↓
+  1. 企画整理（Claude Thread A）
+       ↓
+  2. ページ設計 × 3パス（構図→表情→セリフ）
+       ↓  ← あなたが各パスで確認
+  3. プロンプト変換（Claude Thread B）
+       ↓
+  4. 画像生成（Nano Banana）
+       ↓
+  5. 差分ログに記録
+       ↓
+  6. 必要ならバイブル更新
+```
 
 ---
 
@@ -64,7 +89,7 @@ cp -r episodes/_episode-template/ episodes/ep02/
 
 | 層 | ファイル | 更新頻度 |
 |---|---|---|
-| 漫画バイブル | `claude-knowledge/01_manga-bible.md` + `bible/` | まれ（編集者判断のみ） |
+| 漫画バイブル | `bible/` + `claude-knowledge/01_manga-bible.md` | まれ（あなたの判断のみ） |
 | 話の設計書 | `episodes/epXX/episode-design.md` | エピソードごと |
 | ページ設計書 | `episodes/epXX/pages/PXX.md` | ページごと |
 | Nano Bananaプロンプト | `episodes/epXX/prompts/PXX-prompt.md` | ページごと |
