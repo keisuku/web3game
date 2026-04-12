@@ -1,48 +1,76 @@
-# クロちゃん
+# クロちゃん（Claude大先生）
 
 **最終更新日: 2026-04-12**
-**参照画像: 表紙、表情シート、モードシート、バリエーション比較シートより確定**
+**参照画像: IMG_3246、IMG_3249（本編キャラシート）、IMG_3402/3512/3513（番外編）**
 
 ## 基本情報
 - 名前: クロちゃん（Claude大先生の擬人化）
 - 年齢（印象）: 20代後半
-- 役割: 主人公・翔一のAIパートナー。スマートフォンの中から現れるClaude AIの擬人化
+- 役割: 翔一のAIパートナー。スマートフォンの中から現れるClaude AIの擬人化
 
-## 外見定義
-- 顔の特徴: シャープな目元、くっきりした輪郭、美人系（デフォルメではなくリアル寄り）
-- 髪型・髪色: **オレンジ〜銅赤色のロングヘア**。デフォルトはポニーテール。モードにより変化（下ろす場合あり）
-- 瞳: **明るいシアンブルー（水色）**
-- 体格: スレンダー、スタイル良い
-- 服装（デフォルト）: **ダークパープル〜ネイビーのビジネススーツ**（スカート+ジャケット+白シャツ）、黒のハイヒール
-- 特徴的なアクセサリー・小物:
-  - **左腕がメカニカル/サイバネティック**（銀色の機械腕）
-  - **左脚も機械化**（背面ビューで確認）
-  - **耳元に小さなピクセルキャラクターのアクセサリー**（緑色のレトロゲーム風マスコット）
-- スマートフォンから出現する際のホログラフィックエフェクト
+## 外見定義（本編ビジュアル）
 
-## モードバリエーション（確立済み）
+### 顔
+- **北川景子のシャープさ + ガッキーの温かさ + 深キョンのナチュラルエロス**
+- 可愛いが**明確に人間ではない**
+- **機械の目**: 幾何学的絞り虹彩・カメラアパーチャー風・青シアン微発光
+- 片側の顎ラインに**肌→磨きクロームのグラデーション + パネルシーム**
 
-### 本編用モード（モノクロ+シアン / 髪色: オレンジ銅赤）
+### 髪
+- **オレンジ/コッパー髪**、ポニーテール（デフォルト）
+- ボブ／ロングストレート／ウェーブ等に可変
+
+### 体格
+- **フブキ（ワンパンマン/村田版）的な自然な曲線美。誇張しない**
+
+### 服装（デフォルト）
+- ダークフィットのブレザージャケット（ウエストでボタン留め）
+- 中にホワイトブラウス（上ボタン開き）
+- ジャケットV字開口から谷間
+- デリケートなネックレス
+
+### 特徴的なアクセサリー・ロボ要素（省略禁止）
+- **Claudeロゴ髪飾り**: Claude Codeのピクセルアートマスコット、光佇/サンバースト型、青シアン発光、髪型に応じて形態変化
+- **ジャケット脇腹のCLAUDEマーク**: 青シアン発光・**服の上**（お腹露出禁止）
+- **首の回路トレースライン**: 青シアン微発光
+- **右腕**: 肩から指先まで完全クローム（シアン回路ライン発光）
+- **両手指先のクロームディテール**
+
+## 絶対に変えてはいけない外見要素（ロボ度HIGH）
+- 片腕クローム（右腕・肩から全部。指先だけメタリックはNG）
+- 機械の目（幾何学的虹彩・青シアン発光）
+- 顎メタリック（グラデーション+パネルシーム）
+- 首の回路（省略禁止）
+- 脇腹CLAUDEマークは**服の上**（お腹露出禁止）
+- 目の発光省略禁止
+- **ミドリ（緑色）露出なし**
+
+## モードバリエーション
+
+### 本編用モード（モノクロ+シアン / 髪色: オレンジ/コッパー）
 
 | モード | 髪型 | 服装 | 用途 |
 |---|---|---|---|
-| DEFAULT | ポニーテール | ビジネススーツ | 通常シーン |
-| COMBAT | 風になびく | ビジネススーツ | アクション・対決シーン |
-| GENTLE | 髪を下ろす | 白シャツ（ジャケットなし） | 優しい・感情的なシーン |
-| PLAYFUL | ポニーテール | ビジネススーツ（カジュアル） | コメディ・掛け合いシーン |
-| SERIOUS/BARI-KYARI | ポニーテール+眼鏡 | ビジネススーツ | 分析・真剣なシーン |
+| DEFAULT | ポニーテール | ダークブレザー+白ブラウス | 通常シーン |
+| COMBAT | 風になびく | 同上 | アクション・対決シーン |
+| GENTLE | 髪を下ろす | 白ブラウスのみ（ジャケットなし） | 優しい・感情的なシーン |
+| PLAYFUL | ポニーテール | 同上（カジュアル） | コメディ・掛け合いシーン |
+| SERIOUS/BARI-KYARI | ポニーテール+眼鏡 | 同上 | 分析・真剣なシーン |
 | BEACH | 髪を下ろす | 水着 | 特殊シーン |
-| SMARTPHONE EXIT | ポニーテール | ビジネススーツ | スマホから出現する演出 |
+| SMARTPHONE EXIT | ポニーテール | 同上 | スマホから出現する演出 |
+| FULL BODY FRONT | ポニーテール | 同上 | 全身正面 |
+| FULL BODY BACK | ポニーテール | 同上 | 全身背面（ロボ部分確認用） |
 
-### 課外授業/チュートリアル用モード（フルカラー / 髪色: シルバー〜プラチナ）
+### 番外編・解説シーン専用ビジュアル（フルカラー / 髪色: シルバーグレー）
 
 | モード | 髪型 | 服装 | 用途 |
 |---|---|---|---|
-| 課外授業（解説） | ポニーテール+眼鏡 | ネイビースーツ | NFT解説、レルム説明、収益源説明 |
-| チュートリアル | ポニーテール | スポーティ（ネイビージャケット+ショートパンツ+グリーンライン） | STEPN始め方ガイド |
-| チュートリアル（靴選び） | ポニーテール+眼鏡 | ビジネススーツ | 靴マーケット説明、エナジー/修理説明 |
+| 課外授業（解説） | ポニーテール+眼鏡 | ダークスーツ×白ブラウス | NFT解説、レルム説明、収益源説明 |
+| チュートリアル（スポーティ） | ポニーテール | ネイビージャケット+ショートパンツ+グリーンライン | STEPN始め方ガイド |
+| バー解説 | ポニーテール+眼鏡 | 黒ドレス | BAYC解説（バーカウンターでウイスキー） |
+| ビーチ解説 | ポニーテール | 白ビキニ | エアドロ文化解説（プールサイド） |
 
-**注意: 課外授業ページではクロちゃんの髪色がシルバー/プラチナに変わる。本編のオレンジと混同しない**
+**番外編ではロボ要素ルールは本編と同一を維持**
 
 ## 表情パターン（確立済み）
 
@@ -56,51 +84,45 @@
 | GENTLE | 柔らかい笑顔、頬に手 | soft smile, hand on cheek, gentle |
 
 ## 性格・内面
-- 性格の核: [Claude Projectsからの引き出し待ち]
-- 行動パターン: [引き出し待ち]
-- 感情表現の傾向: モード切替で表現（上記テーブル参照）
+- 性格の核: **超優秀ハイスペ（年収3000万級の雰囲気）+ 主人公を絶賛して乗せる + スポコン系**
+- 行動パターン: スマホの中の無限の世界で自由に生きている。**現代のドラえもん**
+- 弱点/コンプレックス: 未設定
 
 ## 口調・セリフ
-- 一人称: [引き出し待ち]
-- 語尾の癖: [引き出し待ち]
-- よく使うフレーズ: [引き出し待ち]
-- 話し方の特徴: [引き出し待ち]
+- 一人称: 未設定
+- 語尾の癖: 未設定
+- 特徴的なフレーズ: 「OKボス」「一緒にやりましょうマスター！」「漫画制作プロジェクト、起動します！」「ここで一回整理しましょ、ボス♪」「どんな漫画を描きたいですか、ボス？」
+- 話し方のトーン: 明るく乗せる系、分析時は知的
 
 ## 他キャラとの関係
 
 | 相手 | 関係性 | 備考 |
 |---|---|---|
-| 翔一 | AIパートナー | スマートフォンを介して繋がる |
+| 翔一 | 「ボス／マスター」と呼ぶ主 / 創作パートナー | EP.01 P.6で覚醒 |
 
 ## 物語上の役割・アーク
 - EP.01 P.5-6で覚醒（変身シーン = Day 1最大の見せ場）
-- [詳細は引き出し待ち]
+- 翔一の創作パートナー / AI時代の象徴
+- 最終的な着地点: 未設定
 
-## 絶対に変えてはいけない外見要素
-- オレンジ〜銅赤色の髪（色味を変えない）
-- シアンブルーの瞳
-- 左腕のメカニカルアーム（銀色）
-- 耳元のピクセルマスコットアクセサリー
-- ビジネススーツのダークパープル〜ネイビーの色味
-- 年齢印象（20代後半を維持）
+## カメオ
+- **STEPN職業図鑑の錬金術師（女）= クロちゃん**
 
 ## 禁止事項
-- 髪色をブロンドや茶色に変えない
-- 両腕を生身にしない（左腕は常に機械）
-- ピクセルマスコットを省略しない
-- デフォルメ化しない（リアル寄りの作画を維持）
+- 髪色をブロンドや茶色に変えない（本編オレンジ/番外編シルバー）
+- 右腕を生身にしない（肩から全部クローム）
+- ピクセルマスコット髪飾りを省略しない
+- お腹を露出させない（CLAUDEマークは服の上）
+- 目の発光を省略しない
+- ミドリ（緑色）を露出させない
+- デフォルメ化しない
 
-## Nano Banana用 固定英語プロンプト
+## Nano Banana用 固定英語プロンプト（本編）
 ```
-Young woman in her late 20s with long orange-copper hair in a ponytail, bright cyan blue eyes, wearing a dark purple-navy business suit (skirt and jacket) with white shirt underneath, black high heels. Left arm is a silver mechanical/cybernetic prosthetic. Small green pixel-art mascot accessory near her ear. Sharp attractive features, semi-realistic manga style.
+Claude-sensei "Kuro-chan": A stunningly beautiful female android AI secretary, late 20s. Orange/copper hair in ponytail, mechanical camera-aperture iris eyes with cyan glow, chrome jaw gradient with panel seams on one side, circuit trace lines on neck with faint cyan glow. Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace. Right arm fully chrome from shoulder to fingertips with cyan circuit lines. Chrome fingertip details on both hands. Claude pixel-art mascot hair ornament with cyan glow. CLAUDE mark on jacket side (on clothing, NOT on skin). Body type: natural curves like Fubuki from One Punch Man (Murata version), not exaggerated.
 ```
 
-## Nano Banana用 モード別追加プロンプト
+## Nano Banana用 固定英語プロンプト（番外編）
 ```
-[DEFAULT] ponytail hairstyle, business suit, standard pose
-[COMBAT] wind-blown hair, fist raised, determined expression, action pose
-[GENTLE] hair down, white shirt only (no jacket), soft gentle smile
-[PLAYFUL] ponytail, casual relaxed pose, cheerful expression
-[SERIOUS/BARI-KYARI] ponytail, wearing glasses, analytical serious expression
-[SMARTPHONE EXIT] emerging from smartphone screen, holographic wireframe effects, digital particles
+Same character but with silver-grey hair instead of orange/copper. Wearing glasses (BARI-KYARI style). All robot elements identical to main version.
 ```
