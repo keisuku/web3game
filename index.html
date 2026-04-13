@@ -6,41 +6,42 @@
 <title>WEB3.0 終わたから — 制作ダッシュボード</title>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: -apple-system, sans-serif; background:#1a1a2e; color:#e0e0e0; }
-header { background:#16213e; padding:16px 20px; border-bottom:2px solid #00bcd4; }
-header h1 { font-size:18px; color:#00bcd4; }
+body { font-family: -apple-system, sans-serif; background:#f5f5f5; color:#333; }
+header { background:#fff; padding:16px 20px; border-bottom:2px solid #00bcd4; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+header h1 { font-size:18px; color:#00838f; }
 header p { font-size:12px; color:#888; margin-top:4px; }
-nav { display:flex; gap:8px; padding:12px 20px; background:#16213e; }
-nav button { padding:8px 16px; border:1px solid #333; background:#1a1a2e; color:#ccc; border-radius:6px; cursor:pointer; font-size:14px; }
-nav button.active { background:#00bcd4; color:#000; border-color:#00bcd4; font-weight:bold; }
+nav { display:flex; gap:8px; padding:12px 20px; background:#fff; border-bottom:1px solid #e0e0e0; }
+nav button { padding:8px 16px; border:1px solid #ddd; background:#f5f5f5; color:#666; border-radius:6px; cursor:pointer; font-size:14px; }
+nav button.active { background:#00bcd4; color:#fff; border-color:#00bcd4; font-weight:bold; }
 main { padding:20px; max-width:900px; margin:0 auto; }
 .tab { display:none; }
 .tab.active { display:block; }
-h2 { font-size:16px; color:#00bcd4; margin-bottom:12px; }
+h2 { font-size:16px; color:#00838f; margin-bottom:12px; }
 .page-cards { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:20px; }
-.page-card { background:#16213e; border:1px solid #333; border-radius:8px; padding:12px; cursor:pointer; transition:border-color .2s; }
-.page-card:hover, .page-card.sel { border-color:#00bcd4; }
-.page-card h3 { font-size:14px; color:#fff; margin-bottom:4px; }
+.page-card { background:#fff; border:2px solid #e0e0e0; border-radius:10px; padding:12px; cursor:pointer; transition:all .2s; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.page-card:hover, .page-card.sel { border-color:#00bcd4; box-shadow:0 2px 8px rgba(0,188,212,.2); }
+.page-card h3 { font-size:14px; color:#333; margin-bottom:4px; }
 .page-card .role { font-size:11px; color:#888; }
-.page-card .density { font-size:11px; color:#00bcd4; margin-top:6px; }
-.page-card .star { color:#ffd700; }
-#page-detail { background:#16213e; border-radius:8px; padding:16px; }
+.page-card .density { font-size:11px; color:#00838f; margin-top:6px; }
+.page-card .star { color:#ff9800; }
+#page-detail { background:#fff; border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
 #page-detail.empty { display:none; }
-.panel-row { background:#0f3460; border-radius:6px; padding:10px 12px; margin-bottom:8px; }
-.panel-row h4 { font-size:13px; color:#00bcd4; margin-bottom:6px; }
-.panel-row p { font-size:12px; color:#ccc; line-height:1.6; }
-.panel-row .label { color:#888; }
-.detail-title { font-size:15px; color:#fff; margin-bottom:4px; }
-.detail-purpose { font-size:12px; color:#aaa; margin-bottom:12px; }
-.hint { font-size:12px; color:#888; margin-bottom:12px; }
-textarea { width:100%; min-height:200px; background:#0f3460; color:#e0e0e0; border:1px solid #333; border-radius:6px; padding:12px; font-size:13px; resize:vertical; font-family:inherit; }
+.panel-row { background:#f0fafb; border:1px solid #e0f2f1; border-radius:6px; padding:10px 12px; margin-bottom:8px; }
+.panel-row h4 { font-size:13px; color:#00838f; margin-bottom:6px; }
+.panel-row p { font-size:12px; color:#555; line-height:1.6; }
+.panel-row .label { color:#999; }
+.detail-title { font-size:15px; color:#333; font-weight:bold; margin-bottom:4px; }
+.detail-purpose { font-size:12px; color:#888; margin-bottom:12px; }
+.hint { font-size:12px; color:#999; margin-bottom:12px; }
+textarea { width:100%; min-height:200px; background:#fff; color:#333; border:1px solid #ddd; border-radius:8px; padding:12px; font-size:13px; resize:vertical; font-family:inherit; }
+textarea:focus { outline:none; border-color:#00bcd4; box-shadow:0 0 0 2px rgba(0,188,212,.15); }
 .btn-row { margin-top:10px; display:flex; gap:8px; }
-.btn { padding:8px 16px; border:none; border-radius:6px; cursor:pointer; font-size:13px; background:#00bcd4; color:#000; font-weight:bold; }
-.btn-sub { background:#333; color:#ccc; font-weight:normal; }
+.btn { padding:8px 16px; border:none; border-radius:6px; cursor:pointer; font-size:13px; background:#00bcd4; color:#fff; font-weight:bold; }
+.btn-sub { background:#e0e0e0; color:#555; font-weight:normal; }
 .btn:hover { opacity:.85; }
 .status-msg { font-size:12px; color:#4caf50; margin-top:8px; min-height:18px; }
 .fb-item { margin-bottom:16px; }
-.fb-item label { font-size:13px; color:#00bcd4; display:block; margin-bottom:4px; }
+.fb-item label { font-size:13px; color:#00838f; display:block; margin-bottom:4px; font-weight:bold; }
 .fb-item textarea { min-height:80px; }
 </style>
 </head>
