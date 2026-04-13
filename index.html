@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEB3.0 終わたから — 制作ダッシュボード</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, sans-serif; background:#1a1a2e; color:#e0e0e0; }
+header { background:#16213e; padding:16px 20px; border-bottom:2px solid #00bcd4; }
+header h1 { font-size:18px; color:#00bcd4; }
+header p { font-size:12px; color:#888; margin-top:4px; }
+nav { display:flex; gap:8px; padding:12px 20px; background:#16213e; }
+nav button { padding:8px 16px; border:1px solid #333; background:#1a1a2e; color:#ccc; border-radius:6px; cursor:pointer; font-size:14px; }
+nav button.active { background:#00bcd4; color:#000; border-color:#00bcd4; font-weight:bold; }
+main { padding:20px; max-width:900px; margin:0 auto; }
+.tab { display:none; }
+.tab.active { display:block; }
+h2 { font-size:16px; color:#00bcd4; margin-bottom:12px; }
+.page-cards { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:20px; }
+.page-card { background:#16213e; border:1px solid #333; border-radius:8px; padding:12px; cursor:pointer; transition:border-color .2s; }
+.page-card:hover, .page-card.sel { border-color:#00bcd4; }
+.page-card h3 { font-size:14px; color:#fff; margin-bottom:4px; }
+.page-card .role { font-size:11px; color:#888; }
+.page-card .density { font-size:11px; color:#00bcd4; margin-top:6px; }
+.page-card .star { color:#ffd700; }
+#page-detail { background:#16213e; border-radius:8px; padding:16px; }
+#page-detail.empty { display:none; }
+.panel-row { background:#0f3460; border-radius:6px; padding:10px 12px; margin-bottom:8px; }
+.panel-row h4 { font-size:13px; color:#00bcd4; margin-bottom:6px; }
+.panel-row p { font-size:12px; color:#ccc; line-height:1.6; }
+.panel-row .label { color:#888; }
+.detail-title { font-size:15px; color:#fff; margin-bottom:4px; }
+.detail-purpose { font-size:12px; color:#aaa; margin-bottom:12px; }
+.hint { font-size:12px; color:#888; margin-bottom:12px; }
+textarea { width:100%; min-height:200px; background:#0f3460; color:#e0e0e0; border:1px solid #333; border-radius:6px; padding:12px; font-size:13px; resize:vertical; font-family:inherit; }
+.btn-row { margin-top:10px; display:flex; gap:8px; }
+.btn { padding:8px 16px; border:none; border-radius:6px; cursor:pointer; font-size:13px; background:#00bcd4; color:#000; font-weight:bold; }
+.btn-sub { background:#333; color:#ccc; font-weight:normal; }
+.btn:hover { opacity:.85; }
+.status-msg { font-size:12px; color:#4caf50; margin-top:8px; min-height:18px; }
+.fb-item { margin-bottom:16px; }
+.fb-item label { font-size:13px; color:#00bcd4; display:block; margin-bottom:4px; }
+.fb-item textarea { min-height:80px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WEB3.0 終わたから — 制作ダッシュボード</h1>
+  <p>EP02: GMT — もう一つの弾丸（4ページ）</p>
+</header>
+<nav>
+  <button class="active" onclick="showTab('pages')">ページ案</button>
+  <button onclick="showTab('research')">リサーチ投入</button>
+  <button onclick="showTab('feedback')">フィードバック</button>
+</nav>
+<main>
+  <div id="pages" class="tab active">
+    <h2>ページ構成</h2>
+    <div class="page-cards"></div>
+    <div id="page-detail"></div>
+  </div>
+  <div id="research" class="tab">
+    <h2>リサーチ投入</h2>
+    <p class="hint">リサーチセッションの内容をここに貼り付けてください。保存ボタンで一時保存されます。</p>
+    <textarea id="research-input" placeholder="リサーチ素材をここに貼り付け..."></textarea>
+    <div class="btn-row">
+      <button class="btn" onclick="saveResearch()">一時保存</button>
+      <button class="btn btn-sub" onclick="copyResearch()">コピーしてClaudeに渡す</button>
+    </div>
+    <div id="research-status" class="status-msg"></div>
+  </div>
+  <div id="feedback" class="tab">
+    <h2>フィードバック</h2>
+    <p class="hint">各ページへのフィードバックを記入してください。</p>
+    <div id="fb-list"></div>
+    <div class="btn-row">
+      <button class="btn" onclick="saveFeedback()">一時保存</button>
+      <button class="btn btn-sub" onclick="copyFeedback()">全フィードバックをコピー</button>
+    </div>
+    <div id="fb-status" class="status-msg"></div>
+  </div>
+</main>
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
 
+const pages = [
+  { id:'P01', title:'暴落後の光', role:'導入・状況設定', density:'Lv.2-3', star:false,
+    purpose:'STEPN暴落後の低迷 → GMTアーニング発表の衝撃',
+    panels:[
+      {n:1, size:'上段40%', comp:'引きの全景。夕方の住宅街、翔一（散歩カジュアル）がコーギーと散歩中', expr:'疲れた苦笑い。覇気がない', dial:'「GSTの日収、全盛期の1/10以下か……」'},
+      {n:2, size:'中段30%', comp:'スマホ画面クローズアップ（10-15度傾け）。STEPN GST earning画面', expr:'なし（スマホ画面のみ）', dial:'テキスト「Today: +3.2 GST」'},
+      {n:3, size:'下段30%', comp:'スマホ画面の公式発表 ＋ インセットで翔一の目のクローズアップ', expr:'目が見開く。驚き→好奇心', dial:'「STEPN: GMTアーニング実装計画を発表」「……GMT？」'}
+    ]},
+  { id:'P02', title:'死にステ覚醒', role:'展開・ルール変更', density:'Lv.2-4', star:false,
+    purpose:'Comfort（死にステ）が最重要属性に覚醒',
+    panels:[
+      {n:1, size:'上段35%', comp:'バストアップ。翔一（分析モード）。眼鏡に影', expr:'真剣、分析的な目', dial:'「GMT earningの条件…… Lv30の靴が必須」「GMT獲得効率を決めるステータスは——」'},
+      {n:2, size:'中段35%', comp:'大文字テキスト「Comfort」が画面を支配。翔一のシルエットが小さく', expr:'驚き', dial:'大文字「Comfort——」「あの"死にステ"が最重要属性に昇格——！」'},
+      {n:3, size:'下段左15%', comp:'小コマ。列挙否定テキスト', expr:'なし', dial:'「Efficiency？関係ない」「Luck？関係ない」「Resilience？関係ない」'},
+      {n:4, size:'下段右15%', comp:'顔アップ。自信満々モード。眼鏡が光る', expr:'ドヤ顔、確信', dial:'「ゲームのルールが……変わった」'}
+    ]},
+  { id:'P03', title:'億の方程式', role:'最大の見せ場 ★', density:'Lv.3-5', star:true,
+    purpose:'GMTの構造美（固定供給＋半減期＋AXS比較）→「天才か！！！！」',
+    panels:[
+      {n:1, size:'上段30%', comp:'概念図・フローチャート風。GMTの構造を図解', expr:'なし（概念図中心）', dial:'「固定供給量60億トークン」「半減期あり——ビットコインと同じ構造」'},
+      {n:2, size:'中段40%', comp:'大友克洋風スケール表現。巨大な数字が画面を支配、翔一が小さく圧倒', expr:'圧倒されつつ目が輝く', dial:'「AXSの1/30の供給量」「AXS並みなら600円」「それ以上なら1万円超え」「IEO $0.01→$4 ×400倍」「あの男は1億を超えた」'},
+      {n:3, size:'下段30%', comp:'顔アップ。自信満々モード。歯を見せた笑み。眼鏡が白く光る', expr:'興奮、確信', dial:'大文字「天才か！！！！」「この仕組みを作ったヤツは天才だ……！！」'}
+    ]},
+  { id:'P04', title:'全ツッパ', role:'決断・フック', density:'Lv.2-4', star:false,
+    purpose:'Lv30への道（465時間）→ 初期実績 →「全ツッパだ」宣言',
+    panels:[
+      {n:1, size:'上段30%', comp:'バストアップ。翔一（分析モード）。眼鏡に影', expr:'真剣、覚悟', dial:'「Lv30までのコスト——」「258 GST ＋ 229 GMT ＋ 465時間」'},
+      {n:2, size:'中段30%', comp:'スマホ画面クローズアップ（10-15度傾け）。ブログレポート風', expr:'なし（スマホ画面）', dial:'「Comfort100 Runner 5エナジー（25分）」「獲得: 14.36 GMT」「ヤバイ。想像以上」'},
+      {n:3, size:'下段左20%', comp:'横顔。不敵な笑み。小コマ', expr:'ニヤリ', dial:'「465時間か……」'},
+      {n:4, size:'下段右20%', comp:'顔アップ。自信満々モード。歯を見せた笑み', expr:'決意と興奮', dial:'大文字「全ツッパだ」'}
+    ]}
+];
+
+// Render page cards
+const cardsEl = document.querySelector('.page-cards');
+pages.forEach((p,i) => {
+  const card = document.createElement('div');
+  card.className = 'page-card';
+  card.innerHTML = `<h3>${p.id} ${p.star?'<span class="star">★</span>':''}</h3><div class="role">${p.title}</div><div class="density">${p.density}</div>`;
+  card.onclick = () => selectPage(i);
+  cardsEl.appendChild(card);
+});
+
+function selectPage(i) {
+  document.querySelectorAll('.page-card').forEach(c=>c.classList.remove('sel'));
+  document.querySelectorAll('.page-card')[i].classList.add('sel');
+  const p = pages[i];
+  const det = document.getElementById('page-detail');
+  det.classList.remove('empty');
+  let html = `<div class="detail-title">${p.id}: ${p.title}</div><div class="detail-purpose">${p.purpose}</div>`;
+  p.panels.forEach(pn => {
+    html += `<div class="panel-row"><h4>コマ${pn.n}（${pn.size}）</h4>`;
+    html += `<p><span class="label">構図:</span> ${pn.comp}</p>`;
+    html += `<p><span class="label">表情:</span> ${pn.expr}</p>`;
+    html += `<p><span class="label">セリフ:</span> ${pn.dial}</p></div>`;
+  });
+  det.innerHTML = html;
+}
+selectPage(0);
+
+// Feedback list
+const fbList = document.getElementById('fb-list');
+pages.forEach(p => {
+  const div = document.createElement('div');
+  div.className = 'fb-item';
+  div.innerHTML = `<label>${p.id}: ${p.title}</label><textarea id="fb-${p.id}" placeholder="${p.id}へのフィードバック..."></textarea>`;
+  fbList.appendChild(div);
+});
+
+// LocalStorage load
+const ri = document.getElementById('research-input');
+ri.value = localStorage.getItem('research') || '';
+pages.forEach(p => {
+  const el = document.getElementById('fb-'+p.id);
+  el.value = localStorage.getItem('fb-'+p.id) || '';
+});
+
+function saveResearch() {
+  localStorage.setItem('research', ri.value);
+  document.getElementById('research-status').textContent = '保存しました (' + new Date().toLocaleTimeString() + ')';
+}
+function copyResearch() {
+  navigator.clipboard.writeText('## リサーチ素材\n\n' + ri.value);
+  document.getElementById('research-status').textContent = 'コピーしました';
+}
+function saveFeedback() {
+  pages.forEach(p => localStorage.setItem('fb-'+p.id, document.getElementById('fb-'+p.id).value));
+  document.getElementById('fb-status').textContent = '保存しました (' + new Date().toLocaleTimeString() + ')';
+}
+function copyFeedback() {
+  let txt = '## ページフィードバック\n\n';
+  pages.forEach(p => {
+    const v = document.getElementById('fb-'+p.id).value.trim();
+    if (v) txt += '### ' + p.id + ': ' + p.title + '\n' + v + '\n\n';
+  });
+  navigator.clipboard.writeText(txt);
+  document.getElementById('fb-status').textContent = 'コピーしました — Claudeに貼り付けてください';
+}
+</script>
+</body>
+</html>
