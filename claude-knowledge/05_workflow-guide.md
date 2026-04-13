@@ -145,3 +145,120 @@ cp -r episodes/_episode-template/ episodes/ep02/
 | コマ割りが単調になる | 漫画文法の未適用 | Pass 1で6原則チェックリストを実行 |
 | プロンプトが肥大化する | 情報の追加 | Thread Bでは変換のみ、足さない |
 | トーンが作品と合わない | バイブル未参照 | art-style.md の固定スタイルプロンプトを使う |
+
+---
+
+## セッション管理ルール（長くなりすぎ対策）
+
+<!-- EN: Session management rules to prevent context degradation from long conversations. -->
+
+### スレッドの寿命ルール
+
+長いスレッドはClaudeの品質を劣化させます。以下のルールで管理してください。
+
+| スレッド種別 | 推奨寿命 | 新しくすべきタイミング |
+|---|---|---|
+| Thread A（設計） | 1ページにつき1スレッド | ページの3パスが完了したら終了 |
+| Thread B（変換） | 必ず毎回新規 | 1ページ=1スレッド（混ぜない） |
+| 企画整理 | 1エピソードにつき1スレッド | 設計書が承認されたら終了 |
+
+### 新スレッドを始めるべき危険信号
+
+以下のいずれかが起きたら、**すぐにスレッドを終了して新しく始める**:
+
+1. Claudeがバイブルにない設定を勝手に追加し始めた
+2. キャラクターの口調やビジュアルが変わった
+3. スレッドが20メッセージ（往復10回）を超えた
+4. 前の話題を忘れてループし始めた
+5. 「こうした方が面白い」等の創作的提案が増えた
+
+### セッション開始のベストプラクティス
+
+1. **コンテキストバンドルを使う**: Claude Code に「Thread Aの準備して」と伝えて、自動生成されたバンドルを新スレッドに貼る
+2. **参照ナレッジを明示**: スレッドの最初のメッセージで「01_manga-bible.md と 03_manga-grammar.md を参照して」と明示指定する
+3. **タスクを1つに絞る**: 「P04の構図ラフを作って」のように具体的に。複数タスクを1スレッドに詰め込まない
+4. **前回の続きは状態を渡す**: 「前ページ（P03）の設計書は以下です」と明示的に渡す。Claudeの記憶に頼らない
+
+### セッション終了時の手順
+
+1. Claude Code に「チェックポイント保存」と伝える
+2. 次にやるべきことをメモに含める
+3. 必要なファイルを保存してもらう
+
+<!-- EN: Thread lifespan rules: Thread A = 1 per page, Thread B = always new per page. Danger signals: Claude inventing settings, character drift, >20 messages, looping. Best practice: use context bundles, explicit knowledge references, single-task focus. -->
+
+---
+
+## コンテキストバンドル（コピペ削減ツール）
+
+<!-- EN: Context bundles reduce copy-paste effort by automatically assembling all needed information into one block. -->
+
+### 概要
+
+従来、Thread B を始めるには以下をすべて手動コピペしていた:
+1. ページ設計書を開いてコピー
+2. キャラクターの英語プロンプトをバイブルからコピー
+3. 禁止事項リストをコピー
+4. 出力テンプレートを確認
+
+**コンテキストバンドルはこれを1回のコピペに削減する。**
+
+### Thread B バンドル（プロンプト変換用）
+
+Claude Code に「Thread Bの準備して。EP01 P02」と伝えると:
+- 承認済みページ設計書
+- 全キャラクターのNano Banana用英語プロンプト
+- 固定Do Notリスト
+- 出力テンプレート
+
+が1ブロックにまとまって出力される。これをそのまま Claude Projects の新しい Thread B に貼り付ける。
+
+### Thread A バンドル（ページ設計用）
+
+Claude Code に「Thread Aの準備して。EP01 P04」と伝えると:
+- 話の設計書
+- 前ページの設計書（連続性確認用）
+- 差分ログからのフィードバック
+- 作成済みページ一覧
+- タスク指示
+
+が1ブロックにまとまる。
+
+<!-- EN: Context bundles assemble all needed reference materials into one copy-paste block. Thread B bundles include: page design, character English prompts, Do Not list, output template. Thread A bundles include: episode design, previous page, diff log feedback, task instruction. -->
+
+---
+
+## 情報劣化防止ルール
+
+<!-- EN: Rules to prevent information degradation across the pipeline. Each stage must preserve all information from the previous stage without adding or losing content. -->
+
+### 劣化が起きるポイントと対策
+
+| パイプライン段階 | 劣化リスク | 対策 |
+|---|---|---|
+| 設計書 → プロンプト | コマの要素が変換漏れ | パイプライン検証で Panel数/コマ数 一致を確認 |
+| プロンプト → 生成 | Do Not が欠落して別人化 | 固定Do Notリストを毎回含める（バンドルが自動化） |
+| 生成 → 差分ログ | フィードバックが曖昧 | 「問題点」「良かった点」「次回反映」の3項目を必ず記録 |
+| 差分ログ → バイブル | 更新が放置される | パイプライン検証で未反映候補を警告 |
+| セッション間 | 前回の文脈を忘れる | チェックポイントで状態を保存・引き継ぎ |
+
+### 情報の正本ルール
+
+1. **バイブルが唯一の正本**: 設定情報は `bible/` にあるものだけが正しい。スレッド内での発言は正本ではない
+2. **ファイルから引用**: 設定を参照する時は、必ずファイルの内容をコピーして渡す。「さっき言ったやつ」に頼らない
+3. **変換は足し算禁止**: Thread B では設計書の情報を英語に変換するだけ。「こういう雰囲気も追加した方がいい」は禁止
+4. **差分ログは事実のみ**: 「たぶんこうだった」ではなく、実際の生成結果を正確に記録する
+
+### パイプライン検証の使い方
+
+Claude Code に「チェックして」と伝えると、以下を自動検証する:
+
+- ✓ ページ設計書のコマ数が2-6の範囲か
+- ✓ 各コマに構図・表情が定義されているか
+- ✓ プロンプトのPanel数がコマ数と一致するか
+- ✓ Do Notリストがプロンプトに含まれているか
+- ✓ 差分ログの未反映バイブル更新候補がないか
+
+**各ステップの完了時に検証を実行することを推奨。**
+
+<!-- EN: Information integrity rules: (1) Bible is the only source of truth, (2) Always copy from files, never from memory, (3) No additions during conversion, (4) Diff logs record facts only. Run pipeline validation after each step. -->

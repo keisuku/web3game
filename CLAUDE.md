@@ -50,6 +50,45 @@ bash scripts/new-diff-log.sh 01 P01
 git add -A && git commit -m "[変更内容の要約]" && git push
 ```
 
+---
+
+## ワークフロー改善ツール（コピペ削減・セッション管理・情報劣化防止）
+
+### Thread B の準備（プロンプト変換）
+ユーザーが「Thread Bの準備して」「プロンプト変換の準備」「P02をプロンプトにして」等と言ったら:
+```bash
+bash scripts/bundle-thread-b.sh 01 P02
+```
+→ 出力をそのまま Claude Projects の新しい Thread B に貼り付けられる。キャラ英語プロンプト・禁止事項・出力テンプレートを自動で含む。
+
+### Thread A の準備（ページ設計）
+ユーザーが「Thread Aの準備して」「P04の設計始めたい」「次のページ」等と言ったら:
+```bash
+bash scripts/bundle-thread-a.sh 01 P04
+```
+→ 話の設計書・前ページ・差分ログフィードバックを自動で含む。
+
+### パイプライン検証
+ユーザーが「チェックして」「確認して」「整合性見て」等と言ったら:
+```bash
+bash scripts/validate-pipeline.sh 01 P02   # 単一ページ
+bash scripts/validate-pipeline.sh 01        # 全ページ
+```
+→ 設計書→プロンプト→差分ログ間の情報欠落を自動検出。
+
+### セッション終了・チェックポイント
+ユーザーが「セッション終わり」「今日はここまで」「チェックポイント」等と言ったら:
+```bash
+bash scripts/checkpoint-save.sh "EP01 P03まで完了、P04は構図ラフ途中"
+```
+→ 現在の状態をスナップショットとして `sessions/checkpoints/` に保存。次回は最新チェックポイントを読んで引き継ぎ。
+
+### セッション再開
+ユーザーが「前の続き」「どこまでやった？」等と言ったら:
+1. `sessions/checkpoints/` の最新ファイルを読む
+2. 現在の状況をユーザーに伝える
+3. 次のアクションを提案する
+
 ## 5層アーキテクチャ
 
 1. **漫画バイブル** (`bible/` + `claude-knowledge/01_manga-bible.md`) — 不変の正本。キャラ設定、世界観、作画ルール
