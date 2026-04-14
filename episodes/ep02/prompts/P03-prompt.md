@@ -40,8 +40,8 @@ Do not make the atmosphere dark, foreboding, or cautionary — this is excitemen
 
 ## 変換者メモ
 - コマ2は本エピソード最大の見せ場。密度Lv.5=冨樫型climax描写MAX。大友克洋風の「巨大現象の中の個人」スケール表現
-- コマ3の「天才か！！！！」は翔一の特徴的フレーズ。大文字テキスト演出。プロンプトでは「large bold impact text effect surrounding the face」で処理
-- AXS比較（1/30供給量→600円→1万円超え）、IEO×400倍、1億超えの具体的数字はプロンプトに直接入れず「massive numbers and price figures」「astronomical figures」で処理（テキストは別処理ルール準拠）
+- コマ3の「やっぱり運営は天才的だ！まだSTEPNは死んでないぞ！！」は運営への信頼とSTEPN生存への確信を表現。大文字テキスト演出。プロンプトでは「large bold impact text effect surrounding the face」で処理
+- アクシー比較（1/30供給量→600円→1万円超え）、IEO×400倍、1億超えの具体的数字はプロンプトに直接入れず「massive numbers and price figures」「astronomical figures」で処理（テキストは別処理ルール準拠）。※AXSではなく「アクシー」表記（読者にわかりやすく）
 - トーンは「ワクワク＋いかがわしい」を維持。暗い警告トーンは明示的に禁止
 - 自信満々モード = showing teeth in grin, glasses glinting（天啓モードの目に炎＋スピードラインは禁止）
 
