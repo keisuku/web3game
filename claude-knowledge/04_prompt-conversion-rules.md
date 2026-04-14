@@ -26,7 +26,7 @@
 |---|---|---|
 | コマN: 構図 | Panel N: composition description | 英語に変換 |
 | コマN: 表情・感情 | Panel N: expression keywords | 表情辞書を参照 |
-| コマN: セリフ要約 | （省略） | テキストは別処理 |
+| コマN: セリフ要約 | Panel N: 日本語テキストをそのまま記載 | **日本語のまま**プロンプトに含める。英語に翻訳しない。省略しない。これを怠ると英語テキストが生成される |
 | 目的 | Mood | ページの目的から雰囲気を導出 |
 | 参照画像 | Reference image instruction | ref_idを記載 |
 | 禁止 | Additional "Do not" clauses | ページ固有禁止を英語化 |
