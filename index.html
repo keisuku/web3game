@@ -110,19 +110,19 @@ const pages = [
       {n:2, size:'中段30%', comp:'スマホ画面クローズアップ（10-15度傾け）。STEPN GST earning画面', expr:'なし（スマホ画面のみ）', dial:'テキスト「Today: +3.2 GST」'},
       {n:3, size:'下段30%', comp:'スマホ画面の公式発表 ＋ インセットで翔一の目のクローズアップ', expr:'目が見開く。驚き→好奇心', dial:'「STEPN: GMTアーニング実装計画を発表」「……GMT？」'}
     ]},
-  { id:'P02', title:'死にステ覚醒', role:'展開・ルール変更', density:'Lv.2-4', star:false,
-    purpose:'Comfort（死にステ）が最重要属性に覚醒',
+  { id:'P02', title:'GMTの革命', role:'展開・GMTの革命性', density:'Lv.2-4', star:false,
+    purpose:'GSTの問題（無限発行→価値溶解）→ GMTガバナンストークン（上限あり）→「歩いて稼げる！」',
     panels:[
-      {n:1, size:'上段35%', comp:'バストアップ。翔一（分析モード）。眼鏡に影', expr:'真剣、分析的な目', dial:'「GMT earningの条件…… Lv30の靴が必須」「GMT獲得効率を決めるステータスは——」'},
-      {n:2, size:'中段35%', comp:'大文字テキスト「Comfort」が画面を支配。翔一のシルエットが小さく', expr:'驚き', dial:'大文字「Comfort——」「あの"死にステ"が最重要属性に昇格——！」'},
-      {n:3, size:'下段左15%', comp:'小コマ。列挙否定テキスト', expr:'なし', dial:'「Efficiency？関係ない」「Luck？関係ない」「Resilience？関係ない」'},
-      {n:4, size:'下段右15%', comp:'顔アップ。ワクワクモード。目を輝かせている。眼鏡が光る', expr:'ワクワク、興奮、期待', dial:'「ゲームのルールが……変わった」'}
+      {n:1, size:'上段30%', comp:'概念図。蛇口からGSTコインが無限に溢れる＋下落グラフ', expr:'なし（概念図）', dial:'「GSTは無限発行…… 稼いでも稼いでも価値が溶けていく」'},
+      {n:2, size:'中段40%', comp:'大文字「ガバナンストークン」が画面を支配。背景にGMTコイン＋鍵のかかった金庫', expr:'翔一シルエットが見上げる', dial:'大文字「発行枚数の上限がある——」「ガバナンストークン」'},
+      {n:3, size:'下段左15%', comp:'小コマ。対比テキスト', expr:'なし', dial:'「GST＝蛇口全開 ∞」「GMT＝60億枚で打ち止め」'},
+      {n:4, size:'下段右15%', comp:'顔アップ。ワクワクモード。目を輝かせている。眼鏡が光る', expr:'ワクワク、興奮、期待', dial:'「ついに……上限のあるコインを"歩いて"稼げる……！」'}
     ]},
   { id:'P03', title:'億の方程式', role:'最大の見せ場 ★', density:'Lv.3-5', star:true,
-    purpose:'GMTの構造美（固定供給＋半減期＋アクシー比較）→「やっぱり運営は天才的だ！」',
+    purpose:'Comfort覚醒（死にステが鍵に）→ 億の方程式（アクシー比較）→「運営は天才的だ！」',
     panels:[
-      {n:1, size:'上段30%', comp:'概念図・フローチャート風。GMTの構造を図解', expr:'なし（概念図中心）', dial:'「固定供給量60億トークン」「半減期あり——ビットコインと同じ構造」'},
-      {n:2, size:'中段40%', comp:'大友克洋風スケール表現。巨大な数字が画面を支配、翔一が小さく圧倒', expr:'圧倒されつつ目が輝く', dial:'「アクシーの1/30の供給量」「アクシー並みなら600円」「それ以上なら1万円超え」「IEO $0.01→$4 ×400倍」「あの男は1億を超えた」'},
+      {n:1, size:'上段25%', comp:'STEPNアプリUI風ステータス画面（10-15度傾け）。Comfortだけが光って強調', expr:'なし（アプリ画面のみ）', dial:'「GMT獲得効率を決めるステータスは——Comfort」「あの"死にステ"が最重要に昇格——！」'},
+      {n:2, size:'中段45%', comp:'大友克洋風スケール表現。巨大な数字＋GMTコイン＋チャートが浮遊、翔一が小さく圧倒', expr:'圧倒されつつ目が輝く', dial:'「アクシーの1/30の供給量」「アクシー並みなら600円」「それ以上なら1万円超え」「IEO $0.01→$4 ×400倍」「あの男は1億を超えた」'},
       {n:3, size:'下段30%', comp:'顔アップ。自信満々モード。歯を見せた笑み。眼鏡が白く光る', expr:'興奮、確信', dial:'大文字「やっぱり運営は天才的だ！」「まだSTEPNは死んでないぞ！！」'}
     ]},
   { id:'P04', title:'全ツッパ', role:'決断・フック', density:'Lv.2-4', star:false,
@@ -189,48 +189,48 @@ Do not use revelation mode. Smartphone at 10-15 degree tilt, never flat.`,
 `Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Smartphone screens drawn at 10-15 degree tilt, never flat.
 
 Japanese manga page, 4 panels layout.
-[STYLE: Togashi hybrid method — Panel 1 sketchy setup（溜め）, Panel 2 explosive climax, Panel 3 sketchy small（列挙）, Panel 4 precise face（感情の解放）]
-[DENSITY LEVEL: Lv.2 (Panel 1), Lv.4 (Panel 2), Lv.2 (Panel 3), Lv.3 (Panel 4)]
+[STYLE: Togashi hybrid method — Panel 1 sketchy infographic（溜め）, Panel 2 explosive impact text climax（見せ場）, Panel 3 sketch contrast（対比）, Panel 4 precise face（感情の解放）]
+[DENSITY LEVEL: Lv.3 (Panel 1), Lv.4 (Panel 2), Lv.2 (Panel 3), Lv.3 (Panel 4)]
 
-Panel 1 (top 35%): Bust shot, 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey. Serious focused eyes, shadow on glasses. Loose sketchy lines.
-「GMT earningの条件…… Lv30の靴が必須」
-「そしてGMT獲得効率を決めるステータスは——」
+Panel 1 (top 30%): Infographic/concept diagram. Faucet pouring out coins endlessly — overflowing. Downward price graph in background. Small silhouette of man. Loose sketchy lines.
+「GSTは無限発行…… 稼いでも稼いでも価値が溶けていく」
 
-Panel 2 (middle 35%): Large bold impact text「Comfort——」dominating panel center. Man figure small in background, surprised. Explosive detailed precision. NOT cyan text.
-「あの "死にステ" が最重要属性に昇格——！」
+Panel 2 (middle 40%): Large bold impact text dominating panel. Locked vault/safe with chains in background — limited supply symbol. GMT coin visuals. Man figure small, looking up. Explosive precision. NOT cyan.
+大文字「発行枚数の上限がある——」
+大文字「ガバナンストークン」
 
-Panel 3 (bottom-left 15%): Small panel. Three lines denial text stacked vertically. Minimal sketch-quality.
-「Efficiency？ 関係ない」「Luck？ 関係ない」「Resilience？ 関係ない」
+Panel 3 (bottom-left 15%): Small panel. Contrast text. Split layout — two opposing concepts.
+「GST ＝ 蛇口全開 ∞」「GMT ＝ 60億枚で打ち止め」
 
-Panel 4 (bottom-right 15%): Close-up face. Excited expression, eyes sparkling with wonder, eager grin, glasses glinting. NOT smug — this is excitement.
-「ゲームのルールが……変わった」
+Panel 4 (bottom-right 15%): Close-up face. Excited expression, eyes sparkling with wonder, eager grin, glasses glinting. NOT smug.
+「ついに……上限のあるコインを"歩いて"稼げる……！」
 
-Mood: Analytical tension（溜め）building to thrilled excitement（解放）. Wonder, NOT smugness.
+Mood: Problem awareness（溜め）building to revolutionary excitement（解放）. NOT dark, NOT warning.
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.
-Do not use cyan for impact text. Do not use revelation mode. Do not draw smug expression.`,
+Do not use cyan. Do not use revelation mode. Do not draw smug expression.`,
 
 `Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Smartphone screens drawn at 10-15 degree tilt, never flat.
 
 Japanese manga page, 3 panels layout.
-[STYLE: Togashi hybrid method — Panel 1 sketchy setup（溜め）, Panel 2 EXPLOSIVE CLIMAX Lv.5（見せ場）, Panel 3 precise face（感情の解放）]
+[STYLE: Togashi hybrid method — Panel 1 app UI setup（溜め）, Panel 2 EXPLOSIVE CLIMAX Lv.5（見せ場）, Panel 3 precise face（感情の解放）]
 [DENSITY LEVEL: Lv.3 (Panel 1), Lv.5 (Panel 2), Lv.4 (Panel 3)]
 
-Panel 1 (top 30%): Conceptual diagram/infographic style. Token economics flow chart. Small silhouette of man observing. Loose sketchy lines.
-「固定供給量60億トークン」「半減期あり——ビットコインと同じ構造」「バイバック＆バーン」
+Panel 1 (top 25%): STEPN app status screen at 10-15 degree tilt. Four stats listed — Efficiency, Luck, Resilience dimmed. Comfort highlighted/glowing/enlarged. No character face — app screen only.
+「GMT獲得効率を決めるステータスは——Comfort」「あの"死にステ"が最重要に昇格——！」
 
-Panel 2 (middle 40%, CLIMAX): Otomo Katsuhiro-style scale（大友克洋風「巨大現象の中の個人」）. Man small in frame, dwarfed by astronomical figures. Explosive maximum density.
+Panel 2 (middle 45%, CLIMAX): Otomo Katsuhiro-style scale（大友克洋風）. Man small, dwarfed by astronomical figures + GMT coin imagery + upward arrows. Explosive maximum density.
 大文字「アクシーの1/30の供給量」「アクシー並みなら——600円」「それ以上なら——1万円超え」
 小文字「IEOで $0.01 → $4…… ×400倍」「あの男は——1億を超えた」
 
-Panel 3 (bottom 30%): Close-up face. 42-year-old man with rectangular black-framed glasses. Admiring, convinced expression — eyes bright with trust and excitement, showing teeth, glasses glinting white. Generous negative space for afterglow.
+Panel 3 (bottom 30%): Close-up face. Admiring expression — eyes bright, showing teeth, glasses glinting white. Generous negative space for afterglow.
 大文字「やっぱり運営は天才的だ！」
 「まだSTEPNは死んでないぞ！！」
 
-Mood: Intellectual curiosity（溜め）→ overwhelming awe（見せ場）→ admiration and conviction（感情の解放）.
+Mood: Discovery（溜め）→ overwhelming awe（見せ場）→ admiration and conviction（感情の解放）.
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.
-Do not use revelation mode. Do not use cyan for numbers. Do not make atmosphere dark.`,
+Do not use revelation mode. Do not use cyan for numbers/UI. Do not make atmosphere dark.`,
 
 `Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Single accent color: cyan (#00BCD4) ONLY for Kuro-chan's robot elements and smartphone screen glow. No other colors. Smartphone screens drawn at 10-15 degree tilt, never flat.
 
