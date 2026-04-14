@@ -1,0 +1,10 @@
+# Environment variables (API keys)
+.env
+
+# Generated images
+output/
+*.generated.png
+
+# Python
+__pycache__/
+*.pyc
