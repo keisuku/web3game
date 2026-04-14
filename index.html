@@ -266,7 +266,15 @@ function saveResearch() {
   document.getElementById('research-status').textContent = '保存しました (' + new Date().toLocaleTimeString() + ')';
 }
 function copyResearch() {
-  navigator.clipboard.writeText('## リサーチ素材\n\n' + ri.value);
+  const txt = `EP02「GMT編」のリサーチ素材です。
+episodes/ep02/research-raw.md に追記し、必要に応じてページ設計書・プロンプトに反映してください。
+
+---
+
+## リサーチ素材
+
+` + ri.value;
+  navigator.clipboard.writeText(txt);
   document.getElementById('research-status').textContent = 'コピーしました';
 }
 function saveFeedback() {
@@ -274,7 +282,15 @@ function saveFeedback() {
   document.getElementById('fb-status').textContent = '保存しました (' + new Date().toLocaleTimeString() + ')';
 }
 function copyFeedback() {
-  let txt = '## ページフィードバック\n\n';
+  let txt = `EP02「GMT編」のページ設計書にフィードバックがあります。
+episodes/ep02/ 配下のページ設計書（pages/P01〜P04.md）とプロンプト（prompts/P01〜P04-prompt.md）を読み込み、以下のフィードバックを反映してください。
+修正後はindex.htmlのデータも同期してください。
+
+---
+
+## ページフィードバック
+
+`;
   pages.forEach(p => {
     const v = document.getElementById('fb-'+p.id).value.trim();
     if (v) txt += '### ' + p.id + ': ' + p.title + '\n' + v + '\n\n';
