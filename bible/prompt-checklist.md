@@ -5,6 +5,42 @@
 
 ---
 
+## 🚨 絶対違反禁止ルール（過去500回以上指摘されている最重要項目）
+
+**これらが守られていないと即ページ全体を作り直す。言い訳は一切不可。**
+
+### ルール1: 日本漫画の読み方向は「右上→左下」
+
+- ❌ 禁止: `Eye flow: top-left to bottom-right`、`左上→右下`
+- ✅ 必須: `Eye flow: top-RIGHT to bottom-LEFT (Japanese manga reading direction, right-to-left)`
+- **ページの最後のコマ（オチ・決めゼリフ）は必ず「下段左」に置く**
+- 2コマ並列時：**先に読むコマが右、後に読むコマが左**
+- 例: コマ3→コマ4の順なら、コマ3が「下段右」、コマ4が「下段左」
+
+### ルール2: 縦長ポートレート必須
+
+- ❌ 禁止: 横長・2x2グリッド・ランドスケープで出力される
+- ✅ 必須: プロンプト冒頭に `Vertical single-page manga layout, portrait orientation, taller than wide.` を書く
+- ✅ 必須: `Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid)`
+- パネル配置は**上から下に縦に積む**と明示する（Panel 1 on top, Panel 2 below, etc.）
+
+### ルール3: メタラベル・注釈を絶対にプロンプト本文に書かない
+
+**AIはプロンプトの文字を画面にテキストとして描くため、以下は全部NG：**
+
+- ❌ 禁止: `CLIMAX PANEL`, `CLIMAX`, `MAIN SHOWCASE`
+- ❌ 禁止: `（溜め）`, `（見せ場）`, `（感情の解放）`, `（対比）`, `（間）`, `（呼吸）`, `（ページ引き）`
+- ❌ 禁止: `[STYLE: ... Panel 1 sketchy setup（溜め）...]` のような日本語注釈混じりメタタグ
+- ✅ 必須: メタ情報は**変換者メモ**（プロンプト本文の外）に書く
+- ✅ 必須: プロンプト本文には「描いて欲しい絵」と「セリフ」だけを書く
+
+### ルール4: 大文字/小文字の区別表記もプロンプト本文に書かない
+
+- ❌ 禁止: `大文字「やっぱり運営は天才的だ！」`、`小文字「まだSTEPNは死んでないぞ！！」`
+- ✅ 必須: テキスト処理指示は英語で別途記述（例：`Large bold impact text for the declaration, smaller supporting text for the follow-up`）、そしてセリフ本体は「」で囲むだけ
+
+---
+
 ## 必須チェック項目（1つでも欠けたら不合格）
 
 ### A. 構造ルール
