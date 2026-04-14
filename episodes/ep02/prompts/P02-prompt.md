@@ -22,11 +22,11 @@ Panel 2 (middle — 35%): Large bold manga impact text dominating the panel cent
 
 Panel 3 (bottom-left — 15%): Small panel. Three short lines of enumeration text implied, denial/elimination style. Minimal detail, sketch-quality quick strokes. No character face needed — text-focused panel.
 
-Panel 4 (bottom-right — 15%): Close-up face shot. The same man with smug expression, confident smirk, showing teeth in grin, glasses glinting with white highlight. Self-assured, triumphant expression.
+Panel 4 (bottom-right — 15%): Close-up face shot. The same man with excited expression, eyes sparkling with wonder, showing teeth in eager grin, glasses glinting with white highlight. Thrilled, anticipatory expression — NOT smug or smirking.
 
-Composition: Panel 1 builds analytical tension, Panel 2 delivers revelation via IMPACT TEXT, Panel 3 eliminates alternatives (rapid-fire denial), Panel 4 shows confident understanding.
+Composition: Panel 1 builds analytical tension, Panel 2 delivers revelation via IMPACT TEXT, Panel 3 eliminates alternatives (rapid-fire denial), Panel 4 shows excited wonder at the new rules.
 Camera: bust shot (Panel 1), wide with text overlay (Panel 2), minimal text-only (Panel 3), close-up face (Panel 4).
-Mood: Analytical concentration building to confident revelation. Intellectual excitement.
+Mood: Analytical concentration building to thrilled excitement. Sense of wonder and anticipation — NOT smugness or overconfidence.
 
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.
@@ -38,13 +38,13 @@ Do not draw deformed or chibi-style faces.
 ---
 
 ## 使用参照画像
-- ref_hero_v1: 翔一の分析モード→自信満々モード外見一致確認
+- ref_hero_v1: 翔一の分析モード→ワクワクモード外見一致確認
 
 ## 変換者メモ
 - コマ2の大文字「Comfort」は漫画文法の大文字インパクト演出（「終わった」「格差社会」と同系統）。プロンプトでは「large bold manga impact text」で処理（具体的テキスト内容はプロンプトに含めない）
 - コマ3は3項目の列挙否定（Efficiency/Luck/Resilience）。テキスト内容はプロンプトに含めず「enumeration text, denial/elimination style」で処理
 - コマ1の分析モード = serious focused eyes, shadow on glasses
-- コマ4の自信満々モード = showing teeth in grin, glasses glinting
+- コマ4のワクワクモード = eyes sparkling with wonder, eager grin, glasses glinting（ドヤ顔・ニヤリは禁止。ワクワクする場面）
 - 「Comfort」テキストにシアンを使わないことを明示的に禁止（NOT cyan — シアンルール準拠）
 
 ---
