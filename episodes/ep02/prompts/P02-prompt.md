@@ -31,7 +31,8 @@ Mood: Analytical concentration building to thrilled excitement. Sense of wonder 
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.
 Do not use cyan (#00BCD4) for impact text — cyan is reserved for Kuro-chan robot elements and smartphone screen glow only.
-Do not use revelation mode expression (no flames or speedlines in eyes — use confident/smug instead).
+Do not use revelation mode expression (no flames or speedlines in eyes — use excited/wonder instead).
+Do not draw smug or overconfident expression — this is excitement and wonder.
 Do not draw deformed or chibi-style faces.
 ```
 

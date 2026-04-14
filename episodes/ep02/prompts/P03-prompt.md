@@ -20,11 +20,11 @@ Panel 1 (top — 30%): Conceptual diagram style panel. Infographic or flow chart
 
 Panel 2 (middle — 40%, CLIMAX PANEL): Otomo Katsuhiro-style scale expression. Massive numbers and price figures floating in dramatic space, overwhelming in scale. The same man small in the frame, dwarfed by astronomical figures surrounding him — eyes looking up in awe. Multiple layers of large bold text at different sizes creating depth. Explosive detailed precision — maximum density. Dramatic atmosphere with the sheer weight and scale of numbers.
 
-Panel 3 (bottom — 30%): Close-up face shot. The same 42-year-old Japanese man with rectangular black-framed glasses, short slightly messy black hair with grey mixed in. Confident smirk, showing teeth in grin, glasses glinting with white highlight. Intense excitement and conviction in expression. Large bold impact text effect surrounding the face. Generous negative space around the face for afterglow impact.
+Panel 3 (bottom — 30%): Close-up face shot. The same 42-year-old Japanese man with rectangular black-framed glasses, short slightly messy black hair with grey mixed in. Admiring, convinced expression — eyes bright with trust and excitement, showing teeth in grin, glasses glinting with white highlight. Two lines of bold impact text surrounding the face — one line above expressing admiration, one line below expressing fighting spirit. Generous negative space around the face for afterglow impact.
 
 Composition: Intellectual buildup (Panel 1 diagram) → overwhelming scale revelation (Panel 2 numbers) → emotional catharsis (Panel 3 face). Classic manga escalation to climax.
 Camera: diagram/infographic view (Panel 1), wide dramatic scale shot (Panel 2), close-up face (Panel 3).
-Mood: Intellectual curiosity building to overwhelming awe, releasing into triumphant excitement. Peak energy of the episode.
+Mood: Intellectual curiosity building to overwhelming awe, releasing into admiration for the creators and conviction that the project is alive. Peak energy of the episode — trust and fighting spirit, not just personal triumph.
 
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.

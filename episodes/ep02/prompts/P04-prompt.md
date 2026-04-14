@@ -22,11 +22,11 @@ Panel 2 (middle — 30%): Close-up of smartphone screen at 10-15 degree tilt. Bl
 
 Panel 3 (bottom-left — 20%): Side profile view of the man. Wry smirk, knowing expression, slight smile forming. Small quiet panel. Generous negative space — breathing room before the climax moment.
 
-Panel 4 (bottom-right — 20%): Close-up face shot. The same man with confident smirk, showing teeth in grin, glasses glinting with white highlight. Determined and excited expression — bold decision made. Large bold impact text effect. Generous negative space for dramatic emphasis and afterglow.
+Panel 4 (bottom-right — 20%): Close-up face shot. The same man with eyes wide in sudden realization, showing teeth in excited grin, glasses glinting with white highlight. "Eureka" moment expression — the thrill of insight, not arrogance. Multiple lines of dense bold text surrounding the face in varying sizes — a long passionate declaration filling the panel. Text wraps around the face creating visual intensity.
 
-Composition: Analytical calculation (Panel 1-2) → contemplative pause with knowing smile (Panel 3) → decisive bold resolution (Panel 4). Golden rule: page ends at "introduction" phase — reader desperately wants the next page.
+Composition: Analytical calculation (Panel 1-2) → contemplative pause with knowing smile (Panel 3) → sudden realization and conviction (Panel 4). Golden rule: page ends at "introduction" phase — reader desperately wants the next page. Classic manga 溜め→解放 (setup → release) — Panel 3 is the breathing pause (間) before the cathartic insight.
 Camera: bust shot (Panel 1), close-up object (Panel 2), side profile (Panel 3), close-up face (Panel 4).
-Mood: Measured analysis building through quiet resolve to a bold, confident, exciting decision. Determination, NOT recklessness.
+Mood: Measured analysis building through quiet contemplation to a thrilling insight — the excitement of connecting the dots. Realization and conviction, NOT reckless decision-making.
 
 Do not change: face shape, hairstyle, costume details, character age impression.
 Do not add: extra characters, extra objects, text artifacts.
