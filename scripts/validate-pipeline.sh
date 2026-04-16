@@ -1,12 +1,12 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════════════
-# パイプライン整合性検証
+# パイプライン整合性検証（強化版）
 # ページ設計書 → プロンプト → 差分ログ の各ステップ間の整合性をチェック。
-# 情報の欠落・劣化を検出する。
+# 情報の欠落・劣化に加え、絶対禁止事項の混入も自動検出する。
 #
 # 使い方: bash scripts/validate-pipeline.sh <episode番号> <ページID>
 #         bash scripts/validate-pipeline.sh <episode番号>     (全ページ)
-# 例:     bash scripts/validate-pipeline.sh 01 P02
+# 例:     bash scripts/validate-pipeline.sh 03 P02
 # ═══════════════════════════════════════════════════════════
 
 EP="$1"
@@ -25,7 +25,107 @@ pass() { echo "  ✓ $1"; }
 warn() { echo "  ⚠ $1"; WARNINGS=$((WARNINGS + 1)); }
 fail() { echo "  ✗ $1"; ERRORS=$((ERRORS + 1)); }
 
+# ────────────────────────────────
+# 絶対禁止ワードのチェック（設計書本文をスキャン）
+# ────────────────────────────────
+# - 「使用」「描く」「採用」等ポジティブ文脈での登場のみ検出
+# - 「禁止」「封印」「NG」「しない」と同じ行 or 近接なら除外
+check_forbidden_expressions() {
+  local file="$1"
+
+  # ページ内の設計記述だけをスキャン（「禁止事項」セクション以降は除外）
+  local content
+  content=$(awk '
+    /^## 禁止事項/ { skip=1 }
+    /^## 漫画文法チェックリスト/ { skip=0 }
+    /^## 編集者メモ/ { skip=0 }
+    !skip { print }
+  ' "$file")
+
+  local found_issues=0
+
+  # 禁止表情モード（「〜使用」「〜採用」などのポジティブ文脈のみ）
+  for pattern in "天啓モード" "布団モード" "死んだ魚の目"; do
+    # 禁止系単語と同じ行にある場合はスキップ
+    local hits
+    hits=$(echo "$content" | grep "$pattern" | grep -v -E "(禁止|封印|NG|しない|使わない|使用しない|避ける|無し|なし|回避)" | grep -v -E "^\s*$")
+    if [ -n "$hits" ]; then
+      warn "絶対禁止の表情『${pattern}』が設計コマ部分に混入している可能性"
+      echo "$hits" | head -3 | sed 's/^/     /'
+      found_issues=$((found_issues + 1))
+    fi
+  done
+
+  # シアン色（クロちゃん／スマホ光／画面光以外で使用されていないか）
+  if echo "$content" | grep -E "シアン|cyan" >/dev/null 2>&1; then
+    local cyan_hits
+    # 許容語: 禁止／NG／しない／クロちゃん／スマホ（画面・光関連）／画面光／ディスプレイ
+    cyan_hits=$(echo "$content" | grep -E "シアン|cyan" | grep -v -E "(禁止|NG|使わない|しない|クロちゃん|スマホ|画面光|ディスプレイ|display)")
+    if [ -n "$cyan_hits" ]; then
+      warn "シアン色の使用疑い（クロちゃん／スマホ画面光以外で混入？）"
+      echo "$cyan_hits" | head -3 | sed 's/^/     /'
+      found_issues=$((found_issues + 1))
+    fi
+  fi
+
+  # 話者ラベル（「翔一：」「クロちゃん：」等）
+  local speaker_label
+  speaker_label=$(echo "$content" | grep -E "(翔一|クロちゃん|主人公)[:：]" | grep -v -E "(禁止|NG|しない)")
+  if [ -n "$speaker_label" ]; then
+    warn "話者ラベル（『○○：』）が本文に混入している可能性"
+    echo "$speaker_label" | head -3 | sed 's/^/     /'
+    found_issues=$((found_issues + 1))
+  fi
+
+  if [ $found_issues -eq 0 ]; then
+    pass "絶対禁止ワード: 混入なし"
+  fi
+}
+
+# ────────────────────────────────
+# スマホ傾け指示の確認
+# ────────────────────────────────
+check_smartphone_tilt() {
+  local file="$1"
+  # 「スマホ」または「スマートフォン」が構図に現れるコマを探す
+  local has_phone
+  has_phone=$(awk '
+    /^### コマ/ { in_panel=1; panel_text=""; next }
+    /^---/ || /^### / { if (in_panel && match(panel_text, /スマホ|スマートフォン|スマホ画面/)) print panel_text; in_panel=0; panel_text="" }
+    in_panel { panel_text = panel_text "\n" $0 }
+    END { if (in_panel && match(panel_text, /スマホ|スマートフォン|スマホ画面/)) print panel_text }
+  ' "$file")
+
+  if [ -n "$has_phone" ]; then
+    if echo "$has_phone" | grep -qE "(10[-−〜~]?15度|10度|15度|傾け|斜め)"; then
+      pass "スマホ画面の傾け指示: あり"
+    else
+      warn "スマホ画面が登場するが「10-15度傾け」の指示が見当たらない"
+    fi
+  fi
+}
+
+# ────────────────────────────────
+# コマ機能の単一性（各コマの機能が 1 つに絞られているか簡易チェック）
+# ────────────────────────────────
+check_panel_single_function() {
+  local file="$1"
+  local checklist_ok
+  checklist_ok=$(grep -E "\[x\].*各コマの機能が1つに絞られている|\[x\].*機能が1つ" "$file")
+  if [ -n "$checklist_ok" ]; then
+    pass "漫画文法チェックリスト: コマ機能単一性 確認済"
+  else
+    local checklist_any
+    checklist_any=$(grep -E "\[.\].*機能が1つ" "$file")
+    if [ -n "$checklist_any" ]; then
+      warn "漫画文法チェックリストの『各コマの機能が1つ』が未チェック"
+    fi
+  fi
+}
+
+# ────────────────────────────────
 # 単一ページの検証
+# ────────────────────────────────
 validate_page() {
   local PID="$1"
   local PAGE_FILE="$EP_DIR/pages/${PID}.md"
@@ -45,7 +145,6 @@ validate_page() {
   # コマ数チェック (2-6)
   PANEL_COUNT=$(grep -c "^### コマ" "$PAGE_FILE" 2>/dev/null)
   if [ "$PANEL_COUNT" -eq 0 ]; then
-    # 別の形式かも (コマ1: 等)
     PANEL_COUNT=$(grep -c "^- コマ[0-9]" "$PAGE_FILE" 2>/dev/null)
   fi
   if [ "$PANEL_COUNT" -lt 1 ]; then
@@ -69,6 +168,15 @@ validate_page() {
   else
     pass "表情: 全コマ記述あり"
   fi
+
+  # ── 1.5 絶対禁止ワードの混入チェック（強化版の肝）──
+  check_forbidden_expressions "$PAGE_FILE"
+
+  # ── 1.6 スマホ傾け指示 ──
+  check_smartphone_tilt "$PAGE_FILE"
+
+  # ── 1.7 コマ機能単一性チェック ──
+  check_panel_single_function "$PAGE_FILE"
 
   # ── 2. プロンプト ──
   if [ ! -f "$PROMPT_FILE" ]; then
@@ -99,6 +207,11 @@ validate_page() {
         warn "${field}: 欠落"
       fi
     done
+
+    # プロンプトにも話者ラベルが混入していないか
+    if grep -E "(Shouichi|Kuro|翔一|クロちゃん)[:：]" "$PROMPT_FILE" >/dev/null 2>&1; then
+      warn "プロンプトに話者ラベルの混入疑い"
+    fi
   fi
 
   # ── 3. 差分ログ ──
@@ -138,13 +251,11 @@ else
 fi
 
 if [ -n "$PAGE" ]; then
-  # 単一ページ
   PAGE_NUM=$(echo "$PAGE" | tr -d 'Pp.' | sed 's/^0*//')
   [ -z "$PAGE_NUM" ] && PAGE_NUM=1
   PAGE_ID=$(printf "P%02d" "$PAGE_NUM")
   validate_page "$PAGE_ID"
 else
-  # 全ページ
   for page_file in "$EP_DIR/pages/"*.md; do
     [ ! -f "$page_file" ] && continue
     case "$page_file" in *_*) continue ;; esac
