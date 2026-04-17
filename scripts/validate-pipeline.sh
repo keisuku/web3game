@@ -33,12 +33,14 @@ fail() { echo "  ✗ $1"; ERRORS=$((ERRORS + 1)); }
 check_forbidden_expressions() {
   local file="$1"
 
-  # ページ内の設計記述だけをスキャン（「禁止事項」セクション以降は除外）
+  # ページ内の設計記述だけをスキャン（禁止事項セクション・🔒 絶対禁止ブロックは除外）
   local content
   content=$(awk '
-    /^## 禁止事項/ { skip=1 }
-    /^## 漫画文法チェックリスト/ { skip=0 }
-    /^## 編集者メモ/ { skip=0 }
+    /^## 🔒 絶対禁止/ { skip=1; next }
+    /^## コマ設計/ { skip=0; next }
+    /^## 禁止事項/ { skip=1; next }
+    /^## 漫画文法チェックリスト/ { skip=0; next }
+    /^## 編集者メモ/ { skip=0; next }
     !skip { print }
   ' "$file")
 
@@ -87,17 +89,18 @@ check_forbidden_expressions() {
 # ────────────────────────────────
 check_smartphone_tilt() {
   local file="$1"
-  # 「スマホ」または「スマートフォン」が構図に現れるコマを探す
-  local has_phone
-  has_phone=$(awk '
+  # 「スマホ画面」または「スマートフォン画面」が構図に現れるコマを探す
+  # （単なる「スマホを握る」等の手持ち描写はチェック対象外）
+  local has_phone_screen
+  has_phone_screen=$(awk '
     /^### コマ/ { in_panel=1; panel_text=""; next }
-    /^---/ || /^### / { if (in_panel && match(panel_text, /スマホ|スマートフォン|スマホ画面/)) print panel_text; in_panel=0; panel_text="" }
+    /^---/ || /^### / { if (in_panel && match(panel_text, /スマホ画面|スマートフォン画面/)) print panel_text; in_panel=0; panel_text="" }
     in_panel { panel_text = panel_text "\n" $0 }
-    END { if (in_panel && match(panel_text, /スマホ|スマートフォン|スマホ画面/)) print panel_text }
+    END { if (in_panel && match(panel_text, /スマホ画面|スマートフォン画面/)) print panel_text }
   ' "$file")
 
-  if [ -n "$has_phone" ]; then
-    if echo "$has_phone" | grep -qE "(10[-−〜~]?15度|10度|15度|傾け|斜め)"; then
+  if [ -n "$has_phone_screen" ]; then
+    if echo "$has_phone_screen" | grep -qE "(10[-−〜~]?15度|10度|15度|傾け|斜め)"; then
       pass "スマホ画面の傾け指示: あり"
     else
       warn "スマホ画面が登場するが「10-15度傾け」の指示が見当たらない"
