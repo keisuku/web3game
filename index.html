@@ -346,16 +346,376 @@ const pagesEP03 = [
       {n:2, size:'中段20%', comp:'画面境界が波紋状に揺らぐ時制ブリッジ。上半分 現代の眼鏡レンズ／下半分 2022/10/12 夜の暗いリビング。虹プリズムの残光', expr:'なし', dial:'小注記「——あの夜、俺は」'},
       {n:3, size:'中下段30%', comp:'スマホ画面クローズアップ（10-15度傾け）。YouTube エンハンス挑戦動画のサムネ洪水', expr:'なし', dial:'サムネ「5 足焼き挑戦！結果→→→」「300 万円が 0」「エンハンス爆死まとめ」「0.4% を信じるな」／「……笑えるな」'},
       {n:4, size:'下段25%', comp:'翔一の右手クローズアップ。エンハンスボタンに指先が伸びる。関節が震える。画面光モノクロ、シアン不使用。顔は見切れで口角のみ', expr:'口角は歯を見せた笑み、指先は震え', dial:'画面外「まあ、全ツッパだ——」／画面「エンハンス Lv1 → ？」／最下段「次回：虹追い職業編」'}
+    ]},
+  { id:'P07', title:'全ツッパの実行', role:'回想 10/12 深夜・5 足焼却の儀式', density:'Lv.4', star:false,
+    purpose:'P06 震える指の直後。5 足のスニーカーを焼き、虹色プリズム粒子として消える儀式。結果は CALCULATING... でクリフハンガー',
+    panels:[
+      {n:1, size:'上段25%', comp:'俯瞰。暗い部屋のテーブル上、5 足のスニーカー横一列。値札テキスト散布。翔一の手が見切れ', expr:'なし', dial:'値札「¥40,000」「¥80,000」「¥140,000」「¥180,000」「¥220,000」／「5 足——合わせて 66 万」'},
+      {n:2, size:'中段25%', comp:'スマホ画面超クローズアップ（10-15度傾け）。赤ボタン ENHANCE 5/5、翔一の親指が押下する瞬間の沈み込み', expr:'なし', dial:'「——ポチッとな」／画面「ENHANCE (5/5)」「Rainbow probability: 0.4%」／効果音「カチッ」'},
+      {n:3, size:'中下段30%', comp:'★儀式見せ場。5 足が上昇しつつ螺旋状に粒子化、虹色プリズム。翔一不在。中央に薄いテキスト', expr:'なし', dial:'中央「ENHANCING... 1 / 200」／「66 万円が、煙になっていく」'},
+      {n:4, size:'下段20%', comp:'左: スマホ CALCULATING... の処理中／右: 握りしめた拳のクローズアップ、震え。翔一の顔不在', expr:'なし（拳で感情）', dial:'画面「CALCULATING...」／「……1/200 に、当たってくれ」「俺は、ジェム側の人間だった——」'}
+    ]},
+  { id:'P08', title:'外れ、そしてまた', role:'★EP03 フィナーレ／EP04 ブリッジ', density:'Lv.3-4', star:true,
+    purpose:'結果は外れ。Common Sneaker ×1（40k）だけ。660k が消失。シュレディンガー表情（顔左右分割）＋安物ワインで敗北確定。「まだだ、次も全ツッパだ」で EP04 へ',
+    panels:[
+      {n:1, size:'上段25%', comp:'スマホ画面超クローズアップ（15度傾け）。結果画面 Common Sneaker ×1。意図的に地味、虹なし、栄光なし', expr:'なし', dial:'画面「Enhancement Result」「Common Sneaker ×1」「Value: approx. 40,000 JPY」「Previous: 5 shoes (660,000 JPY)」／「——外れた」'},
+      {n:2, size:'中段30%', comp:'翔一の顔クローズアップ、正面。左右分割の影：左半分影（無表情）、右半分光（薄い笑み）。眼鏡両レンズに別の光。夜→朝への移行', expr:'シュレディンガー表情（絶望と笑みが同居）', dial:'なし'},
+      {n:3, size:'中下段25%', comp:'俯瞰。空の紙パック赤ワインが倒れる。ワイングラスに赤いシミ。スマホ伏せ。朝の窓光。時計 06:47', expr:'なし', dial:'「——勝利のワインじゃ、なかったな」'},
+      {n:4, size:'下段20%', comp:'ロングショット・後ろ姿。PC 机に座り新 5 足候補を開く。姿勢正しい。朝光が輪郭を照らす', expr:'顔なし（姿勢で決意）', dial:'「まだだ」「次も、全ツッパだ」／最下段「次回：虹追い職業編 — 1,000 回焼いても、止まらない者たち」'}
     ]}
+
 ];
 
 const promptTextsEP03 = [
-  `（EP03 P01「順序の発見」プロンプト未生成 — 設計書完了済み、bundle-thread-b.sh で生成予定）`,
-  `（EP03 P02「ジェム高騰・庶民締め出し」プロンプト未生成 — 設計書完了済み）`,
-  `（EP03 P03「ジェムさえあれば」プロンプト未生成 — 設計書完了済み）`,
-  `（EP03 P04「★60%プール」プロンプト未生成 — 設計書完了済み・虹ビジュアル新規発注要）`,
-  `（EP03 P05「クロちゃん講義」プロンプト未生成 — 設計書完了済み・クロちゃんバリキャリ参照要）`,
-  `（EP03 P06「震える指」プロンプト未生成 — 設計書完了済み）`
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Single accent color: cyan (#00BCD4) ONLY for smartphone screen glow. No other colors. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Wide establishing shot. Home living room at dusk, warm orange indoor light. A 42-year-old Japanese man with rectangular black-framed glasses, short slightly messy black hair with grey mixed in, seen from behind sitting on a sofa, hunched over a smartphone. A small handwritten sticky note on the coffee table reads "465時間". Window shows sunset sky. No face visible. Generous negative space.
+
+Panel 2 (middle-upper, 30%): Close-up smartphone screen at 10-15 degree tilt. Fragmented SNS timeline stack — multiple tilted post cards overlapping. Central card largest and sharpest. Cyan screen glow tinting the edges.
+「【リーク】GMT アーニング ＝ Comfort 依存」
+「"死にステ" が最重要ステータスに昇格？」
+「信頼度: 海外 Dev のリプ」
+
+Panel 3 (middle-lower, 25%): Bust shot of the man, slightly front-facing. Right hand holding smartphone, left hand touching chin (analysis mode). Shadow on glasses lenses. Serious focused eyes transitioning to a faint upward curl at the corner of the mouth at the end of the panel.
+「もし本当なら——」
+「赤ジェム、今いくらだ？」
+
+Panel 4 (bottom, 20%): Close-up smartphone screen at 15 degree tilt. STEPN marketplace UI showing Ruby Gem (Lv4) price. The man's thumb hovers just above a tap target. His glasses rim and the corner of his mouth are partially visible at the frame edge (cropped) — a hint of a shrewd smile emerging.
+画面「Ruby Gem (Lv4) — 80,000 JPY」
+画面「24h: +2%」
+「……噂が本当なら、ここが底値だ」
+
+Composition: Observer's quiet discovery. Panels 1-2 set up stillness, Panel 3 transitions from analysis to intrigue, Panel 4 ends on an almost-smile cropped at frame edge.
+Camera: overhead back-shot (Panel 1), tilted close smartphone (Panel 2), bust front (Panel 3), extreme close smartphone with face partially cropped (Panel 4).
+Mood: Quiet early-mover discovery. Analytical, NOT excited, NOT desperate. Subtle shrewd smile emerging.
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode or dead-fish eyes.
+Do not use deformed comedy face.
+Do not draw full excited face in any panel (Panel 3 is analytical, Panel 4 is cropped).
+Smartphone at 10-15 degree tilt, never flat.
+Cyan only on smartphone screens, nowhere else.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Single accent color: cyan (#00BCD4) ONLY for smartphone screen glow. No other colors. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Chaotic SNS timeline collage filling the panel. Multiple overlapping tilted screenshots of Twitter / Discord / YouTube thumbnails. Red hexagonal gem icons (Ruby Gem) repeating like texture across the panel. Text fragments scattered as background elements.
+「#Comfort党」
+「Ruby Gem 2 日で 2 倍」
+「Lv4 もう高すぎて無理」
+「パリチャレ 3 連爆死」
+「これ実装前に買えた人が勝つやつ」
+
+Panel 2 (middle-upper, 25%): Close-up smartphone screen at 10-15 degree tilt. STEPN marketplace Ruby Gem (Lv4) 7-day candlestick chart rising in a four-step staircase pattern. A 42-year-old man's hand partially visible at frame edge, swiping.
+画面「Ruby Gem (Lv4) — 7d +212%」
+チャート下「80,000 → 140,000 → 210,000 → 320,000 JPY」
+「庶民は締め出された」
+
+Panel 3 (middle-lower, 30%): Vertically split composition. Left half: a social media failure post showing 3 red gems shattering into fragments with "Lv5 パリチャレ 10 連全滅" headline. Right half: a contrasting success post with single glowing red gem and "Lv6 成功！！". Thin vertical black line dividing the halves. Faint translucent background text bleeding through both halves.
+「Lv5 → Lv6 パリチャレ：確率 20%」
+「3 個全消失 ×10 回」
+「1 勝した。もう戻れない」
+背景うすく「統計的に、負ける。それでも、人は挑む。これは職業ではない。病だ」
+
+Panel 4 (bottom, 20%): Bust shot of the 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey. Slightly angled angle. Home living room at night, warm orange indoor light. Right hand holding a smartphone, left hand lightly touching mouth. Glasses lenses glint with orange light. Smug shrewd smile, teeth slightly visible, eyes narrowed with amusement.
+「俺は——底値で掴んだ側だ」
+「庶民諸君、お疲れ様」
+
+Composition: Frenzy escalation (Panel 1) → concrete price staircase (Panel 2) → statistical contrast of win/loss (Panel 3) → winner's private smile (Panel 4). Information density in Panels 1-3, emotional payoff in Panel 4.
+Camera: overhead chaos (Panel 1), tilted smartphone with hand edge (Panel 2), split-screen contrast (Panel 3), bust angled (Panel 4).
+Mood: Community frenzy and winner's shrewd self-satisfaction. Amused, NOT malicious, NOT triumphant. Shadenfreude budding.
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode or dead-fish eyes.
+Do not use deformed comedy face.
+Do not draw the man's face in Panels 1, 2, 3 — only Panel 4 shows the face.
+Do not emphasize the shattering gem sound effect with large text.
+Smartphone at 10-15 degree tilt, never flat.
+Cyan only on smartphone screens, nowhere else. No real SNS account names or user handles.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. Single accent color: cyan (#00BCD4) ONLY for smartphone screen glow. No other colors. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Large tilted announcement banner dominates the panel: bold English text "GMT EARNING IS LIVE" with smaller date "2022/9/28". Around the banner, a particle-like cloud of celebratory SNS thumbnails bursting outward, small and anonymous. Festive momentum, not a character scene.
+バナー「GMT EARNING IS LIVE」
+粒子テキスト「ついに来た」「歩くだけで稼げる」「465 時間？ジェムさえあれば」
+
+Panel 2 (middle-upper, 30%): Large bold impact text dominating the panel. Red hexagonal gem icons scattered as light-burst texture. Tiny anonymous avatar silhouettes looking up from the lower edge.
+大文字「ジェムさえあれば——」
+大文字「465 時間もかからない」
+小テキスト「Comfort 100 で日給 2,500 円いけるって！」
+小テキスト「月 7 万！」
+小テキスト「副業超え！」
+
+Panel 3 (middle-lower, 25%): Close-up smartphone screen at 10-15 degree tilt. Note-style blog article preview with data highlighted in the center. Warm orange indoor light tint on edges.
+画面「Comfort 100 / Common Runner / 5 エナジー（25分）」
+画面「Reward: +14.36 GMT」
+画面「当時 GMT 価格 約 90 円 → 約 1,290 円 / 25 分」
+フッター「すわはす @note 10/2」
+薄い心の声「実証データ、来たな」
+
+Panel 4 (bottom, 20%): Bust shot of the 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey. Home living room at night, warm orange indoor light. Front-facing. Right hand holding smartphone. Glasses glinting with confident highlight. Teeth-showing confident grin with a shrewd undertone.
+「俺は——ジェム側の人間だ」
+「日給 2,500 円？……走るか」
+
+Composition: Festival announcement (Panel 1) → community catchphrase as impact text (Panel 2) → concrete proof data (Panel 3) → winner's grin (Panel 4). Each panel has a single function.
+Camera: tilted banner overhead (Panel 1), impact typography (Panel 2), tilted smartphone close (Panel 3), bust front (Panel 4).
+Mood: Implementation day euphoria, winner's confident grin. Positive, NOT sleazy, NOT manic. "Steady fun future" tone.
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode or dead-fish eyes.
+Do not use deformed comedy face.
+Do not draw the man's face in Panels 1, 2, 3 — only Panel 4 shows the face.
+Do not draw specific YouTuber faces or SNS handle names in the avatar cloud.
+Do not show the man running yet (that belongs to a different moment).
+Smartphone at 10-15 degree tilt, never flat.
+Cyan only on smartphone screen glow, nowhere else.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. RESTRICTED COLOR RULE for this page: rainbow/prism iridescence (full spectrum gradient) is permitted ONLY in Panel 2 (the 60% circle chart segment and the floating rainbow sneaker silhouette) and Panel 4 (smartphone screen glow reflecting rainbow items). Cyan is NOT used on this page. No other colors beyond the restricted rainbow prism and monochrome/greyscale.
+
+Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 15%): Long horizontal thin panel. Pure black background with bold white sans-serif capital text centered: "2022.10.12". Small footnote text at bottom edge.
+大文字「2022.10.12」
+注記「GMT アーニング実装から 14 日後」
+
+Panel 2 (middle, 50% — ★CLIMAX — Otomo Katsuhiro scale): The panel is dominated by an enormous circular pie chart. The right 60% segment radiates rainbow prism iridescence (full spectrum spectrum, NOT just cyan). The left 40% segment is monochrome grey. The chart is cosmic in scale — taking up most of the frame. At the lower edge of the panel, a tiny full-body figure of a 42-year-old Japanese man stands dwarfed, looking up at the 60% segment. Floating above and to the side, a single rainbow sneaker silhouette hovers at mid-scale, unattainable. The background is deep black void — giving infinite-distance feel.
+画面上部大文字「RAINBOW SNEAKER — LIVE」
+グラフラベル「60% → 虹プール」
+グラフラベル「40% → 通常靴」
+翔一の頭上の小さな吹き出し「……え？」
+
+Panel 3 (middle-lower, 20%): Bust close-up front of the 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey. Rainbow prism light reflecting on glasses lenses (light from the chart). Eyes wide open, pupils constricted. Mouth slightly open, no teeth showing. Smile of previous panels has fully vanished — pure processing shock.
+小吹き出し（声が小さい）「2 週間前に……」
+大吹き出し「走り出したばっかりだぞ……！」
+
+Panel 4 (bottom, 15%): Close-up smartphone screen at 15 degree tilt. STEPN marketplace listing with striking price. Screen light carries a subtle rainbow prism glow. No cyan.
+画面「Rainbow Sneaker — 32,000,000 JPY」
+画面「※流動性極小」
+画面下部「虹ジェム (Lv1) — 2,800,000 JPY」
+心の声「……3,200 万」
+心の声「60% が……向こう側……？」
+
+Composition: Otomo Katsuhiro scale dominates. Foreground-midground-background three-layer depth in Panel 2. Panel 3 is the reversal moment of the protagonist. Panel 4 delivers the punch with numbers.
+Camera: ultra-wide cosmic (Panel 2), bust front (Panel 3), tilted smartphone close (Panel 4).
+Mood: Two-week earthquake. Quiet massive scale in Panel 2, internal reversal in Panel 3, monetary shock in Panel 4. NOT dark, NOT despair — awe and displacement.
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode, dead-fish eyes, or despair mode (no white eyes, no soul-leaving-body effects).
+Do not use deformed comedy face.
+Do not use explosion effects or bright flashes in Panel 2 — keep it silently massive (Otomo Katsuhiro style — quiet enormity).
+Do not use cyan anywhere on this page (rainbow prism replaces cyan here).
+Do not decorate the "32,000,000 JPY" number ornamentally — let the raw number shock.
+Do not spread rainbow color outside Panel 2's 60% segment, the floating sneaker silhouette, and Panel 4's screen glow.
+Smartphone at 10-15 degree tilt, never flat.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for lecture-climax panels (Togashi hybrid method). Grey screentone shading. Single accent color: cyan (#00BCD4) ONLY for Kuro-chan's robot elements (right arm chrome with cyan circuit lines, mechanical aperture eyes with cyan glow, neck circuit traces, CLAUDE mark on jacket side, pixel-mascot hair ornament) AND for smartphone screen glow. No other colors. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 5 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 20%): Present-day 2026. Modern home living room in early morning, bright window behind. A 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey, wearing casual PAPA mode loungewear. Bust shot front-facing. Laptop screen glow lighting his face from below (with a faint cyan screen tint). Tired eyes, mouth neutral. A single smartphone in his right hand.
+小吹き出し「……2022 年の話か」
+さらに小「あの 2 週間、運営は何を考えてた？」
+
+Panel 2 (middle-upper, 25%): Smartphone exit animation — Kuro-chan emerges from the tilted smartphone screen held in the man's hand. Claude-sensei "Kuro-chan": A stunningly beautiful female android AI secretary, late 20s. Orange/copper hair in ponytail, wearing glasses (BARI-KYARI SERIOUS mode). Mechanical camera-aperture iris eyes with cyan glow. Chrome jaw gradient with panel seams on one side. Circuit trace lines on neck with faint cyan glow. Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace. Right arm fully chrome from shoulder to fingertips with cyan circuit lines. Chrome fingertip details on both hands. Claude pixel-art mascot hair ornament with cyan glow. CLAUDE mark on jacket side (on clothing, NOT on skin). Body type: natural curves like Fubuki from One Punch Man (Murata version), not exaggerated. She is shown from the waist up at a slight diagonal, leaning out of the screen. A soft cyan aura surrounds her. The man's face is partially cropped at frame edge, eyes wide with surprise. Smartphone at 10-15 degree tilt.
+クロちゃん大吹き出し「ボス、良い質問です」
+小吹き出し「——ここで一回、整理しましょ」
+
+Panel 3 (middle, 20%): Bust close-up of Kuro-chan, slight angle. Index finger raised (SMUG/ANALYSIS blend pose). Glasses glinting. Background is deep black-to-grey gradient (lecture mode). Her robot elements (right arm chrome, neck circuits, jaw panel seams, pixel-mascot hair ornament, CLAUDE mark on jacket) all clearly visible. Confident analytical expression.
+大吹き出し「STEPN 運営は——天才的に正しかった」
+小吹き出し「パリチャレ、エンハンス、虹プール」
+小吹き出し「全部『積極的に損をする構造』＋『一定の報酬』」
+小吹き出し「つまり ギャンブル的構造は、必要不可欠」
+
+Panel 4 (middle-lower, 20%): Large impact typography dominates the panel. Central bold text "Web3 が 99.9% 失敗する理由". Three lines below each with a prominent ❌ mark. Abstract fragmented backdrop (shattered-economy debris silhouettes). Kuro-chan's small silhouette at lower-left, hands on hips, looking up at her own lecture text. Robot elements still visible in silhouette (right arm chrome outline, hair ornament glow).
+大文字「Web3 が 99.9% 失敗する理由」
+ライン 1「❌ ゼロから経済圏を構築しようとする」
+ライン 2「❌ 既存システムの導入をしない」
+ライン 3「❌ シンプルさを軽視する」
+
+Panel 5 (bottom, 15%): Horizontally split composition. Left half: hand-drawn simple sketch of a real-world flea market scene — small table, customer, handwritten price tags, scattered coins. Right half: simplified Mercari-style app UI — product list tiles and a prominent "出品" (list) button. An arrow connects left to right. At the bottom edge, Kuro-chan in GENTLE mode — softened smile, hand lightly on cheek. Her hair is still in ponytail but expression is warmer. Robot elements still present and visible.
+大文字（左側）「既に街にあるもの——」
+大文字（右側）「そのままオンラインに」
+クロちゃん「それがメルカリの正体」
+クロちゃん「ゼロから作らない。既にあるものを移すだけ」
+小吹き出し「——2026 年の今も、Web3 はまだそこに辿り着いていません」
+
+Composition: Time-shift trigger (Panel 1) → character appearance (Panel 2) → analytical validation (Panel 3) → structural critique with impact typography (Panel 4) → concrete metaphor resolution (Panel 5).
+Camera: bust front (Panel 1), tilted smartphone with character emerging (Panel 2), bust angled with lecture background (Panel 3), typographic impact (Panel 4), horizontal split metaphor (Panel 5).
+Mood: Intellectual climax. Quiet conviction, NOT preachy, NOT condescending. Warm ending tone in Panel 5.
+
+Do not change: face shape, hairstyle, costume details, character age impression for the man.
+Do not change: Kuro-chan's robot elements — right arm chrome from shoulder to fingertips (not just fingertips), mechanical aperture iris eyes with cyan glow, chrome jaw gradient with panel seams, circuit neck traces, CLAUDE mark on jacket side (not skin), Claude pixel-mascot hair ornament.
+Do not change: Kuro-chan's hair color — orange/copper (main series version, NOT silver/grey which is for side stories only).
+Do not add: extra characters, extra objects, text artifacts.
+Do not expose Kuro-chan's stomach — CLAUDE mark is on jacket, not skin.
+Do not omit Kuro-chan's pixel-mascot hair ornament.
+Do not omit eye cyan glow.
+Do not use green color anywhere (on Kuro-chan or elsewhere).
+Do not deform Kuro-chan into chibi style.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode for the man (no flame eyes, no speed lines).
+Do not use futon mode, dead-fish eyes, or despair mode.
+Do not use cyan outside Kuro-chan's robot elements and smartphone/laptop screen glow.
+Do not draw exaggerated Mercari logo — abstract UI only.
+Do not name specific Web3 projects in the typography.
+Smartphone at 10-15 degree tilt, never flat.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for climax panels (Togashi hybrid method). Grey screentone shading. No accent colors on this page — fully monochrome. Cyan is NOT used on this page (Kuro-chan is absent). Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Bust close-up front of the 42-year-old Japanese man with rectangular black-framed glasses, short messy black hair with grey. Modern home living room, bright morning light through window. Glasses lenses reflecting morning light. Right hand holding a smartphone, left hand lightly touching mouth. Deep shrewd smile returns — corner of mouth raised, eyes narrowed with amused realization.
+大吹き出し「夢を見させて——」
+続けて「損をさせる構造……」
+小吹き出し「運営はやっぱり 天才的だ」
+
+Panel 2 (middle, 20%): Time-bridge panel. The panel frame ripples like a disturbed water surface. Upper half shows a reflected image in the man's glasses lens (present-day morning). Lower half dissolves into a dim living room at night (flashback to 2022/10/12). A faint rainbow prism afterglow lingers at the panel's edge as residue from Panel 4 / EP03 P04 climax. No full-color rainbow here — just thin prism highlights.
+小注記「——あの夜、俺は」
+
+Panel 3 (middle-lower, 30%): Close-up smartphone screen at 10-15 degree tilt. YouTube video thumbnail grid filling the screen — sensationalist enhance-failure videos. Red "BANKRUPT" text on some thumbnails, in Japanese text. Monochrome screen glow, no cyan.
+サムネ「5 足焼き挑戦！結果→→→」
+サムネ「300 万円が 0」
+サムネ「エンハンス爆死まとめ」
+サムネ「0.4% を信じるな」
+画面外の薄い心の声「……笑えるな」
+
+Panel 4 (bottom, 25% — ★page ending): Close-up of the man's right hand reaching toward a prominent red "ENHANCE" button on a smartphone screen. The fingertip hovers just above the button. Fine tremor lines at the finger joints show the trembling. Dark night room, only the screen light illuminates the hand in monochrome (no cyan, no rainbow). The knuckles show slightly prominent veins. The man's face is cropped at frame edge — only the corner of his mouth is visible, showing a teeth-revealing smile (cropped face, smile contrast with trembling fingers).
+小吹き出し（画面外）「まあ、全ツッパだ——」
+画面（小さく）「エンハンス Lv1 → ？」
+最下段の薄いテキスト「次回：虹追い職業編」
+効果音（右下小さく）「ピクッ」
+
+Composition: Realization (Panel 1) → time-bridge (Panel 2) → external cause of shift (Panel 3) → internal contradiction as page ending (Panel 4). The trembling finger vs smiling mouth is the final emotional machine.
+Camera: bust front (Panel 1), ripple transition (Panel 2), tilted smartphone close (Panel 3), close hand + button with face cropped (Panel 4).
+Mood: Realization turning into gleeful self-destruction. Amused, NOT despair, NOT warning. Reader should feel "he's going to do it, and he's laughing."
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode, dead-fish eyes, or despair mode (no white eyes).
+Do not draw full face in Panel 4 — only the corner of the mouth is visible (cropped).
+Do not exaggerate the finger tremor — subtle joint micro-motion only, no sweat, no tears.
+Do not show specific YouTuber faces or channel names in Panel 3 thumbnails.
+Do not use cyan anywhere on this page.
+Do not let the rainbow prism in Panel 2 dominate — thin highlights at edge only.
+Smartphone at 10-15 degree tilt, never flat.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for setup panels, explosive detailed precision for ritual-climax panel (Togashi hybrid method). Grey screentone shading. RESTRICTED COLOR RULE for this page: rainbow/prism iridescence (full spectrum gradient) is permitted ONLY in Panel 3 (the sneaker dissolution particles). Cyan is NOT used on this page. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Overhead shot of a table in a dim night-time room. Five different sneakers lined up in a row — two Common grade, two Uncommon grade, one Rare grade (slight size/style variation to distinguish). Below each sneaker, faint price tag text scattered. Only light source is smartphone screen glow from off-frame upper-right — warm orange tint, no cyan. The man's right hand is partially visible at upper-right frame edge holding the phone. Ceremonial stillness.
+値札テキスト「¥40,000」「¥80,000」「¥140,000」「¥180,000」「¥220,000」
+薄い心の声「5 足——合わせて 66 万」
+
+Panel 2 (middle, 25%): Ultra close-up of the smartphone screen at 10-15 degree tilt. STEPN Enhance screen with a large centered red button "ENHANCE (5/5)". Below the button, small text "Rainbow probability: 0.4%". The man's thumb is caught at the exact moment of contact — the button surface slightly depresses under the thumb, captured in sketch lines. Pure black surrounding background beyond the tilted screen.
+小吹き出し（画面外）「——ポチッとな」
+画面「ENHANCE (5/5)」
+画面「Rainbow probability: 0.4%」
+効果音（小、右下）「カチッ」
+
+Panel 3 (middle-lower, 30% — ★CLIMAX ritual visual): Vertical ritual composition. Five sneakers floating upward in the frame, each dissolving into swirling spiraling particle streams. The particles render as full-spectrum rainbow prism iridescence (NOT cyan only — full rainbow). The particle trails form ascending spirals. Background is deep black void — only the particle trails and thin outline of dissolving sneakers are visible. The man is absent from this panel (ritual has consumed him). Central faint English text overlay in thin typography.
+中央テキスト「ENHANCING... 1 / 200」
+画面下部の薄い心の声「66 万円が、煙になっていく」
+
+Panel 4 (bottom, 20%): Split composition. Left half: smartphone screen at 10-15 degree tilt with processing animation — loading circle with "CALCULATING..." label. Right half: close-up of the man's clenched right fist, trembling, knuckles turned white. No face visible. Dark monochrome background.
+画面「CALCULATING...」
+小吹き出し「……1/200 に、当たってくれ」
+さらに小「俺は、ジェム側の人間だった——」
+
+Composition: Lineup of sacrifices (Panel 1) → moment of commitment (Panel 2) → ritual consumption (Panel 3) → waiting tension (Panel 4). The protagonist progressively disappears from the panels — present in Panel 1 (hand edge), gone in Panel 3, returns as fist in Panel 4.
+Camera: overhead objects (Panel 1), ultra-close tilted smartphone (Panel 2), vertical ritual spiral (Panel 3), split smartphone + fist (Panel 4).
+Mood: Gambling ritual. Tension, NOT despair, NOT comedy. The atmosphere is of a solemn machine consuming money — the man is absorbed, his face is withheld deliberately.
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not draw the man's face in any panel on this page — hand only in Panels 1 and 4, fully absent in Panels 2 and 3.
+Do not reveal the enhance result on this page (that is Panel 1 of P08).
+Do not use revelation mode, futon mode, dead-fish eyes, or despair mode.
+Do not use deformed comedy face.
+Do not use cyan anywhere on this page.
+Do not spread rainbow prism color outside Panel 3's particle streams.
+Do not make the red Enhance button glow dramatically — subtle depression under thumb only.
+Smartphone at 10-15 degree tilt, never flat.`,
+`Vertical single-page manga layout, portrait orientation, taller than wide. Aspect ratio: portrait page (vertical manga page, NOT landscape, NOT 2x2 grid). All panels stacked top-to-bottom. Japanese manga reading direction: right-to-left, top-to-bottom.
+
+Black-and-white manga art with a distinctive contrast style — loose confident sketchy lines for quiet panels, explosive detailed precision for the split-face panel (Togashi hybrid method). Grey screentone shading. No accent colors on this page — fully monochrome. Cyan is NOT used on this page. No rainbow/prism color either — the loss is registered in pure monochrome. Smartphone screens drawn at 10-15 degree tilt, never flat.
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+
+Panel 1 (top, 25%): Ultra close-up of a smartphone screen at 15 degree tilt. STEPN Enhancement Result screen showing a plain, unremarkable Common Sneaker icon at center. Deliberately underwhelming visual — no rainbow, no glow, no fanfare. Warm orange screen tint, no cyan. Dark surrounding room. Generous negative space around the panel.
+画面上部「Enhancement Result」
+画面中央アイコン＋テキスト「Common Sneaker ×1」
+画面中央下「Value: approx. 40,000 JPY」
+画面隅の小テキスト「Previous inputs: 5 shoes, total value 660,000 JPY」
+画面外の薄い心の声「——外れた」
+
+Panel 2 (middle-upper, 30%): Close-up front of the 42-year-old Japanese man's face with rectangular black-framed glasses. Vertical half-split by a shadow line down the center of his face. Left half is cast in deep shadow — expression neutral/blank. Right half is illuminated by bright morning window light — faint teeth-showing smile, corner of mouth raised. The two glasses lenses each reflect a different light source: left lens reflects warm orange (lingering smartphone light), right lens reflects cold white morning light. The time has shifted from night (Panel 1) to morning (Panel 2) within the panel itself.
+セリフ: なし（顔だけで語る）
+
+Panel 3 (middle-lower, 25%): Overhead shot of the table surface. An empty cheap carton wine bottle tipped sideways, clearly low-grade (not a fine wine bottle — a paper-carton type). Beside it, a wine glass with red residue. The smartphone lies face-down on the table. Morning light streams through the window from upper-frame. Clock visible on wall or device reads "06:47".
+小テキスト（画面外の独白）「——勝利のワインじゃ、なかったな」
+
+Panel 4 (bottom, 20% — ★page ending): Long shot from behind. The 42-year-old man sitting at his PC desk, seen from behind. Good posture — back straight, shoulders firm. On his smartphone (visible in distance on the desk), a fresh lineup of five new sneaker candidates is partially visible. Morning light from the window silhouettes his outline. His face is not visible — only the confident posture.
+大吹き出し「まだだ」
+小吹き出し「次も、全ツッパだ」
+最下段の予告テキスト「次回：虹追い職業編 — 1,000 回焼いても、止まらない者たち」
+
+Composition: Failure confirmation (Panel 1) → Schrodinger face split (Panel 2) → loss evidence in still life (Panel 3) → forward-facing decision from behind (Panel 4). The time of day shifts from night to morning across the page.
+Camera: ultra-close tilted smartphone (Panel 1), face front with split lighting (Panel 2), overhead table still life (Panel 3), long back-shot (Panel 4).
+Mood: Failure digested with composure. Quiet weight, NOT despair, NOT triumph. The final panel is a steady readiness for the next attempt. "He's going to do it again, and he's not shaken."
+
+Do not change: face shape, hairstyle, costume details, character age impression.
+Do not add: extra characters, extra objects, text artifacts.
+Do not render as landscape, 2x2 grid, or wide-format. Vertical portrait page only.
+Do not write English/Japanese labels inside panels (no "CLIMAX", "見せ場", etc.).
+Do not use revelation mode (no flame eyes, no speed lines).
+Do not use futon mode, dead-fish eyes, or despair mode (no white eyes, no soul-leaving-body effects).
+Do not use deformed comedy face.
+Do not draw the man's face in Panel 4 — back view only.
+Do not make the split-lighting in Panel 2 too theatrical — let the light transition feel natural like morning arriving.
+Do not use a high-end wine bottle in Panel 3 — cheap paper-carton type only.
+Do not name specific Rainbow-chaser influencers in the preview text.
+Do not use cyan anywhere on this page.
+Do not use any rainbow/prism color on this page — the loss is registered in monochrome.
+Do not show the Common Sneaker in Panel 1 with any glow or flourish — it is the anti-climax.
+Smartphone at 10-15 degree tilt, never flat.`,
 ];
 
 const episodes = {
