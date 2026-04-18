@@ -78,6 +78,26 @@ sessions/checkpoints/ セッション間引き継ぎ
 
 ---
 
+## 📚 技法ライブラリ＆Skills（超重要・参照必須）
+
+### 必読ファイル（ページ制作前に必ず目を通す）
+- **`bible/technique-library.md`** — 70技法の完全カタログ（EP01/EP02/EP03/正解ver5枚から抽出）
+- **`references/correct-version-2026-04-18.md`** — 作品目標水準（正解ver5枚）
+- **`bible/prompt-constants/characters/*.md`** — キャラ別 strict-rules（翔一/クロちゃん/タカシ）
+- **`docs/skills-inventory.md`** — 利用可能な Claude Code Skills 一覧
+
+### 自動起動するSkill（トリガーキーワードで）
+- 「PXX作って」 → **manga-page** skill（70技法適用強制）
+- 「プロンプト変換」「画像生成」 → **manga-prompt** skill
+- 「採点して」「レビュー」 → **manga-review** skill
+- 「これ直して」「ルール追加」 → **manga-feedback** skill
+- 「新EP企画」 → **manga-episode-plan** skill
+- 「新キャラ追加」 → **manga-character-design** skill
+
+他に planning系（grill-me, brainstorming, writing-plans）、meta系（skill-creator, write-a-skill）なども導入済み。詳細は `docs/skills-inventory.md`。
+
+---
+
 ## 🔒 絶対ルール（全ページ共通・毎回確認）
 
 ### 止まらないための運用ルール
