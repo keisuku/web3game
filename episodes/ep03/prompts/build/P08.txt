@@ -41,7 +41,7 @@ Scene: Long shot from behind. Shouichi sitting at PC desk seen from behind. Back
 Expression: none (decision conveyed by upright posture)
 Dialogue:
 - 大吹き出し: まだだ
-- 小吹き出し: 次も、全ツッパだ
+- 小吹き出し: 次も、続ける
 - 最下段の予告テキスト: 次回：虹追い職業編 — 1,000 回焼いても、止まらない者たち
 
 Mood: Failure digested with composure. Quiet weight, not despair, not triumph. Final panel: steady readiness for the next attempt — 'he's going to do it again, and he's not shaken.'

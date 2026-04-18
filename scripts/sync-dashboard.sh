@@ -51,6 +51,10 @@ echo "═══ index.html に投入 ═══"
 python3 - "$EP_NUM" "$BUILD_DIR" << 'PYEOF'
 import sys, os, re, glob
 
+if hasattr(sys.stdout, "reconfigure"):
+    try: sys.stdout.reconfigure(encoding="utf-8")
+    except Exception: pass
+
 ep = sys.argv[1].zfill(2)
 build_dir = sys.argv[2]
 ep_tag = f"EP{ep}"
@@ -64,7 +68,7 @@ if not build_files:
 
 prompts = []
 for bf in build_files:
-    with open(bf) as f:
+    with open(bf, encoding='utf-8') as f:
         text = f.read().strip()
     text = text.replace('\\', '\\\\').replace('`', '\\`').replace('${', '\\${')
     prompts.append(text)
@@ -75,9 +79,9 @@ for t in prompts:
     new_block += '`' + t + '`,\n'
 new_block += '];'
 
-# index.html 読み込み・置換
-html_path = '/home/user/web3game/index.html'
-with open(html_path) as f:
+# index.html 読み込み・置換（相対パスでCWDを尊重）
+html_path = 'index.html'
+with open(html_path, encoding='utf-8') as f:
     html = f.read()
 
 start = html.find(f"const {var_name} = [")
@@ -89,7 +93,7 @@ end = html.find('];', start) + 2
 old_len = end - start
 html = html[:start] + new_block + html[end:]
 
-with open(html_path, 'w') as f:
+with open(html_path, 'w', encoding='utf-8') as f:
     f.write(html)
 
 print(f"✅ index.html 同期: {var_name} を {len(build_files)} 本のビルド出力で更新")

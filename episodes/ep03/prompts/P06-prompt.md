@@ -39,7 +39,7 @@ Dialogue:
 Scene: Close-up of Shouichi's right hand reaching toward a prominent red "ENHANCE" button on a smartphone screen. The fingertip hovers just above the button. Fine tremor lines at the finger joints. Dark night room, only the screen light illuminates the hand in monochrome (no cyan, no rainbow). Shouichi's face is cropped at frame edge — only the corner of his mouth showing a teeth-revealing smile.
 Expression: hand trembling + cropped mouth showing teeth-smile (contrast)
 Dialogue:
-- 小吹き出し（画面外）: まあ、全ツッパだ——
+- 小吹き出し（画面外）: まあ、行くか——
 - 画面（小さく）: エンハンス Lv1 → ？
 - 最下段の薄いテキスト: 次回：虹追い職業編
 - 効果音（右下小さく）: ピクッ
