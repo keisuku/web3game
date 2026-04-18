@@ -6,10 +6,11 @@ Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid re
 
 Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
 
-Japanese manga page, 4 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
-Panel 4 is the page ending — place the emotional payoff here.
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
 NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
 
 STRICT CHARACTER RULES (Shouichi-specific):
 - 42-year-old Japanese MAN (never young, never handsome idol)
@@ -19,45 +20,33 @@ STRICT CHARACTER RULES (Shouichi-specific):
 - Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
 - Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
 Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
-Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
-Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles (if specified).
-Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
 
-## Panel 1 (top, 25%)
-Scene: Modern home living room, bright morning light through window. Bust shot of Shouichi front-facing. Glasses lenses reflecting morning light. Right hand holding smartphone, left hand lightly touching mouth.
-Expression: deep shrewd smile returning — corner of mouth raised, eyes narrowed with amused realization
-Dialogue:
-- 大吹き出し: 夢を見させて——
-- 続けて: 損をさせる構造……
-- 小吹き出し: 運営はやっぱり 天才的だ
+## Panel 1 (top 15%, thin horizontal establishing strip)
 
-## Panel 2 (middle, 20%)
-Scene: Time-bridge panel. The panel frame ripples like a disturbed water surface. Upper half shows a reflected image in Shouichi's glasses lens (present-day morning). Lower half dissolves into a dim living room at night (flashback to 2022/10/12). Thin rainbow prism highlights linger at the panel's edge as afterglow residue.
-Expression: none (transition panel)
-Dialogue:
-- 小注記: ——あの夜、俺は
+Scene: Wide panoramic strip. Early-dawn window with soft morning light streaming in through a gap in the curtains — overcast sky visible beyond, with a single thin ray of sunlight breaking through (T30 両義性の曇り空 — ambiguous light). No characters in this strip. Right edge: a thin vertical Japanese narration box.
 
-## Panel 3 (middle-lower, 30%)
-Scene: Close-up smartphone screen, tilted 10-15 degrees. YouTube-style video thumbnail grid filling the screen — sensationalist enhance-failure videos. Red "BANKRUPT"-style markers on some. Monochrome screen glow, no cyan.
-Expression: none
-Dialogue:
-- サムネ: 5 足焼き挑戦！結果→→→
-- サムネ: 300 万円が 0
-- サムネ: エンハンス爆死まとめ
-- サムネ: 0.4% を信じるな
-- （画面外の薄い心の声）……笑えるな
+Narration text (vertical, small): 「——三月末、朝4時。」「その夜、俺は、眠らなかった。」
 
-## Panel 4 (bottom, 25%) — ★page ending
-Scene: Close-up of Shouichi's right hand reaching toward a prominent red "ENHANCE" button on a smartphone screen. The fingertip hovers just above the button. Fine tremor lines at the finger joints. Dark night room, only the screen light illuminates the hand in monochrome (no cyan, no rainbow). Shouichi's face is cropped at frame edge — only the corner of his mouth showing a teeth-revealing smile.
-Expression: hand trembling + cropped mouth showing teeth-smile (contrast)
-Dialogue:
-- 小吹き出し（画面外）: まあ、行くか——
-- 画面（小さく）: エンハンス Lv1 → ？
-- 最下段の薄いテキスト: 次回：虹追い職業編
-- 効果音（右下小さく）: ピクッ
+Density Lv.2 — loose sketchy line work, minimal detail, soft screentone for the sky.
 
-Mood: Realization turning into gleeful self-destruction. Amused, not despair. Reader should feel 'he's going to do it, and he's laughing.'
+No sound effects. Silent dawn.
+
+## Panel 2 (bottom 85%, large contemplative panel)
+
+Scene: Shouichi lying on his back under a futon blanket, looking up at a plain white ceiling. Bust-shot-plus view (waist upward visible). One hand resting outside the blanket. A smartphone lies on the pillow beside his head — SCREEN OFF (no cyan glow). Dim room with only diagonal morning light streaming from the window onto the bed. The ceiling is an empty pale expanse.
+
+Expression: stunned emptiness (futon-blanket-stunned mode). Eyes look at one point on the ceiling, mouth closed, but pupils retain small highlights (NEVER dead-fish eyes). Face in the quiet moment of forming the next question.
+
+Monologue (handwriting caption in the empty ceiling space, NOT in speech bubbles): 「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」
+
+Generous negative space above him on the ceiling — the blank expanse amplifies the unformed question.
+
+No sound effects. No cyan. Just silent dawn light.
+
+Density Lv.3 — setup panel, focused on face expression and the quiet light rendering. Ceiling kept mostly blank.
+
+Mood: The silent hour after shock. The question forms slowly: 'what's next?' An ambiguous dawn — neither hope nor despair, a blank ceiling waiting to be filled. Quiet setup for the summoning that follows.
 
 HARD RULES — violations are failures:
 

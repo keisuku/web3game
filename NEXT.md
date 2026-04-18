@@ -8,13 +8,27 @@
 
 ## 🎯 次にやること（1 行）
 
-**ユーザーが「正解ver」5 枚を追加共有。`references/correct-version-2026-04-18.md` を最優先参照し、EP01 リブート構成＋ EP03 との絵柄整合を次ステップで判断する。ただしユーザー指示が来るまで静かに待つ**
+**EP01-REBOOT 全 8 ページ設計完了（正解ver 5 枚完全踏襲）+ 技法ライブラリ 70 技法 + Skills 21 個導入済み。画像生成を待つ状態**
 
-共有履歴:
-- EP03 P01〜P04 生成結果（Web 版共有済み／ユーザー所感「もはやコメントするのもしんどい」）→ `sessions/checkpoints/2026-04-18_checkpoint.md`
-- **正解ver 5 枚（EP01 前半アーク再構成候補）→ `references/correct-version-2026-04-18.md`**
+---
 
-旧タスク: Nano Banana で EP03 P01〜P08 を再生成（プロンプトは `episodes/ep03/prompts/build/PXX.txt`）— P01〜P04 は生成結果確認済み／P05〜P08 は未共有
+## 2026-04-19 完了した大規模整備
+
+1. **`bible/technique-library.md` 新設**: 70 技法カタログ（EP01/EP02/EP03/正解ver5枚から抽出）
+2. **`bible/prompt-constants/prohibited-core.md` 刷新**: キャラ依存を排除、翔一/タカシ/クロちゃん個別の strict-rules 方式に
+3. **`scripts/build-prompt.sh` 拡張**: strict-rules 自動挿入機構
+4. **`docs/skills-inventory.md` 新設**: 21 Skills の完全カタログ
+5. **Skills 導入（~/.claude/skills/）**:
+   - 独自: manga-page, manga-prompt, manga-review, manga-feedback, manga-episode-plan, manga-character-design
+   - Meta: skill-creator (anthropic), write-a-skill (mattpocock)
+   - Planning: grill-me, brainstorming, writing-plans, domain-model, zoom-out
+   - Editing: edit-article, ubiquitous-language
+   - Quality: verification-before-completion
+   - Execution: dispatching-parallel-agents, subagent-driven-development, using-superpowers
+6. **EP01-REBOOT 全 8 ページ完成**: 正解ver 5 枚完全踏襲、X 4 枚組×2 構成、毛筆特大 3 回使い切り、16 パターン中 8 種使用
+7. **Index.html に EP01-REBOOT タブ追加**、プロンプト全 8 本ビルド済み
+
+旧タスク: EP03 P05〜P08 の画像生成（プロンプト `episodes/ep03/prompts/build/PXX.txt` ビルド済み）— 保留中
 
 ## 🧱 プロンプト新フォーマット（重要）
 

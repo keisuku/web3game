@@ -6,10 +6,11 @@ Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid re
 
 Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
 
-Japanese manga page, 4 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
-Panel 4 is the page ending — place the emotional payoff here.
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
 NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
 
 STRICT CHARACTER RULES (Shouichi-specific):
 - 42-year-old Japanese MAN (never young, never handsome idol)
@@ -19,45 +20,34 @@ STRICT CHARACTER RULES (Shouichi-specific):
 - Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
 - Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
 Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
-Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
-Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles (if specified).
-Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
+Back shot from behind. Face not visible. Posture upright, shoulders firm — indicating steady decision.
 
-## Panel 1 (top, 25%)
-Scene: Modern home living room, bright morning light through window. Bust shot of Shouichi front-facing. Glasses lenses reflecting morning light. Right hand holding smartphone, left hand lightly touching mouth.
-Expression: deep shrewd smile returning — corner of mouth raised, eyes narrowed with amused realization
-Dialogue:
-- 大吹き出し: 夢を見させて——
-- 続けて: 損をさせる構造……
-- 小吹き出し: 運営はやっぱり 天才的だ
+## Panel 1 (full page, single vertical panel — T01 大ゴマ1枚構成)
 
-## Panel 2 (middle, 20%)
-Scene: Time-bridge panel. The panel frame ripples like a disturbed water surface. Upper half shows a reflected image in Shouichi's glasses lens (present-day morning). Lower half dissolves into a dim living room at night (flashback to 2022/10/12). Thin rainbow prism highlights linger at the panel's edge as afterglow residue.
-Expression: none (transition panel)
-Dialogue:
-- 小注記: ——あの夜、俺は
+Scene: A SINGLE full-page panel, no sub-panels, no gutters. The composition is vertically structured in 4 implicit zones:
 
-## Panel 3 (middle-lower, 30%)
-Scene: Close-up smartphone screen, tilted 10-15 degrees. YouTube-style video thumbnail grid filling the screen — sensationalist enhance-failure videos. Red "BANKRUPT"-style markers on some. Monochrome screen glow, no cyan.
-Expression: none
-Dialogue:
-- サムネ: 5 足焼き挑戦！結果→→→
-- サムネ: 300 万円が 0
-- サムネ: エンハンス爆死まとめ
-- サムネ: 0.4% を信じるな
-- （画面外の薄い心の声）……笑えるな
+TOP ZONE (top 20% of the panel): A wide speech bubble containing the concept question in large bold text: 「履いたら価値が下がるスニーカーなら　いっそデジタルでいいじゃないか？」 (the T39 large-impact-text technique).
 
-## Panel 4 (bottom, 25%) — ★page ending
-Scene: Close-up of Shouichi's right hand reaching toward a prominent red "ENHANCE" button on a smartphone screen. The fingertip hovers just above the button. Fine tremor lines at the finger joints. Dark night room, only the screen light illuminates the hand in monochrome (no cyan, no rainbow). Shouichi's face is cropped at frame edge — only the corner of his mouth showing a teeth-revealing smile.
-Expression: hand trembling + cropped mouth showing teeth-smile (contrast)
-Dialogue:
-- 小吹き出し（画面外）: まあ、行くか——
-- 画面（小さく）: エンハンス Lv1 → ？
-- 最下段の薄いテキスト: 次回：虹追い職業編
-- 効果音（右下小さく）: ピクッ
+CENTRAL ZONE (middle 50% of the panel — MAIN CONCEPT): A CG-perspective futuristic cityscape (T17/T56). Near-future urban skyline rendered in greyscale with careful perspective. A female runner figure is shown from behind in the mid-distance, rendered as a pale monochrome SILHOUETTE with a soft white-grey glow (NOT cyan — keep monochrome). Ethereum-diamond shaped motifs floating in the air around her (geometric diamond icons with the Ethereum symbol). Radial lines of perspective converging toward a distant vanishing point. The entire central zone should feel futuristic and aspirational.
 
-Mood: Realization turning into gleeful self-destruction. Amused, not despair. Reader should feel 'he's going to do it, and he's laughing.'
+LOWER-MID ZONE (20% — STEPN UI CARD): A red-framed STEPN UI card displayed as if part of the scene. The card must contain accurate UI text:
+- "STEP'N" (brand logo)
+- "Wolker" (shoe type)
+- "# 168546279" (ID number)
+- "Lv 30"
+- "79.0/100.0" (condition)
+- Visual: a rainbow-mosaic pattern sneaker (monochrome rendering since color constraint)
+The card is tilted at 10-15 degrees (T13 smartphone/UI tilt rule applies).
+
+BOTTOM-LEFT CORNER (small, 5-10%): Shouichi shown from BEHIND (back-view, T50 style). He wears a plain torn white T-shirt, stands small in the foreground, holding a smartphone and looking UP at the UI card. Only his back and the edge of his arm are visible.
+
+BOTTOM ZONE (bottom 10% of page): GIANT brush-stroke calligraphy text 「確かに。天才か!!」 in stark black ink, horizontal orientation, dominating the bottom of the panel. T31 — this is the second brush-text use in the episode (after 終わった, before バナナ/マーケティング). The calligraphy carries the punchline: YES. GENIUS.
+
+Density Lv.5 — maximum detail across every zone. The CG cityscape carefully rendered. The UI card pixel-perfect. The runner silhouette precise. The brush calligraphy with proper weight and ink-bleed.
+
+No sound effects. The image itself is the explosion.
+
+Mood: The thunderclap of comprehension. Walking shoes that lose value over time — make them digital. A single-image revelation that makes the entire manga possible. 'Yes. Genius.'
 
 HARD RULES — violations are failures:
 

@@ -164,8 +164,13 @@ for char_name, modes in characters.items():
     char_file = f"{const_dir}/characters/{char_name}.md"
     if not os.path.exists(char_file):
         continue
-    # base は必ず 1 回
     seen = set()
+    # strict-rules は登場キャラのみ、冒頭に厳格指示として挿入
+    strict = read_section(char_file, "strict-rules")
+    if strict:
+        parts.append(strict)
+        seen.add("strict-rules")
+    # base は必ず 1 回
     base = read_section(char_file, "base")
     if base:
         parts.append(base)

@@ -6,10 +6,9 @@ Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid re
 
 Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
 
-Japanese manga page, 4 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
-Panel 4 is the page ending — place the emotional payoff here.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
 
 STRICT CHARACTER RULES (Shouichi-specific):
 - 42-year-old Japanese MAN (never young, never handsome idol)
@@ -19,45 +18,50 @@ STRICT CHARACTER RULES (Shouichi-specific):
 - Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
 - Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
 Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
 Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
-Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles (if specified).
-Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
 
-## Panel 1 (top, 25%)
-Scene: Modern home living room, bright morning light through window. Bust shot of Shouichi front-facing. Glasses lenses reflecting morning light. Right hand holding smartphone, left hand lightly touching mouth.
-Expression: deep shrewd smile returning — corner of mouth raised, eyes narrowed with amused realization
-Dialogue:
-- 大吹き出し: 夢を見させて——
-- 続けて: 損をさせる構造……
-- 小吹き出し: 運営はやっぱり 天才的だ
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
 
-## Panel 2 (middle, 20%)
-Scene: Time-bridge panel. The panel frame ripples like a disturbed water surface. Upper half shows a reflected image in Shouichi's glasses lens (present-day morning). Lower half dissolves into a dim living room at night (flashback to 2022/10/12). Thin rainbow prism highlights linger at the panel's edge as afterglow residue.
-Expression: none (transition panel)
-Dialogue:
-- 小注記: ——あの夜、俺は
+Mandatory robot elements (NEVER omit any):
+- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
+- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
+- Chrome jaw gradient with visible panel seams on one side
+- Circuit trace lines on neck with faint cyan glow
+- Claude pixel-art mascot hair ornament with cyan glow
+- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
 
-## Panel 3 (middle-lower, 30%)
-Scene: Close-up smartphone screen, tilted 10-15 degrees. YouTube-style video thumbnail grid filling the screen — sensationalist enhance-failure videos. Red "BANKRUPT"-style markers on some. Monochrome screen glow, no cyan.
-Expression: none
-Dialogue:
-- サムネ: 5 足焼き挑戦！結果→→→
-- サムネ: 300 万円が 0
-- サムネ: エンハンス爆死まとめ
-- サムネ: 0.4% を信じるな
-- （画面外の薄い心の声）……笑えるな
+Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
 
-## Panel 4 (bottom, 25%) — ★page ending
-Scene: Close-up of Shouichi's right hand reaching toward a prominent red "ENHANCE" button on a smartphone screen. The fingertip hovers just above the button. Fine tremor lines at the finger joints. Dark night room, only the screen light illuminates the hand in monochrome (no cyan, no rainbow). Shouichi's face is cropped at frame edge — only the corner of his mouth showing a teeth-revealing smile.
-Expression: hand trembling + cropped mouth showing teeth-smile (contrast)
-Dialogue:
-- 小吹き出し（画面外）: まあ、行くか——
-- 画面（小さく）: エンハンス Lv1 → ？
-- 最下段の薄いテキスト: 次回：虹追い職業編
-- 効果音（右下小さく）: ピクッ
+## Panel 1 (top, 30%)
 
-Mood: Realization turning into gleeful self-destruction. Amused, not despair. Reader should feel 'he's going to do it, and he's laughing.'
+Scene: Shouichi now half-sits up on the bed. Smartphone in hand, Kuro-chan translucent beside him. He looks upward with a distant gaze, mouth half-open. Morning light from the window.
+
+Expression: thoughtful, searching memory. Mouth half-open.
+
+Monologue (handwriting caption, NOT a speech bubble): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
+
+Density Lv.3 — setup, focus on posture and expression.
+
+## Panel 2 (middle, 50% — climax panel)
+
+Scene: Side-profile close-up of Shouichi's face. His rectangular black-framed glasses catch light — a distinct BRIGHT HIGHLIGHT in his eye is visible through the lens (T48 side-profile + lens-highlight). Expression: the quiet stillness of someone committing to something.
+
+Right edge of the panel: soft cyan (#00BCD4) sparkle particles beginning to appear — the sparks of memory rising.
+
+Vertical narration (Japanese vertical orientation, right side): 「あれは 2022 年 5 月── STEPN が最強に盛り上がっていた頃だった」
+
+Density Lv.4 — detailed rendering of the face profile, glasses reflection, and the first sparkle particles.
+
+## Panel 3 (bottom, 20% — time bridge transition)
+
+Scene: T61 time-bridge. The panel frame itself is rippling/undulating as if distorted. Upper half shows the edge of Shouichi's glasses lens (present-day), lower half shows a faint impression of summer 2022 streetscape (sunlight, parked bikes, a distant city silhouette). Cyan particles scatter across the boundary.
+
+No characters in focus. Small caption at the bottom: 「——時は、2022年5月」 (small font, horizontal).
+
+Density Lv.3 — careful rendering of the ripple effect and the transition imagery.
+
+Mood: The moment of declaration. Not nostalgia — urgency. 'I want to draw the fire that was real.' The present dissolves as the past rises.
 
 HARD RULES — violations are failures:
 

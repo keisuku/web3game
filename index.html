@@ -62,6 +62,7 @@ textarea:focus { outline:none; border-color:#00bcd4; box-shadow:0 0 0 2px rgba(0
   <p id="ep-subtitle">エピソード選択で切替</p>
 </header>
 <div class="ep-switcher">
+  <button class="ep-btn" data-ep="EP01REBOOT" onclick="switchEp('EP01REBOOT')">EP01★REBOOT</button>
   <button class="ep-btn" data-ep="EP02" onclick="switchEp('EP02')">EP02</button>
   <button class="ep-btn active" data-ep="EP03" onclick="switchEp('EP03')">EP03</button>
   <button class="ep-btn" data-ep="EP99" onclick="switchEp('EP99')">EP99 スピンオフ</button>
@@ -1491,7 +1492,712 @@ HARD RULES — violations are failures:
 7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.`,
 ];
 
+// ─── EP01-REBOOT「Day 0 — 終わりと、始まり」正解ver5枚完全踏襲版 ───
+const pagesEP01REBOOT = [
+  { id:'P01', title:'「終わった」', role:'★衝撃の導入・現代フレーム', density:'Lv.5', star:true,
+    purpose:'2026年3月、翼サ終通知で「WEB3.0完全終了」を悟る衝撃の開幕。毛筆特大「終わった」+汗の滝+スピードライン絶望ベクトル',
+    panels:[
+      {n:1, size:'上段70%（極大コマ、climax）', comp:'翔一の顔アップ超クローズアップ、眼鏡越し目見開き・口半開き、顔全面に汗の滝、背景放射状スピードライン（絶望ベクトル）、画面左上に縦書き毛筆特大「終わった」、手前にスマホ（シアン光）・画面「2026/3/30 翼RIVALSサービス終了のお知らせ」', expr:'stunned-disbelief（死んだ魚の目NG、瞳ハイライト残す）', dial:'毛筆特大「終わった」／画面UI「2026/3/30 キャプテン翼RIVALS サービス終了のお知らせ」'},
+      {n:2, size:'下段30%（横長暗め）', comp:'布団をかぶった翔一、スマホ画面のシアン光だけが顔を下から照らす、周囲黒ベタ', expr:'futon-blanket-stunned（構図としての布団、目はハイライト残す）', dial:'「あれっ……これって実質 WEB3.0ゲーム完全終了のお知らせ……？？」'}
+    ]},
+  { id:'P02', title:'呆然の夜明け', role:'呆然→「次は何だ」の問い', density:'Lv.2-3', star:false,
+    purpose:'P01爆発からの呼吸。朝4時、仰向けで天井を見上げながら「ゲームは終わった、じゃあ次は何だ」の問いが形成される',
+    panels:[
+      {n:1, size:'上段15%（細長ナレ帯）', comp:'早朝の窓、曇り空に一筋の光（両義性）、カーテン隙間から光', expr:'人物なし', dial:'「——三月末、朝4時。」「その夜、俺は、眠らなかった。」'},
+      {n:2, size:'下段85%（大ゴマ）', comp:'布団のなかで仰向けに天井を見る翔一、スマホは画面off、窓から斜め光、天井白い空間', expr:'futon-blanket-stunned（呆然+虚無、瞳ハイライト）', dial:'「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」'}
+    ]},
+  { id:'P03', title:'クロちゃん召喚', role:'★「どんな漫画を描きたいですか、ボス？」', density:'Lv.3-5-4', star:true,
+    purpose:'スマホからクロちゃんが半透明シアン光とともに登場。作品全体のテーマ提示の瞬間',
+    panels:[
+      {n:1, size:'右上40%', comp:'翔一の顔アップ仰向け、スマホが手元で光り始める（シアン）、瞳に光反射', expr:'困惑+期待', dial:'「——なんだ？」'},
+      {n:2, size:'中央大ゴマ100%（climax）', comp:'クロちゃん（バリキャリ：ポニテ+眼鏡+ダークブレザー+白ブラウス）がスマホから半透明シアン光とともに登場、機械の目・右腕クローム・Claudeマスコット髪飾り・首回路ライン全部描写、指先あごに軽く添え優しい微笑', expr:'ANALYSIS→GENTLEの中間', dial:'吹き出し「どんな漫画を描きたいですか、ボス？」／効果音「ポワァ……」（シアン縁取り）'},
+      {n:3, size:'左下40%', comp:'翔一の顔アップ、口半開き・目見開き、眼鏡レンズにクロちゃん反射', expr:'驚き+希望の芽生え', dial:'「ク、クロ、ちゃん……？」'}
+    ]},
+  { id:'P04', title:'回想宣言', role:'「あの頃の熱狂を描きたい」+ 時制ブリッジ', density:'Lv.3-4-3', star:false,
+    purpose:'翔一が「あの頃の熱狂が伝わる最高に熱い WEB3.0 の世界を描きたい」と決意、2022年5月へ時制ブリッジ',
+    panels:[
+      {n:1, size:'右上30%', comp:'翔一ベッドで身を起こす、クロちゃん半透明、天井見上げる', expr:'思索モード', dial:'「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」'},
+      {n:2, size:'中央大ゴマ50%', comp:'翔一の横顔アップ、メガネレンズ越しに瞳のハイライト、右下にシアンスパークル粒子（回想突入）', expr:'決意の静けさ', dial:'縦書き「あれは 2022 年 5 月── STEPN が最強に盛り上がっていた頃だった」'},
+      {n:3, size:'下段20%（時制ブリッジ）', comp:'画面境界が波紋状に揺らぐ、上半分現代の眼鏡レンズ・下半分2022年5月の街並みの残像、シアン粒子', expr:'人物なし', dial:'小注記「——時は、2022年5月」'}
+    ]},
+  { id:'P05', title:'STEPN創世「天才か!!」', role:'★大ゴマ1枚構成・アハ体験', density:'Lv.5', star:true,
+    purpose:'2022年5月、STEPNコンセプトに触れた瞬間の「気付き」を1ページ=1コマで封じ込める',
+    panels:[
+      {n:1, size:'全面大ゴマ100%', comp:'4層構造：上20%大吹き出し「履いたら価値が下がるスニーカーなら いっそデジタルでいいじゃないか？」、中50%CG未来都市（走る女性シルエット・イーサ菱形・消失点放射）、下左右20%赤フレームSTEPN UIカード「STEP\'N/Wolker/#168546279/Lv30/79.0/100.0」10-15度傾け、左下5%翔一後ろ姿（破れた白T）スマホを手にUI見上げ、最下段特大毛筆「確かに。天才か!!」', expr:'翔一後ろ姿なので表情なし、気配で気付きを表現', dial:'吹き出し「履いたら価値が下がるスニーカーなら いっそデジタルでいいじゃないか？」／UIカードテキスト全部／最下段毛筆特大「確かに。天才か!!」'}
+    ]},
+  { id:'P06', title:'BAYC「バナナ」神格化', role:'★2022年7月バブル狂喜', density:'Lv.3-4-5-3-4', star:true,
+    purpose:'BAYC匂わせバブルの頂点、バナナ神格化の瞬間。5コマ対角線構成で狂喜を描く',
+    panels:[
+      {n:1, size:'右上50%', comp:'デスクトップ画面前の翔一（パーカー汗）、モニター群にスニーカー画像', expr:'気付きの緊張', dial:'「待て……この踵……」「何か、付いてないか！？」'},
+      {n:2, size:'右中40%', comp:'傾いたスマホ（10-15度）、APE Sneaker画像', expr:'顔なし画面のみ', dial:'画面「APE Sneaker、ついに公開!!」'},
+      {n:3, size:'中央大ゴマ100%（climax）', comp:'スニーカー側面アップ、バナナエンブレム+赤青三角、画面中央に特大毛筆「バナナ」、周囲狂喜吹き出し、右下驚愕顔翔一', expr:'翔一驚愕+歓喜', dial:'特大「バナナ」／「BAYCのバナナだ!!」「公式コラボ確定だろ!!」「踵にバナナ……付いてる!!」「サル神が、降臨した!!」'},
+      {n:4, size:'左中50%', comp:'翔一+仲間2-3人、スマホとクレカ握る、ニヤつき狂喜', expr:'狂喜モード', dial:'「俺らはBAYC持ってない……」「だが、開国当日に突っ込めば乗れる!!」／キャプション「2022年7月15日──先行ミント終了。次は、開国だ」'},
+      {n:5, size:'左下50%', comp:'BAYCホルダー群衆、スニーカー箱掲げる、猿PFP並ぶ、シルエット（個別顔なし）', expr:'群衆狂喜', dial:'UI「BAYCホルダー先行ミント無料」／「億万長者続々参戦!!」「BAYC勢が全員E国に移動してる!!」'}
+    ]},
+  { id:'P07', title:'「マーケティング」崩壊', role:'★Yuga Labs否認・神話崩壊', density:'Lv.4-4-5-4-3', star:true,
+    purpose:'2022年8月1日、Yuga Labs公式声明でBAYCコラボの虚構が露呈。「神格化→崩壊」の瞬間',
+    panels:[
+      {n:1, size:'右上45%', comp:'翔一（BAYCシャツ、ワイングラス傾ける、顔汗、口あんぐり）', expr:'驚愕shock-reversal', dial:'「……じゃあ、俺の#3500は……」「……公式じゃ、ない？」'},
+      {n:2, size:'右中55%', comp:'スマホUI画面、キャプション「2022年8月1日──Yuga Labsから、一通の声明」、画面に公式声明全文', expr:'顔なし', dial:'画面「Yuga Labs公式声明: STEPNとの"コラボ"は、当社が承認したものではありません。（全文）」'},
+      {n:3, size:'中央大ゴマ100%（climax）', comp:'崩れる石壁、中央に砕けるサル神（王冠+光輪）シアン粒子で飛散、両脇シルエット×2膝から崩れる、特大毛筆「マーケティング」', expr:'サル神シルエット崩壊', dial:'縦書き「"匂わせ"だった」「ただのマーケティング戦略だった」「サル神は、存在しなかった」／ナレ枠「BAYCコラボは、コラボではなかった……（全文）」'},
+      {n:4, size:'左中50%', comp:'翔一顔横アップ、メガネ、汗、静かな決意', expr:'静かな諦観+決意', dial:'「……始まるぞ」「たった数日で、全部が崩れる」／キャプション「2022年8月3日──市場に、最初の亀裂が走った」'},
+      {n:5, size:'左下50%', comp:'亀裂ビジュアル：黒い亀裂線が画面を走る、グレー背景', expr:'人物なし', dial:'なし'}
+    ]},
+  { id:'P08', title:'観察者の位置', role:'エピ末余韻・次への助走', density:'Lv.3-4', star:false,
+    purpose:'2022年8月末、公園のベンチで静かな諦観。「期待と妄想は毒」の現実主義で観察者の位置に戻る',
+    panels:[
+      {n:1, size:'上段45%', comp:'公園ベンチ遠景、夕暮れ、曇り空に一筋の光、ランナーシルエット、ベンチに翔一小さく', expr:'遠景シルエットのみ', dial:'ナレ「——2022年8月 終わり頃。」「俺は、観察者の側に戻った。」'},
+      {n:2, size:'下段55%', comp:'ベンチの翔一横顔、スーツ、コーギーと共にスマホを見る、夕暮れ光、眼鏡レンズ反射', expr:'静かな諦観・現実主義', dial:'縦書き「期待と妄想は──毒だ」「そんな気がしていた」／最下段薄い文字「次回: 2022年秋──STEPNの短い再燃」'}
+    ]}
+];
+const promptTextsEP01REBOOT = [
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Extreme close-up. Eyes wide open with pupils still having small highlights (NOT dead-fish eyes). Mouth half-open in stunned silence. Face fully covered in waterfall of sweat beads (dozens of beads, white/black linework only, NOT cyan). Expression of absolute comprehension shock — not grief, not rage, but processing that something has irreversibly ended.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+## Panel 1 (top 70%, explosive climax panel)
+
+Scene: Extreme close-up of Shouichi's face filling the panel. His face is shown through RECTANGULAR black-framed glasses — eyes wide open with pupils still having highlights (NOT dead-fish eyes), mouth half-open in stunned silence. His entire face is covered in a WATERFALL of sweat beads — dozens of beads rendered in sharp white outlines and black linework, dripping in all directions. This is the T49 汗の滝 (sweat-waterfall) technique.
+
+Background behind his head: radial speedlines emanating outward from behind the head toward the panel edges — representing the DESPAIR VECTOR (T19). The speedlines are background-only (do NOT radiate from the eyes).
+
+Upper-LEFT of the panel: a MASSIVE vertical brush-stroke calligraphy 「終わった」 in stark black ink, dominating ~30% of the panel, positioned vertically along the left edge. This is the ONLY giant brush text on this page — T31 technique.
+
+Lower-foreground of the panel: a smartphone held in his hand, tilted at a 10-15 degree angle (T13). On the screen, a realistic UI showing a notification: "2026/3/30 キャプテン翼RIVALS サービス終了のお知らせ". The phone screen emits a soft cyan (#00BCD4) glow (T12). His glasses lenses catch faint reflections of the phone light and the floating sweat beads (T41).
+
+Monologue (tiny handwriting caption in the open space, NOT a speech bubble): none — the brush text carries the emotion.
+
+Density Lv.5 — maximum detail: every sweat bead, every speedline, the brush-stroke weight of the calligraphy, the smartphone UI pixels, the glasses reflection. This is the opening explosion of the entire series.
+
+## Panel 2 (bottom 30%, horizontal dim strip)
+
+Scene: Horizontal panel, predominantly black (solid black fill for ~70% of the panel background). Shouichi lies under a futon blanket with only his head and one hand visible. The futon is dark, the room is dark. The ONLY light source is the smartphone in his hand — its cyan (#00BCD4) glow faintly illuminating his face from below (T50 rear-smartphone-light composition, but here it's from below).
+
+His expression: stunned / empty (呆然+虚無) — but CRITICAL: pupils retain small white highlights. He is NOT in dead-fish-eye despair mode. His mouth is slightly parted, eyes slightly unfocused, eyebrows relaxed downward. Confused, not destroyed.
+
+Vertical Japanese monologue caption (handwriting style, NOT in a speech bubble, placed near his head in the black space): 「あれっ……これって実質 WEB3.0ゲーム完全終了のお知らせ……？？」
+
+No sound effects. The vast black space carries the silent weight.
+
+Density Lv.3 — setup panel, most of the panel is solid black with careful light rendering only on the face and hand. Screentone shading (T18) layered on the bedding.
+
+Mood: The absolute shock of realizing an era has ended. Not grief, not rage — the stunned silence of comprehension. The beginning of the story begins with an ending.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+## Panel 1 (top 15%, thin horizontal establishing strip)
+
+Scene: Wide panoramic strip. Early-dawn window with soft morning light streaming in through a gap in the curtains — overcast sky visible beyond, with a single thin ray of sunlight breaking through (T30 両義性の曇り空 — ambiguous light). No characters in this strip. Right edge: a thin vertical Japanese narration box.
+
+Narration text (vertical, small): 「——三月末、朝4時。」「その夜、俺は、眠らなかった。」
+
+Density Lv.2 — loose sketchy line work, minimal detail, soft screentone for the sky.
+
+No sound effects. Silent dawn.
+
+## Panel 2 (bottom 85%, large contemplative panel)
+
+Scene: Shouichi lying on his back under a futon blanket, looking up at a plain white ceiling. Bust-shot-plus view (waist upward visible). One hand resting outside the blanket. A smartphone lies on the pillow beside his head — SCREEN OFF (no cyan glow). Dim room with only diagonal morning light streaming from the window onto the bed. The ceiling is an empty pale expanse.
+
+Expression: stunned emptiness (futon-blanket-stunned mode). Eyes look at one point on the ceiling, mouth closed, but pupils retain small highlights (NEVER dead-fish eyes). Face in the quiet moment of forming the next question.
+
+Monologue (handwriting caption in the empty ceiling space, NOT in speech bubbles): 「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」
+
+Generous negative space above him on the ceiling — the blank expanse amplifies the unformed question.
+
+No sound effects. No cyan. Just silent dawn light.
+
+Density Lv.3 — setup panel, focused on face expression and the quiet light rendering. Ceiling kept mostly blank.
+
+Mood: The silent hour after shock. The question forms slowly: 'what's next?' An ambiguous dawn — neither hope nor despair, a blank ceiling waiting to be filled. Quiet setup for the summoning that follows.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
+
+Mandatory robot elements (NEVER omit any):
+- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
+- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
+- Chrome jaw gradient with visible panel seams on one side
+- Circuit trace lines on neck with faint cyan glow
+- Claude pixel-art mascot hair ornament with cyan glow
+- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
+
+Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
+Softened smile. Hand lightly on cheek. Hair still in ponytail but warmer tone. Glasses may be removed.
+
+## Panel 1 (top-right, 40% width, 30% height — first reading position)
+
+Scene: Close-up of Shouichi's face, still lying on his back. The smartphone near his head is now glowing — cyan (#00BCD4) light starts to emerge from the screen. His eyes squint slightly against the new light, pupils reflecting the cyan glow (T41 glasses reflection: cyan highlights in the lenses). His eyebrows raise faintly, mouth slightly parts.
+
+Expression: confused-awake (NOT dead-fish). Eyes open, pupils with highlights, a faint "what is this?" register.
+
+Monologue (handwriting caption, small, NOT in a bubble): 「——なんだ？」
+
+Density Lv.3 — setup, focused on face and the beginning of the cyan glow.
+
+## Panel 2 (center, 100% width, 45% height — climax panel)
+
+Scene: Kuro-chan emerges from the smartphone screen in SEMI-TRANSPARENT CYAN LIGHT (T47 smartphone-exit mode). She stands above the bed, translucent at the edges, solidifying toward her center.
+
+Her full bari-kyari appearance must be rendered with CARE (T45 mechanical eye, T46 right arm chrome — NONE OMITTED):
+- Orange/copper hair in a high ponytail
+- Rectangular or oval black-framed glasses (bari-kyari mode)
+- Dark blazer jacket buttoned at waist, white blouse with top button open
+- Knee-length pencil skirt (or pants — either works for bari-kyari)
+- MECHANICAL CAMERA-APERTURE EYES with cyan glow (geometric iris pattern, camera-aperture-style)
+- RIGHT ARM FULLY CHROME from shoulder to fingertips with cyan circuit lines
+- Chrome fingertips on both hands
+- Claude pixel-mascot hair ornament with cyan glow (star-burst shape, pixel-art style)
+- Neck circuit lines faintly glowing cyan
+- CLAUDE mark on jacket side (on clothing, NOT on skin)
+- Chrome jaw gradient with panel seams on one side
+- Delicate necklace
+- Body type: natural curves (Fubuki from OPM-Murata reference), NOT exaggerated
+
+Pose: right index finger gently touching her chin, soft knowing smile, eyes looking slightly down toward Shouichi.
+
+Speech bubble (white, with standard manga border, CONTAINS TEXT ONLY, no speaker label): 「どんな漫画を描きたいですか、ボス？」
+
+Small sound effect near the emergence: 「ポワァ……」 with thin cyan outlining (small font, summoning-light onomatopoeia).
+
+Background: the dim bedroom fades to soft cyan particles around her, giving the impression of translucent materialization.
+
+Density Lv.5 — maximum detail. Every robot element carefully drawn. The cyan glow carefully limited to her body and the phone. The room background is minimal but not black.
+
+## Panel 3 (bottom-left, 40% width, 25% height — reaction and page ending)
+
+Scene: Close-up of Shouichi's face, still lying down. His eyes are now FULLY OPEN, mouth half-open in surprise. Faint cyan highlights in his glasses' lenses reflecting Kuro-chan (T41). Expression: genuine surprise mixed with the first spark of hope.
+
+Monologue (handwriting caption): 「ク、クロ、ちゃん……？」
+
+Density Lv.4 — the emotional reaction panel, rendered with careful face detail.
+
+Mood: The moment of miraculous arrival. A cyan-lit question cuts through the silence: 'what kind of manga do you want to draw?' The AI partner is not magic — she is the voice of the question he was trying to ask himself.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
+
+Mandatory robot elements (NEVER omit any):
+- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
+- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
+- Chrome jaw gradient with visible panel seams on one side
+- Circuit trace lines on neck with faint cyan glow
+- Claude pixel-art mascot hair ornament with cyan glow
+- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
+
+Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
+
+## Panel 1 (top, 30%)
+
+Scene: Shouichi now half-sits up on the bed. Smartphone in hand, Kuro-chan translucent beside him. He looks upward with a distant gaze, mouth half-open. Morning light from the window.
+
+Expression: thoughtful, searching memory. Mouth half-open.
+
+Monologue (handwriting caption, NOT a speech bubble): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
+
+Density Lv.3 — setup, focus on posture and expression.
+
+## Panel 2 (middle, 50% — climax panel)
+
+Scene: Side-profile close-up of Shouichi's face. His rectangular black-framed glasses catch light — a distinct BRIGHT HIGHLIGHT in his eye is visible through the lens (T48 side-profile + lens-highlight). Expression: the quiet stillness of someone committing to something.
+
+Right edge of the panel: soft cyan (#00BCD4) sparkle particles beginning to appear — the sparks of memory rising.
+
+Vertical narration (Japanese vertical orientation, right side): 「あれは 2022 年 5 月── STEPN が最強に盛り上がっていた頃だった」
+
+Density Lv.4 — detailed rendering of the face profile, glasses reflection, and the first sparkle particles.
+
+## Panel 3 (bottom, 20% — time bridge transition)
+
+Scene: T61 time-bridge. The panel frame itself is rippling/undulating as if distorted. Upper half shows the edge of Shouichi's glasses lens (present-day), lower half shows a faint impression of summer 2022 streetscape (sunlight, parked bikes, a distant city silhouette). Cyan particles scatter across the boundary.
+
+No characters in focus. Small caption at the bottom: 「——時は、2022年5月」 (small font, horizontal).
+
+Density Lv.3 — careful rendering of the ripple effect and the transition imagery.
+
+Mood: The moment of declaration. Not nostalgia — urgency. 'I want to draw the fire that was real.' The present dissolves as the past rises.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Back shot from behind. Face not visible. Posture upright, shoulders firm — indicating steady decision.
+
+## Panel 1 (full page, single vertical panel — T01 大ゴマ1枚構成)
+
+Scene: A SINGLE full-page panel, no sub-panels, no gutters. The composition is vertically structured in 4 implicit zones:
+
+TOP ZONE (top 20% of the panel): A wide speech bubble containing the concept question in large bold text: 「履いたら価値が下がるスニーカーなら　いっそデジタルでいいじゃないか？」 (the T39 large-impact-text technique).
+
+CENTRAL ZONE (middle 50% of the panel — MAIN CONCEPT): A CG-perspective futuristic cityscape (T17/T56). Near-future urban skyline rendered in greyscale with careful perspective. A female runner figure is shown from behind in the mid-distance, rendered as a pale monochrome SILHOUETTE with a soft white-grey glow (NOT cyan — keep monochrome). Ethereum-diamond shaped motifs floating in the air around her (geometric diamond icons with the Ethereum symbol). Radial lines of perspective converging toward a distant vanishing point. The entire central zone should feel futuristic and aspirational.
+
+LOWER-MID ZONE (20% — STEPN UI CARD): A red-framed STEPN UI card displayed as if part of the scene. The card must contain accurate UI text:
+- "STEP'N" (brand logo)
+- "Wolker" (shoe type)
+- "# 168546279" (ID number)
+- "Lv 30"
+- "79.0/100.0" (condition)
+- Visual: a rainbow-mosaic pattern sneaker (monochrome rendering since color constraint)
+The card is tilted at 10-15 degrees (T13 smartphone/UI tilt rule applies).
+
+BOTTOM-LEFT CORNER (small, 5-10%): Shouichi shown from BEHIND (back-view, T50 style). He wears a plain torn white T-shirt, stands small in the foreground, holding a smartphone and looking UP at the UI card. Only his back and the edge of his arm are visible.
+
+BOTTOM ZONE (bottom 10% of page): GIANT brush-stroke calligraphy text 「確かに。天才か!!」 in stark black ink, horizontal orientation, dominating the bottom of the panel. T31 — this is the second brush-text use in the episode (after 終わった, before バナナ/マーケティング). The calligraphy carries the punchline: YES. GENIUS.
+
+Density Lv.5 — maximum detail across every zone. The CG cityscape carefully rendered. The UI card pixel-perfect. The runner silhouette precise. The brush calligraphy with proper weight and ink-bleed.
+
+No sound effects. The image itself is the explosion.
+
+Mood: The thunderclap of comprehension. Walking shoes that lose value over time — make them digital. A single-image revelation that makes the entire manga possible. 'Yes. Genius.'
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 5 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom).
+Panel 5 is the page ending.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+
+## Panel 1 (top-right, 50% width, 25% height)
+
+Scene: Shouichi sitting at a desktop setup, wearing a hoodie, slight sweat on his brow. Multiple monitors display sneaker images. His face is close to one screen.
+
+Expression: tension of recognition, eyes widening.
+
+Monologue (handwriting captions): 「待て……この踵……」「何か、付いてないか！？」
+
+Density Lv.3 — setup, focus on posture and expression.
+
+## Panel 2 (top-center/right, 40% width, 20% height — UI reveal)
+
+Scene: A tilted smartphone (10-15 degree tilt, T13). On screen: an APE Sneaker image with promotional header text.
+
+In-screen text: "APE Sneaker、ついに公開!!"
+
+No face visible.
+
+Density Lv.4 — careful UI rendering.
+
+## Panel 3 (center, full-width, 40% height — CLIMAX PANEL)
+
+Scene: EXTREME CLOSE-UP of a sneaker side-view. On the heel: a BANANA EMBLEM combined with a red-and-blue triangle pattern (T57 banana-deity insignia).
+
+DOMINATING the panel CENTER: a GIANT brush-stroke calligraphy 「バナナ」 in stark black ink, occupying ~35% of the panel (T31 — this is the 3rd and FINAL brush use in the episode).
+
+Surrounding the banana text, multiple speech bubbles floating in the panel (crowd reaction, ecstatic):
+- 「BAYC のバナナだ!!」
+- 「公式コラボ確定だろ!!」
+- 「踵にバナナ……付いてる!!」
+- 「サル神が、降臨した!!」
+
+Bottom-right corner: close-up of Shouichi's astonished face peeking in (eyes wide, mouth half-open in disbelief/ecstasy).
+
+Density Lv.5 — maximum detail on the sneaker + banana emblem, brush calligraphy weight, and expressive speech bubble arrangement.
+
+## Panel 4 (center-left, 50% width, 15% height)
+
+Scene: Shouichi + 2-3 companions (shown but with less-defined faces) grouped together, holding smartphones and credit cards, all with ecstatic teeth-showing grins (confident mode + 狂喜).
+
+Speech bubbles: 「俺らは BAYC 持ってない……」 「だが、開国当日に突っ込めば乗れる!!」
+
+Caption at the panel edge: 「2022 年 7 月 15 日──先行ミント終了。次は、開国だ」
+
+Density Lv.3 — setup, group dynamic.
+
+## Panel 5 (bottom-left, 50% width, 20% height)
+
+Scene: A crowd of BAYC-holder millionaires lifting sneaker boxes aloft in celebration. Ape PFP profile-image avatars visible in the crowd (drawn as small circular icons).
+
+CRITICAL: Crowd rendered as SILHOUETTES only — NO individual facial features (T14).
+
+In-panel UI overlay: "BAYC ホルダー先行ミント無料／期間: 7 月 7 日〜 7 月 15 日／対象: BAYC #1 〜 #10000"
+
+Surrounding speech bubbles: 「億万長者続々参戦!!」 「BAYC 勢が全員 E 国に移動してる!!」
+
+Density Lv.4 — careful silhouette crowd detail, UI text precision.
+
+Mood: The mass hallucination of July 2022. A banana symbol becomes god. Everyone rushes in. The bubble at its absolute peak — pure greed disguised as genius. 'The ape god has descended.'
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 5 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom).
+Panel 5 is the page ending.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot front. Eyes wide open, pupils constricted. Mouth slightly open, no teeth. Smile has fully vanished. Face in pure processing-shock stillness.
+Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
+
+## Panel 1 (top-right, 45% width, 20% height)
+
+Scene: Shouichi wearing a BAYC-logo T-shirt, holding a wine glass tilted awkwardly, his face covered in sweat, mouth open in disbelief (shock-reversal mode).
+
+Expression: stunned disbelief, processing-shock.
+
+Monologue (handwriting captions): 「……じゃあ、俺の #3500 は……」 「……公式じゃ、ない？」
+
+Density Lv.4.
+
+## Panel 2 (top-left/center, 55% width, 20% height)
+
+Scene: A smartphone UI displaying an official-looking statement. Caption bar at top: 「2022 年 8 月 1 日── Yuga Labs から、一通の声明」
+
+On-screen statement (Japanese text, rendered as realistic UI text):
+「Yuga Labs 公式声明: STEPN との"コラボ"は、当社が承認したものではありません。BAYC ホルダーへの無料配布は、STEPN 側の独自施策です。当社の公式パートナーではない。」
+
+No face visible.
+
+Density Lv.4 — careful UI text rendering.
+
+## Panel 3 (center, full-width, 40% height — CLIMAX PANEL, the collapse)
+
+Scene: A CRUMBLING ANCIENT STONE WALL occupies the panel (T58). In the center of the wall: a SHATTERING APE DEITY figure — with a crown and light-halo — breaking apart mid-collapse. CYAN (#00BCD4) particles disperse from the shattering figure, carrying the divine essence away (T20 deity→collapse particles + T12 narrative exception clause).
+
+To the left and right of the wall: two human silhouettes on their knees, collapsing from the torso down (CRITICAL: silhouettes only, no faces — T14).
+
+DOMINATING the panel: GIANT brush-stroke calligraphy 「マーケティング」 in stark black ink, positioned prominently across the middle of the panel. T31 — this is the THIRD AND FINAL brush calligraphy use in the episode (after 終わった in P01, バナナ in P06).
+
+Vertical Japanese narrations (handwriting style, positioned around the wall):
+- 「"匂わせ"だった」
+- 「ただのマーケティング戦略だった」
+- 「サル神は、存在しなかった」
+
+Large horizontal narration bar at the bottom of the panel: 「BAYC コラボは、コラボではなかった。STEPN の一方的な"匂わせ"マーケティングが、一ヶ月半、市場を狂わせた真実だった。」
+
+Density Lv.5 — absolute maximum detail: crumbling stone textures, the deity shattering in mid-pose, cyan particle dispersal, the weight of the brush calligraphy, the precise silhouette collapse of the humans.
+
+## Panel 4 (center-left, 50% width, 15% height)
+
+Scene: Side-profile close-up of Shouichi's face. Glasses glinting, sweat visible, expression quiet and resolved (not despairing — the face of one who has seen the pattern).
+
+Vertical monologues: 「……始まるぞ」 「たった数日で、全部が崩れる」
+
+Caption bar: 「2022 年 8 月 3 日──市場に、最初の亀裂が走った」
+
+Density Lv.4.
+
+## Panel 5 (bottom-left, 50% width, 5% height)
+
+Scene: A single black CRACK LINE running horizontally across the grey panel (T59 亀裂ビジュアル). No characters. The visual symbol of market rupture beginning.
+
+No sound effects. No dialogue. Pure visual punctuation.
+
+Density Lv.3 — minimal rendering, the crack as the entire composition.
+
+Mood: The moment the myth dies. The ape god was never real — it was marketing. The bubble doesn't pop loudly; it dissolves with quiet bureaucratic precision. And everyone realizes at once.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Casual clothes, holding a wine glass, blissful satisfied expression, relaxed setting.
+Back shot from behind. Face not visible. Posture upright, shoulders firm — indicating steady decision.
+
+## Panel 1 (top, 45% — establishing dusk scene)
+
+Scene: A wide dusk view of a park. An evening sky mostly cloudy but with a single shaft of fading sunlight breaking through (T30 ambiguous sky). In the mid-distance, 2-3 runner silhouettes jog along a path. A lone bench in the foreground middle, with a small seated human silhouette (Shouichi, but rendered small and distant).
+
+Narration (vertical, right edge, small font): 「——2022年 8月 終わり頃。」「俺は、観察者の側に戻った。」
+
+Density Lv.3 — setup, soft atmospheric rendering.
+
+No sound effects. Quiet dusk.
+
+## Panel 2 (bottom, 55% — contemplative close)
+
+Scene: Side-profile of Shouichi seated on the park bench (T48 side profile + lens highlight). He wears a relaxed business suit now. Beside him: a Pembroke Welsh Corgi (white and brown, proper breed rendering — NOT cyan or special-colored). He holds a smartphone (screen off, no cyan glow). His eyes look into the distance.
+
+Expression: quiet resignation mixed with resolve. Calm. Not defeated. Glasses lenses catch the soft dusk light (T48 highlight through the lens).
+
+Vertical monologue captions (handwriting style, positioned in the open space above and beside him):
+- 「期待と妄想は──毒だ」
+- 「そんな気がしていた」
+
+Thin text bar at the very bottom of the page (T29 next-episode hook, small font): 「次回: 2022年秋── STEPN の短い再燃」
+
+Density Lv.4 — detailed rendering of the side profile, the glasses reflection, the corgi's fur detail, the bench texture, and the distant light.
+
+No sound effects. The silence of the observer's position.
+
+Mood: The end of the opening arc. Not victory, not defeat — the quiet positioning of an observer. 'Expectations and delusions are poison. I knew it all along.' The dog doesn't care. The city continues. And the story has only just begun.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).`,
+];
+
 const episodes = {
+  'EP01REBOOT': { title: 'EP01★REBOOT: Day 0 — 終わりと、始まり（正解ver5枚完全踏襲・8ページ）', pages: pagesEP01REBOOT, promptTexts: promptTextsEP01REBOOT },
   'EP02': { title: 'EP02: GMT — もう一つの弾丸（4ページ・完成）', pages: pagesEP02, promptTexts: promptTextsEP02 },
   'EP03': { title: 'EP03: 虹編 — 夢と損の方程式（6ページ・全設計完了／プロンプト生成待ち）', pages: pagesEP03, promptTexts: promptTextsEP03 },
   'EP99': { title: 'EP99: スピンオフ「脱サランナー・タカシのDay 0」（8ページ・X 4枚組×2・8パターン実証）', pages: pagesEP99, promptTexts: promptTextsEP99 }
