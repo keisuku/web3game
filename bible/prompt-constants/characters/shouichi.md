@@ -69,6 +69,18 @@ Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses l
 Bust shot front. Eyes wide open, pupils constricted. Mouth slightly open, no teeth. Smile has fully vanished. Face in pure processing-shock stillness.
 ```
 
+## stunned-disbelief（絶望衝撃モード・EP01-REBOOT P01 用）
+
+```
+Extreme close-up. Eyes wide open with pupils still having small highlights (NOT dead-fish eyes). Mouth half-open in stunned silence. Face fully covered in waterfall of sweat beads (dozens of beads, white/black linework only, NOT cyan). Expression of absolute comprehension shock — not grief, not rage, but processing that something has irreversibly ended.
+```
+
+## futon-blanket-stunned（布団カット・呆然モード・EP01-REBOOT P02 用）
+
+```
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+```
+
 ## shrewd-smile-deep（いかがわしい笑みの深い版）
 
 ```

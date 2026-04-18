@@ -1,0 +1,80 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
+
+Mandatory robot elements (NEVER omit any):
+- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
+- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
+- Chrome jaw gradient with visible panel seams on one side
+- Circuit trace lines on neck with faint cyan glow
+- Claude pixel-art mascot hair ornament with cyan glow
+- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
+
+Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
+
+## Panel 1 (top, 30%)
+
+Scene: Shouichi now half-sits up on the bed. Smartphone in hand, Kuro-chan translucent beside him. He looks upward with a distant gaze, mouth half-open. Morning light from the window.
+
+Expression: thoughtful, searching memory. Mouth half-open.
+
+Monologue (handwriting caption, NOT a speech bubble): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
+
+Density Lv.3 — setup, focus on posture and expression.
+
+## Panel 2 (middle, 50% — climax panel)
+
+Scene: Side-profile close-up of Shouichi's face. His rectangular black-framed glasses catch light — a distinct BRIGHT HIGHLIGHT in his eye is visible through the lens (T48 side-profile + lens-highlight). Expression: the quiet stillness of someone committing to something.
+
+Right edge of the panel: soft cyan (#00BCD4) sparkle particles beginning to appear — the sparks of memory rising.
+
+Vertical narration (Japanese vertical orientation, right side): 「あれは 2022 年 5 月── STEPN が最強に盛り上がっていた頃だった」
+
+Density Lv.4 — detailed rendering of the face profile, glasses reflection, and the first sparkle particles.
+
+## Panel 3 (bottom, 20% — time bridge transition)
+
+Scene: T61 time-bridge. The panel frame itself is rippling/undulating as if distorted. Upper half shows the edge of Shouichi's glasses lens (present-day), lower half shows a faint impression of summer 2022 streetscape (sunlight, parked bikes, a distant city silhouette). Cyan particles scatter across the boundary.
+
+No characters in focus. Small caption at the bottom: 「——時は、2022年5月」 (small font, horizontal).
+
+Density Lv.3 — careful rendering of the ripple effect and the transition imagery.
+
+Mood: The moment of declaration. Not nostalgia — urgency. 'I want to draw the fire that was real.' The present dissolves as the past rises.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

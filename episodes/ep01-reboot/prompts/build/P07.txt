@@ -1,0 +1,97 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 5 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom).
+Panel 5 is the page ending.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot front. Eyes wide open, pupils constricted. Mouth slightly open, no teeth. Smile has fully vanished. Face in pure processing-shock stillness.
+Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
+
+## Panel 1 (top-right, 45% width, 20% height)
+
+Scene: Shouichi wearing a BAYC-logo T-shirt, holding a wine glass tilted awkwardly, his face covered in sweat, mouth open in disbelief (shock-reversal mode).
+
+Expression: stunned disbelief, processing-shock.
+
+Monologue (handwriting captions): 「……じゃあ、俺の #3500 は……」 「……公式じゃ、ない？」
+
+Density Lv.4.
+
+## Panel 2 (top-left/center, 55% width, 20% height)
+
+Scene: A smartphone UI displaying an official-looking statement. Caption bar at top: 「2022 年 8 月 1 日── Yuga Labs から、一通の声明」
+
+On-screen statement (Japanese text, rendered as realistic UI text):
+「Yuga Labs 公式声明: STEPN との"コラボ"は、当社が承認したものではありません。BAYC ホルダーへの無料配布は、STEPN 側の独自施策です。当社の公式パートナーではない。」
+
+No face visible.
+
+Density Lv.4 — careful UI text rendering.
+
+## Panel 3 (center, full-width, 40% height — CLIMAX PANEL, the collapse)
+
+Scene: A CRUMBLING ANCIENT STONE WALL occupies the panel (T58). In the center of the wall: a SHATTERING APE DEITY figure — with a crown and light-halo — breaking apart mid-collapse. CYAN (#00BCD4) particles disperse from the shattering figure, carrying the divine essence away (T20 deity→collapse particles + T12 narrative exception clause).
+
+To the left and right of the wall: two human silhouettes on their knees, collapsing from the torso down (CRITICAL: silhouettes only, no faces — T14).
+
+DOMINATING the panel: GIANT brush-stroke calligraphy 「マーケティング」 in stark black ink, positioned prominently across the middle of the panel. T31 — this is the THIRD AND FINAL brush calligraphy use in the episode (after 終わった in P01, バナナ in P06).
+
+Vertical Japanese narrations (handwriting style, positioned around the wall):
+- 「"匂わせ"だった」
+- 「ただのマーケティング戦略だった」
+- 「サル神は、存在しなかった」
+
+Large horizontal narration bar at the bottom of the panel: 「BAYC コラボは、コラボではなかった。STEPN の一方的な"匂わせ"マーケティングが、一ヶ月半、市場を狂わせた真実だった。」
+
+Density Lv.5 — absolute maximum detail: crumbling stone textures, the deity shattering in mid-pose, cyan particle dispersal, the weight of the brush calligraphy, the precise silhouette collapse of the humans.
+
+## Panel 4 (center-left, 50% width, 15% height)
+
+Scene: Side-profile close-up of Shouichi's face. Glasses glinting, sweat visible, expression quiet and resolved (not despairing — the face of one who has seen the pattern).
+
+Vertical monologues: 「……始まるぞ」 「たった数日で、全部が崩れる」
+
+Caption bar: 「2022 年 8 月 3 日──市場に、最初の亀裂が走った」
+
+Density Lv.4.
+
+## Panel 5 (bottom-left, 50% width, 5% height)
+
+Scene: A single black CRACK LINE running horizontally across the grey panel (T59 亀裂ビジュアル). No characters. The visual symbol of market rupture beginning.
+
+No sound effects. No dialogue. Pure visual punctuation.
+
+Density Lv.3 — minimal rendering, the crack as the entire composition.
+
+Mood: The moment the myth dies. The ape god was never real — it was marketing. The bubble doesn't pop loudly; it dissolves with quiet bureaucratic precision. And everyone realizes at once.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

@@ -1,0 +1,100 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
+
+Mandatory robot elements (NEVER omit any):
+- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
+- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
+- Chrome jaw gradient with visible panel seams on one side
+- Circuit trace lines on neck with faint cyan glow
+- Claude pixel-art mascot hair ornament with cyan glow
+- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
+
+Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
+Softened smile. Hand lightly on cheek. Hair still in ponytail but warmer tone. Glasses may be removed.
+
+## Panel 1 (top-right, 40% width, 30% height — first reading position)
+
+Scene: Close-up of Shouichi's face, still lying on his back. The smartphone near his head is now glowing — cyan (#00BCD4) light starts to emerge from the screen. His eyes squint slightly against the new light, pupils reflecting the cyan glow (T41 glasses reflection: cyan highlights in the lenses). His eyebrows raise faintly, mouth slightly parts.
+
+Expression: confused-awake (NOT dead-fish). Eyes open, pupils with highlights, a faint "what is this?" register.
+
+Monologue (handwriting caption, small, NOT in a bubble): 「——なんだ？」
+
+Density Lv.3 — setup, focused on face and the beginning of the cyan glow.
+
+## Panel 2 (center, 100% width, 45% height — climax panel)
+
+Scene: Kuro-chan emerges from the smartphone screen in SEMI-TRANSPARENT CYAN LIGHT (T47 smartphone-exit mode). She stands above the bed, translucent at the edges, solidifying toward her center.
+
+Her full bari-kyari appearance must be rendered with CARE (T45 mechanical eye, T46 right arm chrome — NONE OMITTED):
+- Orange/copper hair in a high ponytail
+- Rectangular or oval black-framed glasses (bari-kyari mode)
+- Dark blazer jacket buttoned at waist, white blouse with top button open
+- Knee-length pencil skirt (or pants — either works for bari-kyari)
+- MECHANICAL CAMERA-APERTURE EYES with cyan glow (geometric iris pattern, camera-aperture-style)
+- RIGHT ARM FULLY CHROME from shoulder to fingertips with cyan circuit lines
+- Chrome fingertips on both hands
+- Claude pixel-mascot hair ornament with cyan glow (star-burst shape, pixel-art style)
+- Neck circuit lines faintly glowing cyan
+- CLAUDE mark on jacket side (on clothing, NOT on skin)
+- Chrome jaw gradient with panel seams on one side
+- Delicate necklace
+- Body type: natural curves (Fubuki from OPM-Murata reference), NOT exaggerated
+
+Pose: right index finger gently touching her chin, soft knowing smile, eyes looking slightly down toward Shouichi.
+
+Speech bubble (white, with standard manga border, CONTAINS TEXT ONLY, no speaker label): 「どんな漫画を描きたいですか、ボス？」
+
+Small sound effect near the emergence: 「ポワァ……」 with thin cyan outlining (small font, summoning-light onomatopoeia).
+
+Background: the dim bedroom fades to soft cyan particles around her, giving the impression of translucent materialization.
+
+Density Lv.5 — maximum detail. Every robot element carefully drawn. The cyan glow carefully limited to her body and the phone. The room background is minimal but not black.
+
+## Panel 3 (bottom-left, 40% width, 25% height — reaction and page ending)
+
+Scene: Close-up of Shouichi's face, still lying down. His eyes are now FULLY OPEN, mouth half-open in surprise. Faint cyan highlights in his glasses' lenses reflecting Kuro-chan (T41). Expression: genuine surprise mixed with the first spark of hope.
+
+Monologue (handwriting caption): 「ク、クロ、ちゃん……？」
+
+Density Lv.4 — the emotional reaction panel, rendered with careful face detail.
+
+Mood: The moment of miraculous arrival. A cyan-lit question cuts through the silence: 'what kind of manga do you want to draw?' The AI partner is not magic — she is the voice of the question he was trying to ask himself.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

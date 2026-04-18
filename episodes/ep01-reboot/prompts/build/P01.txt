@@ -1,0 +1,68 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Extreme close-up. Eyes wide open with pupils still having small highlights (NOT dead-fish eyes). Mouth half-open in stunned silence. Face fully covered in waterfall of sweat beads (dozens of beads, white/black linework only, NOT cyan). Expression of absolute comprehension shock — not grief, not rage, but processing that something has irreversibly ended.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+## Panel 1 (top 70%, explosive climax panel)
+
+Scene: Extreme close-up of Shouichi's face filling the panel. His face is shown through RECTANGULAR black-framed glasses — eyes wide open with pupils still having highlights (NOT dead-fish eyes), mouth half-open in stunned silence. His entire face is covered in a WATERFALL of sweat beads — dozens of beads rendered in sharp white outlines and black linework, dripping in all directions. This is the T49 汗の滝 (sweat-waterfall) technique.
+
+Background behind his head: radial speedlines emanating outward from behind the head toward the panel edges — representing the DESPAIR VECTOR (T19). The speedlines are background-only (do NOT radiate from the eyes).
+
+Upper-LEFT of the panel: a MASSIVE vertical brush-stroke calligraphy 「終わった」 in stark black ink, dominating ~30% of the panel, positioned vertically along the left edge. This is the ONLY giant brush text on this page — T31 technique.
+
+Lower-foreground of the panel: a smartphone held in his hand, tilted at a 10-15 degree angle (T13). On the screen, a realistic UI showing a notification: "2026/3/30 キャプテン翼RIVALS サービス終了のお知らせ". The phone screen emits a soft cyan (#00BCD4) glow (T12). His glasses lenses catch faint reflections of the phone light and the floating sweat beads (T41).
+
+Monologue (tiny handwriting caption in the open space, NOT a speech bubble): none — the brush text carries the emotion.
+
+Density Lv.5 — maximum detail: every sweat bead, every speedline, the brush-stroke weight of the calligraphy, the smartphone UI pixels, the glasses reflection. This is the opening explosion of the entire series.
+
+## Panel 2 (bottom 30%, horizontal dim strip)
+
+Scene: Horizontal panel, predominantly black (solid black fill for ~70% of the panel background). Shouichi lies under a futon blanket with only his head and one hand visible. The futon is dark, the room is dark. The ONLY light source is the smartphone in his hand — its cyan (#00BCD4) glow faintly illuminating his face from below (T50 rear-smartphone-light composition, but here it's from below).
+
+His expression: stunned / empty (呆然+虚無) — but CRITICAL: pupils retain small white highlights. He is NOT in dead-fish-eye despair mode. His mouth is slightly parted, eyes slightly unfocused, eyebrows relaxed downward. Confused, not destroyed.
+
+Vertical Japanese monologue caption (handwriting style, NOT in a speech bubble, placed near his head in the black space): 「あれっ……これって実質 WEB3.0ゲーム完全終了のお知らせ……？？」
+
+No sound effects. The vast black space carries the silent weight.
+
+Density Lv.3 — setup panel, most of the panel is solid black with careful light rendering only on the face and hand. Screentone shading (T18) layered on the bedding.
+
+Mood: The absolute shock of realizing an era has ended. Not grief, not rage — the stunned silence of comprehension. The beginning of the story begins with an ending.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

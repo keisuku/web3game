@@ -1,0 +1,65 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Lying under a futon blanket in a dark room. Only head and one hand visible. Smartphone in hand emits faint cyan glow lighting the face from below. Eyes slightly unfocused but pupils retain small highlights (NEVER dead-fish eyes). Mouth slightly parted. Expression: stunned emptiness, confused, not destroyed. CRITICAL: this is "composition-only futon cut", NOT the banned "futon-mode dead-fish" expression.
+
+## Panel 1 (top 15%, thin horizontal establishing strip)
+
+Scene: Wide panoramic strip. Early-dawn window with soft morning light streaming in through a gap in the curtains — overcast sky visible beyond, with a single thin ray of sunlight breaking through (T30 両義性の曇り空 — ambiguous light). No characters in this strip. Right edge: a thin vertical Japanese narration box.
+
+Narration text (vertical, small): 「——三月末、朝4時。」「その夜、俺は、眠らなかった。」
+
+Density Lv.2 — loose sketchy line work, minimal detail, soft screentone for the sky.
+
+No sound effects. Silent dawn.
+
+## Panel 2 (bottom 85%, large contemplative panel)
+
+Scene: Shouichi lying on his back under a futon blanket, looking up at a plain white ceiling. Bust-shot-plus view (waist upward visible). One hand resting outside the blanket. A smartphone lies on the pillow beside his head — SCREEN OFF (no cyan glow). Dim room with only diagonal morning light streaming from the window onto the bed. The ceiling is an empty pale expanse.
+
+Expression: stunned emptiness (futon-blanket-stunned mode). Eyes look at one point on the ceiling, mouth closed, but pupils retain small highlights (NEVER dead-fish eyes). Face in the quiet moment of forming the next question.
+
+Monologue (handwriting caption in the empty ceiling space, NOT in speech bubbles): 「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」
+
+Generous negative space above him on the ceiling — the blank expanse amplifies the unformed question.
+
+No sound effects. No cyan. Just silent dawn light.
+
+Density Lv.3 — setup panel, focused on face expression and the quiet light rendering. Ceiling kept mostly blank.
+
+Mood: The silent hour after shock. The question forms slowly: 'what's next?' An ambiguous dawn — neither hope nor despair, a blank ceiling waiting to be filled. Quiet setup for the summoning that follows.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

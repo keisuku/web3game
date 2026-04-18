@@ -1,0 +1,99 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 5 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom).
+Panel 5 is the page ending.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+
+## Panel 1 (top-right, 50% width, 25% height)
+
+Scene: Shouichi sitting at a desktop setup, wearing a hoodie, slight sweat on his brow. Multiple monitors display sneaker images. His face is close to one screen.
+
+Expression: tension of recognition, eyes widening.
+
+Monologue (handwriting captions): 「待て……この踵……」「何か、付いてないか！？」
+
+Density Lv.3 — setup, focus on posture and expression.
+
+## Panel 2 (top-center/right, 40% width, 20% height — UI reveal)
+
+Scene: A tilted smartphone (10-15 degree tilt, T13). On screen: an APE Sneaker image with promotional header text.
+
+In-screen text: "APE Sneaker、ついに公開!!"
+
+No face visible.
+
+Density Lv.4 — careful UI rendering.
+
+## Panel 3 (center, full-width, 40% height — CLIMAX PANEL)
+
+Scene: EXTREME CLOSE-UP of a sneaker side-view. On the heel: a BANANA EMBLEM combined with a red-and-blue triangle pattern (T57 banana-deity insignia).
+
+DOMINATING the panel CENTER: a GIANT brush-stroke calligraphy 「バナナ」 in stark black ink, occupying ~35% of the panel (T31 — this is the 3rd and FINAL brush use in the episode).
+
+Surrounding the banana text, multiple speech bubbles floating in the panel (crowd reaction, ecstatic):
+- 「BAYC のバナナだ!!」
+- 「公式コラボ確定だろ!!」
+- 「踵にバナナ……付いてる!!」
+- 「サル神が、降臨した!!」
+
+Bottom-right corner: close-up of Shouichi's astonished face peeking in (eyes wide, mouth half-open in disbelief/ecstasy).
+
+Density Lv.5 — maximum detail on the sneaker + banana emblem, brush calligraphy weight, and expressive speech bubble arrangement.
+
+## Panel 4 (center-left, 50% width, 15% height)
+
+Scene: Shouichi + 2-3 companions (shown but with less-defined faces) grouped together, holding smartphones and credit cards, all with ecstatic teeth-showing grins (confident mode + 狂喜).
+
+Speech bubbles: 「俺らは BAYC 持ってない……」 「だが、開国当日に突っ込めば乗れる!!」
+
+Caption at the panel edge: 「2022 年 7 月 15 日──先行ミント終了。次は、開国だ」
+
+Density Lv.3 — setup, group dynamic.
+
+## Panel 5 (bottom-left, 50% width, 20% height)
+
+Scene: A crowd of BAYC-holder millionaires lifting sneaker boxes aloft in celebration. Ape PFP profile-image avatars visible in the crowd (drawn as small circular icons).
+
+CRITICAL: Crowd rendered as SILHOUETTES only — NO individual facial features (T14).
+
+In-panel UI overlay: "BAYC ホルダー先行ミント無料／期間: 7 月 7 日〜 7 月 15 日／対象: BAYC #1 〜 #10000"
+
+Surrounding speech bubbles: 「億万長者続々参戦!!」 「BAYC 勢が全員 E 国に移動してる!!」
+
+Density Lv.4 — careful silhouette crowd detail, UI text precision.
+
+Mood: The mass hallucination of July 2022. A banana symbol becomes god. Everyone rushes in. The bubble at its absolute peak — pure greed disguised as genius. 'The ape god has descended.'
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
