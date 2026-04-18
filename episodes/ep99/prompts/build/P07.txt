@@ -15,28 +15,29 @@ Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline
 Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
 Decision mode. Silhouette-heavy bust shot in an office meeting room. Only corner of mouth and glasses rim visible. Strong backlight from window behind. Very still posture. Serious but calm — not angry, not sad. A person who has chosen their own life.
 
-## Panel 1 (full page, single vertical panel — entire composition reads top-to-bottom)
+## Panel 1 (top, 80% of page height — the extra-large black-heavy panel)
 
-Scene: A single vertical panel occupying 100% of the page. The composition divides vertically into three implicit zones WITHOUT sub-panel borders:
+Scene: A meeting room interior, rendered with 80% solid black fill. In the center-left of the panel: Takashi's silhouette from behind, standing, extending one arm forward with a small white rectangular paper (the resignation letter — its shape visible but no text readable). On the right side: the silhouette of an older supervisor seated at a desk, face invisible, only the shoulder-line and tilted head visible — suggesting surprise without rendering features. Strong backlight from a window behind Takashi — a white rectangle cut into the black. The backlight creates a rim of light on Takashi's back silhouette.
 
-TOP ZONE (top 20% of the panel): A bare ceiling with a single hanging incandescent light bulb (vintage 40W round bulb) casting a warm-toned cone of light downward (rendered in greyscale, warm tone implied by screentone density). Behind the bulb, a small window shows the pale disc of a full moon and its cool moonlight entering the room. A faint halo around the bulb.
+Large white-outlined onomatopoeia integrated into the composition, occupying ~30% of the panel as a structural background element: 「スッ…」 (the sound of paper being presented — rendered as giant white letters behind the figures).
 
-MIDDLE ZONE (middle 60% of the panel — main focus): A side-view of a wooden desk. Takashi is seated, upper-body centered. On the desk: a sheet of white paper with "退職届" written in natural handwriting (SE-style, not calligraphic, roughly 2-3cm tall characters). A fountain pen rests in his right hand, tip just lifted from the paper. His left hand is flat on the desk. His face is tilted downward — only the rim of his round thin-framed glasses, a reflection of moonlight in the lenses, and his bangs covering his eyes are visible. Behind him: a dim late-night living room (dark TV, empty coffee cup, an analog clock reading 12:00, and a company ID card hanging from a nail on the wall as a background symbol).
+No speech bubbles. No dialogue text in this panel. The entire narrative is carried by silhouette, black, and the single giant onomatopoeia.
 
-BOTTOM ZONE (bottom 20% of the panel): Below the desk — Takashi's feet, the chair legs, and on the floor a pair of plain white sneakers labeled "Walker" (the shoes introduced in P02-P03), softly lit in the dim light.
+Density Lv.5 — this is the page climax. Every element precise: the silhouette edges, the window backlight, the paper's crisp rectangle, the onomatopoeia typography.
 
-Vertical narration text running along the right edge of the panel in three separated captions (top to bottom, Japanese vertical orientation):
-「——34年。」 (upper area, small font)
-「サラリーマンを、終える夜。」 (middle area, medium font)
-「最後のペン。」 (lower area, small font)
+## Panel 2 (bottom, 20% of page height — the small whisper-punchline panel)
 
-Tiny sound effect near the hand: 「カリ…カリ…」 (pen scratching paper, extremely small).
+Scene: Extreme close-up with cropped-face composition. Only the right corner of Takashi's mouth and the right rim of his round thin-framed glasses are visible at the panel edge. The rest of the face is out of frame. Background is neutral light (not black). Very still.
 
-Density Lv.4 — entire vertical composition rendered with consistent careful detail. The bulb's filament, the moon's texture, the paper grain, the pen nib, the glasses reflection, the clock's hands, the sneakers' outline — all carefully drawn to carry the eye vertically down the panel.
+Expression: the faintest upward tilt at the corner of the mouth — not a smile, barely a hint of resolve. Glasses rim catches a calm soft highlight.
 
-No sub-panel borders, no gutters. One continuous vertical image.
+Monologue (handwriting-style caption, SMALL font, positioned in the empty negative space of the panel, NOT inside a speech bubble): 「辞めます。」
 
-Mood: The midnight ritual of ending one life. A quiet ceremonial weight. No drama, no grief — just the slow, vertical passage of time as a man signs the last page of his old life.
+No sound effect. The contrast of the previous panel's black weight amplifies this whisper.
+
+Density Lv.4 — precise close-up edge rendering, this is the whisper that the giant panel above was designed to amplify.
+
+Mood: The quiet moment of choosing one's own life. Twelve years of salaried existence ending with a single whispered word. Not rebellion — completion. A calm decisive stillness.
 
 HARD RULES — violations are failures:
 
