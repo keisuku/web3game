@@ -181,6 +181,54 @@ validate_page() {
   # ── 1.7 コマ機能単一性チェック ──
   check_panel_single_function "$PAGE_FILE"
 
+  # ── 1.8 読み方向（右上→左下）チェック ──
+  if grep -qE "左上[^左]*右下|左上→右下" "$PAGE_FILE"; then
+    # 「禁止」文脈であれば OK
+    BAD_DIR=$(grep "左上.*右下" "$PAGE_FILE" | grep -v -E "(禁止|❌|NG|避ける|使わない)")
+    if [ -n "$BAD_DIR" ]; then
+      fail "🚨 読み方向バグ: 「左上→右下」検出。日本漫画は右上→左下（${BAD_DIR:0:50}…）"
+    fi
+  fi
+  # 視線誘導フィールドの存在と方向
+  VFLOW=$(grep -E "^- 視線誘導:" "$PAGE_FILE" | head -1)
+  if [ -n "$VFLOW" ]; then
+    if echo "$VFLOW" | grep -q "右上.*左下"; then
+      pass "視線誘導: 右上→左下 明記"
+    else
+      warn "視線誘導フィールドに「右上→左下」の明記なし"
+    fi
+  else
+    warn "視線誘導フィールド（- 視線誘導:）が未記入"
+  fi
+
+  # ── 1.9 採用パターンフィールドチェック ──
+  PATTERN=$(grep "採用パターン:" "$PAGE_FILE" | head -1 | grep -oE 'P[0-9]+-[a-z-]+' | head -1)
+  if [ -n "$PATTERN" ]; then
+    pass "採用パターン: $PATTERN"
+    if [ -f "bible/panel-patterns/patterns.json" ]; then
+      if grep -q "\"id\": \"$PATTERN\"" "bible/panel-patterns/patterns.json"; then
+        pass "パターンID: patterns.jsonに定義あり"
+      else
+        warn "パターンID「$PATTERN」がpatterns.jsonに未定義"
+      fi
+    fi
+  else
+    warn "採用パターンフィールドが未記入（scripts/pick-pattern.py で選定推奨）"
+  fi
+
+  # ── 1.10 密度レベル（Togashi hybrid）チェック ──
+  LV_LOW=$(grep -c "Lv\.1\|Lv\.2" "$PAGE_FILE" 2>/dev/null)
+  LV_HIGH=$(grep -c "Lv\.4\|Lv\.5" "$PAGE_FILE" 2>/dev/null)
+  if [ "$LV_LOW" -gt 0 ] && [ "$LV_HIGH" -gt 0 ]; then
+    pass "密度レベル: 低(${LV_LOW}) + 高(${LV_HIGH}) = Togashi hybrid適用"
+  elif [ "$LV_LOW" -eq 0 ] && [ "$LV_HIGH" -eq 0 ]; then
+    warn "密度レベル(Lv.X)の記述なし。Togashi hybrid メソッド未適用"
+  elif [ "$LV_LOW" -eq 0 ]; then
+    warn "低密度(Lv.1-2)のコマがない。全コマ均一で冨樫らしさが出ない"
+  else
+    warn "高密度(Lv.4-5)のコマがない。見せ場が弱い"
+  fi
+
   # ── 2. プロンプト ──
   local BUILD_FILE="$EP_DIR/prompts/build/${PID}.txt"
 

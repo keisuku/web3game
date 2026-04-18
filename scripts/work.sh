@@ -151,6 +151,24 @@ if [ ! -f "$PROMPT_FILE" ] && [ -f "${EP_DIR}/prompts/_prompt-template.md" ]; th
 fi
 echo ""
 
+# ── 7. コマ割りパターン選定（直近5ページの重複を回避） ──
+if [ -f "scripts/pick-pattern.py" ] && [ -f "bible/panel-patterns/patterns.json" ]; then
+  # ページ目的を推定（episode-design.mdの機能欄から）
+  PURPOSE="normal"
+  if [ -f "$EP_DIR/episode-design.md" ]; then
+    PAGE_ROW=$(grep -E "^\| *\*?\*?${PAGE_ID}" "$EP_DIR/episode-design.md" 2>/dev/null | head -1)
+    if echo "$PAGE_ROW" | grep -qE "導入|オープ|冒頭"; then PURPOSE="introduction"
+    elif echo "$PAGE_ROW" | grep -qE "見せ場|クライマックス|覚醒|変身"; then PURPOSE="climax"
+    elif echo "$PAGE_ROW" | grep -qE "対決|対立|対比"; then PURPOSE="confrontation"
+    elif echo "$PAGE_ROW" | grep -qE "ラスト|フック|引き|次回"; then PURPOSE="ending"
+    fi
+  fi
+  echo "🎲 コマ割りパターン候補（用途: ${PURPOSE}）"
+  echo "───────────────────────────────────────────────"
+  python3 scripts/pick-pattern.py "$EP_NUM" "$PAGE_ID" --purpose "$PURPOSE" 2>&1 | sed 's/^/   /'
+  echo ""
+fi
+
 # ── 7. 次の作業指示 ──
 echo "✅ 準備完了。次の動き:"
 echo "───────────────────────────────────────────────"
