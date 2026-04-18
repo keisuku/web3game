@@ -8,7 +8,13 @@
 
 ## 🎯 次にやること（1 行）
 
-**Nano Banana で EP03 P01〜P08 を再生成。プロンプトは `episodes/ep03/prompts/build/PXX.txt`（ビルド済み・固定部分＋可変部分結合済み）を使用する**
+**ユーザーが「正解ver」5 枚を追加共有。`references/correct-version-2026-04-18.md` を最優先参照し、EP01 リブート構成＋ EP03 との絵柄整合を次ステップで判断する。ただしユーザー指示が来るまで静かに待つ**
+
+共有履歴:
+- EP03 P01〜P04 生成結果（Web 版共有済み／ユーザー所感「もはやコメントするのもしんどい」）→ `sessions/checkpoints/2026-04-18_checkpoint.md`
+- **正解ver 5 枚（EP01 前半アーク再構成候補）→ `references/correct-version-2026-04-18.md`**
+
+旧タスク: Nano Banana で EP03 P01〜P08 を再生成（プロンプトは `episodes/ep03/prompts/build/PXX.txt`）— P01〜P04 は生成結果確認済み／P05〜P08 は未共有
 
 ## 🧱 プロンプト新フォーマット（重要）
 
