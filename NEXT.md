@@ -8,7 +8,11 @@
 
 ## 🎯 次にやること（1 行）
 
-**Nano Banana で EP03 P01〜P08 を再生成。プロンプトは `episodes/ep03/prompts/build/PXX.txt`（ビルド済み・固定部分＋可変部分結合済み）を使用する**
+**EP03 P01〜P04 相当の生成画像をユーザーが Web 版に共有済み。所感「もはやコメントするのもしんどい」を受領。深追いせず、次のユーザー指示を静かに待つ**
+
+詳細は `sessions/checkpoints/2026-04-18_checkpoint.md`（ターミナル版 Claude Code 向けリレー）。
+
+旧タスク: Nano Banana で EP03 P01〜P08 を再生成（プロンプトは `episodes/ep03/prompts/build/PXX.txt`）— P01〜P04 は生成結果確認済み／P05〜P08 は未共有
 
 ## 🧱 プロンプト新フォーマット（重要）
 
