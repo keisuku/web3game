@@ -1,0 +1,62 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+Back view. Walking away down a weekday city street at midday. Dark suit removed — now wearing a T-shirt, light jacket, jeans, sneakers. Small duffel bag over shoulder. One hand in pocket. Face turned slightly over shoulder, only single eye visible through glasses. Not smiling, not frowning — the face of someone who just became free.
+
+## Panel 1 (top, 55% of page height — crowd establishing shot)
+
+Scene: Midday business district intersection. A wide crowd of 200+ salaryman silhouettes crossing a pedestrian crossing, flowing left-to-right from the reader's perspective. All rendered as dark silhouettes, NO individual facial features, NO personal details. High-rise buildings in the background, slightly simplified. The sky is overcast greyscale with a single thin ray of light breaking through the clouds (ambiguous: neither pure hope nor pure despair).
+
+Narration (vertical Japanese, upper-right corner, small font): 「——退職から、3ヶ月。」「街は、昨日と同じ流れで、動いている。」
+
+Sound effect across the lower portion (medium font, integrated into composition): 「ザッ…ザッ…ザッ…」 (crowd footsteps).
+
+Density Lv.3 — crowd silhouettes are numerous but simplified, buildings are loose sketches, careful light direction.
+
+## Panel 2 (bottom, 45% of page height — back-glance emotional payoff)
+
+Scene: Takashi walking away from the viewer, centered slightly left of frame. He is NOT wearing a suit anymore — instead: white T-shirt, light jacket, jeans, plain white sneakers. A small duffel bag slung over his right shoulder. Right hand casually in pocket. His body is angled to walk right-to-left (opposite direction from the crowd in Panel 1).
+
+His face is turned slightly over his shoulder back toward the viewer — only his RIGHT eye is visible, framed by the right rim of his round thin-framed glasses. The rest of his face is obscured by the shoulder and hair. The single visible eye meets the reader's gaze.
+
+Expression: back-view-free mode — not smiling, not frowning. The composed expression of someone who has just become free. Quiet.
+
+Monologue (handwriting-style caption, small, placed in the negative space to the lower-left of his figure, NOT inside a speech bubble):
+- 「さて。」 (small)
+- 「次は、どこまで走ろうか。」 (medium)
+
+Generous negative space around Takashi — open sidewalk, distant blurred pedestrians (still as silhouettes). The emptiness around him contrasts with the crowded Panel 1 above.
+
+No additional sound effects. The silence after the crowd footsteps.
+
+Density Lv.4 — precise rendering of his back silhouette, the single eye, glasses rim, duffel bag strap. The eye is the focal point of the panel (and the page ending).
+
+Mood: A quiet liberation tinged with uncertainty. The city keeps moving in its salaried rhythm, but he has stepped out of it. The final glance-back invites the reader into his next chapter.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.

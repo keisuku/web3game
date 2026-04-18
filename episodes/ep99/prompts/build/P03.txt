@@ -1,0 +1,72 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels.
+Layout: Panel 1 on top, Panel 2 below, then bottom row splits into Panel 3 (right side, read first) and Panel 4 (left side, read last — page ending).
+Reading order: Panel 1 → 2 → 3 (bottom-right) → 4 (bottom-left).
+Bottom-left panel is the page ending — place the emotional payoff there.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+First-run mode. Full body running shot in early morning park. White T-shirt, navy track jacket unzipped, black running shorts, cheap white sneakers labeled "Walker". Loose posture (not athletic). Smartphone strapped to upper arm with cyan screen glow. Breath visible in cool air.
+Discovery mode. Close-up face. Eyes focused on smartphone screen (held at 10-15 degree tilt, cyan glow lighting half the face). Corner of mouth raising into a wondering small smile. Glasses lenses reflecting the +5 GST display.
+
+## Panel 1 (top 55%, establishing climax shot)
+
+Scene: Wide full-body shot of Takashi running in an empty park at early dawn. Behind him: a dawn sky in greyscale with subtle orange-tone gradient screentone, 3-4 cherry blossom petals drifting, mild morning mist, bare branches of park trees. He wears: white T-shirt, navy track jacket unzipped, black running shorts, plain white cheap sneakers labeled "Walker". An arm strap holds his smartphone (screen facing outward, cyan #00BCD4 glow visible). His posture is loose, not athletic — eyebrows slightly knit with the unfamiliar effort, mouth slightly open catching breath. But a faint positive energy. The first-run mode.
+
+Monologue (handwriting caption, upper-right area): 「朝5時。」「12年間、見たことのない空。」
+
+Sound effects (small font, rhythmic): 「ザッ…ザッ…ザッ…」 along the ground, 「ハァ…ハァ…」 near his mouth.
+
+Density Lv.4 — detailed park background, careful light direction, multi-layer screentone on sky.
+
+## Panel 2 (bottom-right, 33% width, 45% height — read first in right-to-left flow)
+
+Scene: Extreme close-up of the smartphone screen tilted 10-15 degrees, strapped to Takashi's upper arm. The STEPN-style app UI shows a counter "+5.00 GST" glowing cyan (#00BCD4). Behind the phone: the texture of his navy track jacket fabric. No face visible.
+
+Monologue caption (small): 「+5 GST。」
+
+Tiny sound effect: 「ピコッ」 (app earning chime, tiny font).
+
+Density Lv.3 — careful UI detail but minimal background.
+
+## Panel 3 (bottom-center, 33% width, 45% height)
+
+Scene: Smartphone screen tilted 10-15 degrees, showing a different screen now: a large prominent button labeled "SWAP GST → USDC" centered. Takashi's thumb approaching the button, tip of finger slightly trembling. No face, only hand and screen.
+
+In-screen text: "SWAP GST → USDC"
+
+Monologue caption (small): 「ほんとに……？」
+
+Density Lv.2 — sketchy loose lines, only hand and UI.
+
+## Panel 4 (bottom-left, 33% width, 45% height — page ending, emotional payoff)
+
+Scene: Close-up of Takashi's face, even tighter than a bust shot. The smartphone is below frame, its cyan glow illuminating his face from below. Round thin-framed glasses reflecting the cyan light. Eyes wide open, pupils focused on the screen. Mouth raised into a soft wondering smile. A subtle blush on cheekbones. Discovery-smile mode. The moment of realizing something real just happened.
+
+Monologue (handwriting caption, bold and larger than other monologues): 「¥5,000……着金……！！」
+
+Density Lv.4 — detailed face, careful shadow play, this is the emotional climax of the page.
+
+Mood: The small miracle of the first earning. Gentle awe at the quiet morning world, followed by disbelief and joy at receiving 5000 yen — not a lottery win, but the first proof that this strange app actually works.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.

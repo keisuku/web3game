@@ -1,0 +1,62 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+ATM mode. Bust shot, standing in front of a convenience-store ATM at night. Inserting a debit card. Slight tension in fingers. Glasses reflecting the ATM screen glow (white light, NOT cyan). Mouth tight.
+
+## Panel 1 (top 20%, thin horizontal strip, establishing shot)
+
+Scene: Wide panoramic strip. Late-night convenience-store exterior, generic (no brand logo). ATM sign glowing with white light. Empty sidewalk, street lamp, a vending machine. Right edge of the panel has a vertical Japanese narration box (small font).
+
+Narration text (vertical, small): 「——5月3日、深夜2時。」「人生で初めて、暗号通貨のボタンを押す。」
+
+Tiny sound effect in a corner: 「ジーッ…」 (vending machine hum, extremely small).
+
+Density Lv.2 — loose sketchy lines on the storefront, minimal shading, lots of open sky.
+
+## Panel 2 (bottom 80%, large complex panel with 3 clearly separated visual elements)
+
+Scene: A single large panel containing 3 distinct sub-areas arranged in a right-to-left flow:
+
+ELEMENT A (top-right corner, medium size): ATM screen tilted at a slight angle, showing a "SEND COMPLETE" confirmation in white text on a dark background. Takashi's hand partially visible at the ATM keypad.
+
+ELEMENT B (center, main focus): Bust shot of Takashi standing in front of the ATM. Slight low-angle view. ATM screen's white light illuminates his face from the front. Round thin-framed glasses reflecting the white light. Mouth slightly parted, eyebrows lightly raised — an expression balanced between "I just bet" and "and it arrived". Dark business suit, tie loosened.
+
+ELEMENT C (bottom-left corner, medium size): Takashi's other hand holding a smartphone tilted 10-15 degrees. On the screen: a freshly appeared NFT notification showing a stylized white-based sneaker labeled "Walker #42817". The phone screen has cyan (#00BCD4) glow softly lighting the corner of his hand.
+
+Three small speech/thought bubbles inside the panel (handwriting-caption style, not full speech bubbles): 「4万円。」 「1ヶ月分の飲み代。」 「賭けた。」
+
+Two tiny in-screen texts: "SEND COMPLETE" (ATM), "YOUR SHOE HAS ARRIVED: Walker #42817" (smartphone).
+
+Sound effect near the smartphone: 「ピコン！」 (with cyan outline, medium size, integrated into composition).
+
+Density Lv.4 — this is the climax panel of this page: detailed ATM interface, precise smartphone UI with the NFT sneaker illustration, sharp shadow contrast on face.
+
+Mood: A quiet late-night gamble. First-time crypto purchase. Tension mixed with slight wonder as the NFT shoe arrives on screen. Not fear, not euphoria — a single focused breath.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.
