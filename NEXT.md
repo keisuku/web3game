@@ -13,6 +13,8 @@
 共有履歴:
 - EP03 P01〜P04 生成結果（Web 版共有済み／ユーザー所感「もはやコメントするのもしんどい」）→ `sessions/checkpoints/2026-04-18_checkpoint.md`
 - **正解ver 5 枚（EP01 前半アーク再構成候補）→ `references/correct-version-2026-04-18.md`**
+- **Claude Code Skills 導入ガイド（ユーザー共有資料・ターミナル版読了推奨）→ `references/claude-code-skills-guide-2026-04-18.md`**
+  - ユーザーの扱い: 参考情報として共有されただけ。自動インストール厳禁。導入候補は末尾「本リポジトリへの適用メモ」を見て、ユーザーに 1 行提案してから動く
 
 旧タスク: Nano Banana で EP03 P01〜P08 を再生成（プロンプトは `episodes/ep03/prompts/build/PXX.txt`）— P01〜P04 は生成結果確認済み／P05〜P08 は未共有
 
