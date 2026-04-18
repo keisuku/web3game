@@ -1,0 +1,182 @@
+{
+  "_comment": "コマ割りパターン定義。validate-pipeline.sh と manga-page skill がこのファイルを参照する。",
+  "_readingOrder": "すべて右上→左下の日本漫画読み順が前提。",
+  "patterns": [
+    {
+      "id": "P01-quiet-base",
+      "name": "静の基準値",
+      "panelCount": 3,
+      "panelSizes": ["small (narration strip, top-right vertical)", "large (bust shot, center)", "small (wide establishing, bottom-left)"],
+      "densityLevels": ["Lv.2", "Lv.2", "Lv.2"],
+      "useCase": "導入ページ、後の爆発の倍率を上げる",
+      "composition": "Top-right vertical narration panel (thin), center large bust shot of speaker, bottom-left small establishing shot (overhead of space)",
+      "rightToLeftFlow": "top-right narration -> center bust -> bottom-left audience",
+      "doNotMixWith": ["P11-double-spread", "P14-explosion-radial"]
+    },
+    {
+      "id": "P02-audience-clockwise",
+      "name": "観客カット時計回り",
+      "panelCount": 4,
+      "panelSizes": ["medium (top-right: speaker pointing)", "small (top-left: reaction A)", "small (center-left: reaction B)", "small (bottom-left: reaction C)"],
+      "densityLevels": ["Lv.3", "Lv.2", "Lv.2", "Lv.2"],
+      "useCase": "場の同調、集団のリアクション連打",
+      "composition": "Top-right speaker panel with pointing gesture, then 3 reaction cuts flowing counter-clockwise from top-left to bottom-left. Tight gutters between reaction panels for time-continuity feel.",
+      "rightToLeftFlow": "speaker TR -> reaction TL -> reaction CL -> reaction BL",
+      "doNotMixWith": ["P01-quiet-base"]
+    },
+    {
+      "id": "P03-diagonal-5",
+      "name": "対角線5コマ構成",
+      "panelCount": 5,
+      "panelSizes": ["large (top-right, 40%)", "tiny (upper-middle)", "tiny (middle)", "tiny (lower-middle)", "large (bottom-left, 30%)"],
+      "densityLevels": ["Lv.4", "Lv.2", "Lv.2", "Lv.2", "Lv.4"],
+      "useCase": "阿鼻叫喚、崩壊、加速感の最大化",
+      "composition": "Large top-right climax panel (40% of page), 3 tiny reaction panels aligned diagonally, large bottom-left emotional landing panel. Focus lines from top-right pull eye along diagonal.",
+      "rightToLeftFlow": "explosive TR -> 3 diagonal smalls -> emotional BL",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P04-pointing-radial",
+      "name": "指差し放射構図",
+      "panelCount": 4,
+      "panelSizes": ["large center (pointing figure)", "small (reaction TR)", "small (reaction TL)", "small (reaction BL)"],
+      "densityLevels": ["Lv.4", "Lv.2", "Lv.2", "Lv.2"],
+      "useCase": "主導者が場を支配、決め台詞",
+      "composition": "Central large panel of a character pointing outward, smaller reaction panels arranged radially around (top-right, top-left, bottom-left). The pointing finger extends toward the reaction panels visually.",
+      "rightToLeftFlow": "center speaker -> TR reaction -> TL reaction -> BL reaction",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P05-meta-bird-eye",
+      "name": "メタ宣言俯瞰大ゴマ",
+      "panelCount": 3,
+      "panelSizes": ["medium (top-right: face close-up)", "large (top-left to center: bird's-eye view of space)", "small (bottom-left: hand/object detail)"],
+      "densityLevels": ["Lv.3", "Lv.5", "Lv.3"],
+      "useCase": "ピーク直前の空間定義、エピソードの引き上げ",
+      "composition": "Top-right medium face panel sets the observer, then a large bird's-eye-view panel (1.5x normal font narration box) defines the entire space, followed by a small bottom-left detail panel hinting at the next action.",
+      "rightToLeftFlow": "observer face TR -> bird-eye panorama -> hand/object BL",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P06-black-punchline",
+      "name": "全面黒ベタ+小決め台詞",
+      "panelCount": 2,
+      "panelSizes": ["extra-large (80% of page: full black with silhouette)", "tiny (bottom-left: small cut-in of face or eye)"],
+      "densityLevels": ["Lv.5", "Lv.4"],
+      "useCase": "覚醒、決定的瞬間の切り札（1エピ1回まで）",
+      "composition": "Upper 80% of page filled with solid black, only a silhouette of the key object/figure visible, large white-outline onomatopoeia integrated into composition. Tiny bottom-left panel with close-up of eye or mouth delivering the whisper punchline.",
+      "rightToLeftFlow": "massive black silhouette -> tiny whisper BL",
+      "doNotMixWith": ["P11-double-spread", "P14-explosion-radial"]
+    },
+    {
+      "id": "P07-onomatopoeia-comp",
+      "name": "擬音構図化",
+      "panelCount": 1,
+      "panelSizes": ["full page or 2/3 page (with giant onomatopoeia as background element)"],
+      "densityLevels": ["Lv.4"],
+      "useCase": "音を視覚情報に変換、衝撃の聴覚化",
+      "composition": "Single large panel where the onomatopoeia text is drawn as a structural background element (not just overlay) — e.g., giant 'ガラガラ' letters collapse with the scene. White-outline massive text overlapping character.",
+      "rightToLeftFlow": "single focus panel",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P08-back-glance",
+      "name": "後ろ姿+振り返り片目",
+      "panelCount": 2,
+      "panelSizes": ["large (top: crowd cheering wide shot)", "large (bottom: silhouette from behind with single eye visible)"],
+      "densityLevels": ["Lv.3", "Lv.4"],
+      "useCase": "各エピソードラスト、次ページへの引き（3〜5ページに1回上限）",
+      "composition": "Top panel shows the consequence/crowd reaction. Bottom panel shows the protagonist from behind as silhouette, with just one eye glancing back over shoulder. Never reveal full face.",
+      "rightToLeftFlow": "crowd wide -> silhouette back-view BL",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P09-top-big-three-small",
+      "name": "大ゴマ上+下段3分割",
+      "panelCount": 4,
+      "panelSizes": ["large (top 55%: establishing scene)", "small (bottom-right)", "small (bottom-center)", "small (bottom-left)"],
+      "densityLevels": ["Lv.4", "Lv.2", "Lv.2", "Lv.2"],
+      "useCase": "シーン導入+リアクション展開",
+      "composition": "Top 55% large establishing shot. Bottom row split into 3 equal panels showing close-ups / reactions / details in right-to-left order.",
+      "rightToLeftFlow": "establishing top -> BR -> BC -> BL",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P10-vertical-4faces",
+      "name": "縦長4コマ顔アップ連続",
+      "panelCount": 4,
+      "panelSizes": ["vertical strip TR (face A close-up)", "vertical strip upper-right-2 (face B close-up)", "vertical strip lower-left (face A close-up 2nd beat)", "vertical strip BL (face B reaction)"],
+      "densityLevels": ["Lv.3", "Lv.3", "Lv.3", "Lv.4"],
+      "useCase": "感情の応酬、会話の緊張、2者間ダイアローグ",
+      "composition": "Four tall vertical panels arranged right-to-left in two rows (TR-TL, BR-BL) alternating two characters' faces. Each panel isolates the face at different scales — progressive zoom on key character.",
+      "rightToLeftFlow": "TR face A -> TL face B -> BR face A zoomed -> BL face B reaction",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P11-double-spread",
+      "name": "見開きスプラッシュ",
+      "panelCount": 1,
+      "panelSizes": ["full double-page spread (two B5 pages side by side)"],
+      "densityLevels": ["Lv.5"],
+      "useCase": "変身、覚醒、最大の見せ場（1話1回の切り札）",
+      "composition": "Full double-page spread, single massive image. Avoid critical detail across the center gutter. Landscape aspect ratio ~10:7. Integrate the scene across both pages with natural visual flow from right to left.",
+      "rightToLeftFlow": "eye enters top-right of right page, exits bottom-left of left page",
+      "doNotMixWith": ["P06-black-punchline"]
+    },
+    {
+      "id": "P12-strip-plus-big",
+      "name": "細長帯+大ゴマ",
+      "panelCount": 2,
+      "panelSizes": ["thin horizontal strip (top 20%: time/setting establishment)", "large (bottom 80%: main scene)"],
+      "densityLevels": ["Lv.2", "Lv.4"],
+      "useCase": "時間経過+場面確定、章の始まり",
+      "composition": "Top thin strip panel with date/location text or wide landscape. Large lower panel delivers the main scene with richer detail.",
+      "rightToLeftFlow": "time-strip top -> main scene",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P13-center-vs-flanks",
+      "name": "中央大ゴマ+対面2コマ",
+      "panelCount": 3,
+      "panelSizes": ["medium (top-right: character A face)", "large (center: confrontation or landscape)", "medium (bottom-left: character B face)"],
+      "densityLevels": ["Lv.3", "Lv.5", "Lv.3"],
+      "useCase": "対決、対比構図、二項対立",
+      "composition": "Top-right face of A, center large confrontation scene (or symbolic space), bottom-left face of B. Two characters face each other through the center.",
+      "rightToLeftFlow": "face A TR -> center confrontation -> face B BL",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P14-explosion-radial",
+      "name": "爆発放射型",
+      "panelCount": 1,
+      "panelSizes": ["full-page single panel with radial explosion composition"],
+      "densityLevels": ["Lv.5"],
+      "useCase": "衝撃の瞬間、破壊、崩壊",
+      "composition": "Single full-page panel. Explosion/shockwave emanates from a focal point with radiating lines. Debris and fragments flying outward.",
+      "rightToLeftFlow": "single focal explosion",
+      "doNotMixWith": ["P06-black-punchline"]
+    },
+    {
+      "id": "P15-sym-grid-break",
+      "name": "田の字を崩す4コマ",
+      "panelCount": 4,
+      "panelSizes": ["medium (TR: standard)", "medium (TL: standard)", "small (BR: tight)", "large (BL: break-out, wider than BR)"],
+      "densityLevels": ["Lv.2", "Lv.3", "Lv.2", "Lv.4"],
+      "useCase": "日常感を残しつつ変化、会話の終盤",
+      "composition": "Standard 2x2 grid but the bottom-left panel is enlarged (1.5x width of bottom-right) to break symmetry and guide the eye toward the ending beat.",
+      "rightToLeftFlow": "TR -> TL -> BR -> BL (larger)",
+      "doNotMixWith": []
+    },
+    {
+      "id": "P16-vertical-long",
+      "name": "縦長一本",
+      "panelCount": 1,
+      "panelSizes": ["single full-page vertical panel"],
+      "densityLevels": ["Lv.4"],
+      "useCase": "落下、上昇、垂直スケール、高層ビル、深淵",
+      "composition": "Single tall panel occupying the full page height. Exaggerated vertical perspective. Foreshortening from top or bottom.",
+      "rightToLeftFlow": "single vertical",
+      "doNotMixWith": []
+    }
+  ]
+}

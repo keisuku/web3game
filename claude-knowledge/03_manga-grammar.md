@@ -17,13 +17,16 @@
 - 溜めのコマは: 無言、引きの構図、余白多め、のいずれかで構成
 - 溜めなしでいきなり見せ場に入るのは禁止
 
-### 原則2: 1ページ内の視線誘導は左上→右下
+### 原則2: 1ページ内の視線誘導は**右上→左下**（日本漫画の読み順）
 
-<!-- EN: Eye flow must go from top-left to bottom-right within each page. Panel placement must guide this flow. -->
+<!-- EN: CRITICAL — Japanese manga reads RIGHT-to-LEFT. Eye flow must go from top-RIGHT to bottom-LEFT within each page. Panel placement must guide this flow. Do NOT confuse with Western left-to-right order. -->
 
-- 読者の視線が自然に左上から右下に流れるようコマを配置する
-- 重要な情報は視線の通り道に置く
-- 視線の逆流（右上→左下への戻り）が発生するレイアウトは避ける
+- 日本漫画は**右から左**へ読む。コマの順番は右上 → 右下/左上 → 左下と流れる
+- ページを開いた瞬間の視線の入口は**右上**。そこに最も訴求したい「開幕の一撃」を置く
+- ページの出口は**左下**。そこに「次ページへの引き」を置く
+- 視線を自然に右上→左下の対角線で走らせる（小コマを斜めに並べると加速感）
+- 視線の逆流（左上→右下の洋書的流れ）が発生するレイアウトは**禁止**
+- プロンプト出力時は `right-to-left reading order (Japanese manga layout)` を必ず明記
 
 ### 原則3: 重要セリフは小コマで言わせる
 
@@ -95,7 +98,7 @@
 ページ設計の最終確認に使用:
 
 - [ ] 見せ場の前に溜めコマがある
-- [ ] 視線誘導が左上→右下に通っている
+- [ ] 視線誘導が右上→左下に通っている
 - [ ] 重要セリフが小コマに入っている
 - [ ] 感情変化が顔アップで描かれている
 - [ ] 説明と感情が同一コマに混在していない

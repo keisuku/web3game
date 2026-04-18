@@ -46,8 +46,11 @@ mkdir -p "$BUILD_DIR"
 parse_frontmatter() {
   python3 - "$PROMPT_FILE" << 'PYEOF'
 import sys, re
+if hasattr(sys.stdout, "reconfigure"):
+    try: sys.stdout.reconfigure(encoding="utf-8")
+    except Exception: pass
 path = sys.argv[1]
-with open(path) as f:
+with open(path, encoding='utf-8') as f:
     text = f.read()
 m = re.match(r'^---\n(.*?)\n---\n(.*)$', text, re.DOTALL)
 if not m:
@@ -115,6 +118,9 @@ BODY=$(awk 'BEGIN{skip=1} /^---$/ && skip==1 {skip=2; next} skip==2 && /^---$/ {
 # ────────────────────────────────
 python3 - "$FM_JSON" "$BODY" "$CONST_DIR" "$OUT_FILE" << 'PYEOF'
 import sys, json, os, re
+if hasattr(sys.stdout, "reconfigure"):
+    try: sys.stdout.reconfigure(encoding="utf-8")
+    except Exception: pass
 
 fm = json.loads(sys.argv[1])
 body = sys.argv[2]
@@ -125,7 +131,7 @@ def read_block(path):
     """Markdown ファイルから最初のコードブロック（```〜```）を抽出"""
     if not os.path.exists(path):
         return ""
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         text = f.read()
     m = re.search(r'```\n(.*?)\n```', text, re.DOTALL)
     return m.group(1).strip() if m else ""
@@ -134,7 +140,7 @@ def read_section(path, section_name):
     """Markdown ファイルから指定セクション（## name）のコードブロックを抽出"""
     if not os.path.exists(path):
         return ""
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         text = f.read()
     # Section is `## name` followed by optional content and a code block
     pattern = rf'##\s+{re.escape(section_name)}[^\n]*\n.*?```\n(.*?)\n```'
@@ -198,7 +204,7 @@ if page_ban:
 
 result = "\n".join(parts)
 
-with open(out_file, "w") as f:
+with open(out_file, "w", encoding='utf-8') as f:
     f.write(result)
 
 print(result)

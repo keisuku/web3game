@@ -13,7 +13,7 @@ HARD RULES — violations are failures:
 
 3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
 
-4. Layout ban: NEVER 2x2 grid. NEVER landscape. Panels stack top-to-bottom only.
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
 
 5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
 
