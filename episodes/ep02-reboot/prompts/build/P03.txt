@@ -1,0 +1,60 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+## Panel 1 (full page, single vertical panel — T01 大ゴマ1枚構成)
+
+Scene: A SINGLE full-page panel representing the public euphoria of GMT Earning launch day. Composition in 4 vertical zones without sub-panel borders:
+
+TOP ZONE (top 25%): GIANT brush-stroke calligraphy 「ついに来た」 (T31) in stark black ink, vertical orientation, positioned along the LEFT edge of the panel. This is the ONLY brush text on this page.
+
+CENTER-UPPER ZONE (35%): A stylized announcement banner occupying the center. Banner text in large bold fonts (T39):
+- Main line: "GMT EARNING IS LIVE" (large English bold)
+- Date: "2022.09.28" (slightly smaller)
+The banner is surrounded by radiant burst effects (without cyan — use white/grey lines). Surrounding the banner: MULTIPLE floating speech bubbles (no speaker labels, just text, scattered around):
+- 「歩くだけで稼げる」
+- 「465時間？ ジェムさえあれば」
+- 「Comfort 100で日給2,500円」
+- 「月7万円いける」
+- 「副業超え！」
+
+CENTER-LOWER/BOTTOM-RIGHT ZONE (20%): Close-up of a smartphone screen tilted at 10-15 degrees (T13). A note-blog-style article is displayed with realistic UI. In-screen text (Japanese, rendered as blog content):
+「Comfort 100 / Common Runner / 5エナジー(25分)」
+「Reward: +14.36 GMT」
+「当時GMT価格 約90円 → 約1,290円/25分」
+「——実証データ、来た」
+A faint cyan glow at the screen edge (T12 narrow use).
+
+BOTTOM-LEFT ZONE (20%): A CROWD of celebrating figures — all rendered as SILHOUETTES (T14). Arms raised, smartphones held aloft, diverse dynamic poses (jumping, fist-pumping). CRITICAL: NO facial features on any crowd member.
+
+Large white-outlined onomatopoeia across the bottom of the panel (T37 擬音構図化): 「ワアアァァッ……」 integrated as structural element, not just overlay.
+
+Density Lv.5 — every element rendered with precision: brush weight, banner typography, note UI authenticity, crowd silhouette variety, onomatopoeia integration. This is the page-level climax and the return of the festival.
+
+Mood: The moment the quiet market explodes back into life. September 28, 2022, 'GMT EARNING IS LIVE' — the promise that the 465-hour grind could be skipped with gems. Pure euphoria. The festival has returned.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

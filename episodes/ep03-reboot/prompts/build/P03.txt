@@ -1,0 +1,57 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+## Panel 1 (full page main panel, 90% height — climax)
+
+Scene: A dramatic announcement panel dominating the page.
+
+CENTER: A large banner rendered in a STEPN-like style (abstract, not verbatim brand logos). Banner text:
+"RAINBOW SNEAKER — LIVE"
+"2022.10.12"
+The banner has a red frame, glowing edges, official-announcement aesthetic.
+
+BEHIND the banner: a GIANT silhouette of a rainbow sneaker — rendered in MONOCHROME greyscale with a HALO above it (T20 deification). The silhouette carries sacred iconography — light particles radiate outward in a burst pattern (particles are neutral white/grey, NOT cyan).
+
+UPPER-LEFT corner: GIANT brush-stroke calligraphy 「ついに」 in stark black ink, vertical orientation (T31 — this is the 1st of 3 brush uses in EP03-REBOOT).
+
+BOTTOM edge of the panel: Small caption bar "——新時代、到来"
+
+Density Lv.5 — maximum detail: banner typography, sacred halo rendering, particle burst precision, brush weight. The ascended-object-before-revelation energy.
+
+## Panel 2 (bottom strip, 10% height)
+
+Scene: Horizontal thin strip, white background, single black caption text centered:
+「——2022年10月12日」
+
+No characters. No background detail. Pure time-marker.
+
+Density Lv.3 — clean typographic strip.
+
+Mood: The moment a new promise drops. Rainbow sneakers go live. The crowd doesn't yet know what 60% means. For now: pure anticipation, deified hype. 'At last.'
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
