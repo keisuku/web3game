@@ -8,7 +8,17 @@
 
 ## 🎯 次にやること（1 行）
 
-**Nano Banana で EP03 P01〜P08 の画像を実際に生成し、`diff-log/log-ep03-PXX.md` に結果を記録する（`bash scripts/new-diff-log.sh 03 PXX` で雛形作成）**
+**Nano Banana で EP03 P01〜P08 を再生成。プロンプトは `episodes/ep03/prompts/build/PXX.txt`（ビルド済み・固定部分＋可変部分結合済み）を使用する**
+
+## 🧱 プロンプト新フォーマット（重要）
+
+**固定部分**（`bible/prompt-constants/`）と**可変部分**（各 `PXX-prompt.md` の YAML ＋コマ別）を分離:
+
+- 画風・キャラ・禁止事項・レイアウトテンプレは `bible/prompt-constants/` に集約、全ページで共有
+- 各ページの `prompts/PXX-prompt.md` は YAML フロントマター（layout / characters / mood / page_specific_ban）＋コマ別の scene/expression/dialogue **だけ**
+- `bash scripts/build-prompt.sh 03 PXX` で結合 → `prompts/build/PXX.txt` に出力
+- `bash scripts/sync-dashboard.sh 03` で全ページビルド＋ index.html 同期まで一撃
+- **禁止事項を追加したいときは `bible/prompt-constants/prohibited-core.md` を 1 箇所だけ更新→全ページに波及**
 
 ## 🌿 現行作業ブランチ
 

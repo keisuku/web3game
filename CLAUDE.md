@@ -34,6 +34,9 @@
 | 「前の続き」「どこまでやった？」 | `cat NEXT.md`（先頭）＋ `sessions/checkpoints/` の最新ファイル |
 | 「新しいエピソード作って」 | `bash scripts/new-episode.sh <EP>` |
 | 「バイブル統合して」「ナレッジ更新して」 | `bash scripts/sync-bible.sh` |
+| 「プロンプトビルドして」「Nano Banana 用に出して」 | `bash scripts/build-prompt.sh <EP> <P>` → 固定＋可変結合、build/ に出力 |
+| 「ダッシュボード同期」「公開ページ反映」 | `bash scripts/sync-dashboard.sh <EP>` → 全プロンプトビルド＋ index.html 同期 |
+| 「描画ルール追加」「禁止事項追加」 | `bible/prompt-constants/prohibited-core.md` を編集（全ページに波及） |
 | 「Thread B の準備」「プロンプト化して」 | `bash scripts/bundle-thread-b.sh <EP> <P>` |
 | 「Thread A の準備」 | `bash scripts/bundle-thread-a.sh <EP> <P>` |
 | 「差分ログ作って」 | `bash scripts/new-diff-log.sh <EP> <P>` |

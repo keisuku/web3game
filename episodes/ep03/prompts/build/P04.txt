@@ -1,0 +1,65 @@
+Vertical single-page Japanese manga layout. Portrait orientation (taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format. Right-to-left reading direction, top-to-bottom panel flow.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels, explosive detailed precision for climax panels.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
+Panel 4 is the page ending — place the emotional payoff here.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
+Bust shot front. Eyes wide open, pupils constricted. Mouth slightly open, no teeth. Smile has fully vanished. Face in pure processing-shock stillness.
+
+## Panel 1 (top, 15%)
+Scene: Long horizontal thin panel. Pure black background with bold white capital text centered.
+Expression: none
+Dialogue:
+- 大文字: 2022.10.12
+- 注記: GMT アーニング実装から 14 日後
+
+## Panel 2 (middle, 50%) — ★CLIMAX
+Scene: The panel is dominated by an enormous circular pie chart. The right 60% segment radiates rainbow prism iridescence (full spectrum). The left 40% segment is monochrome grey. The chart is cosmic in scale. At the lower edge of the panel, a tiny full-body figure of Shouichi stands dwarfed, looking up at the 60% segment. A single rainbow sneaker silhouette floats at mid-scale, unattainable. Background is deep black void.
+Expression: Shouichi is tiny — only his standing posture communicates emotion
+Dialogue:
+- 画面上部大文字: RAINBOW SNEAKER — LIVE
+- グラフラベル (右 60%): 60% → 虹プール
+- グラフラベル (左 40%): 40% → 通常靴
+- Shouichi の小吹き出し: ……え？
+
+## Panel 3 (middle-lower, 20%)
+Scene: Bust close-up front of Shouichi. Rainbow prism light reflecting on glasses lenses (light from the chart).
+Expression: shock-reversal — eyes wide open, pupils constricted, mouth slightly open, no teeth. The smile of earlier panels has fully vanished.
+Dialogue:
+- 小吹き出し（声が小さい）: 2 週間前に……
+- 大吹き出し: 走り出したばっかりだぞ……！
+
+## Panel 4 (bottom, 15%)
+Scene: Close-up smartphone screen, tilted 15 degrees. STEPN marketplace listing. Screen light carries a subtle rainbow prism glow.
+Expression: none
+Dialogue:
+- 画面: Rainbow Sneaker — 32,000,000 JPY
+- 画面: ※流動性極小
+- 画面下部: 虹ジェム (Lv1) — 2,800,000 JPY
+- （心の声）……3,200 万
+- （心の声）60% が……向こう側……？
+
+Mood: Two-week earthquake. Quiet massive scale in Panel 2, internal reversal in Panel 3, monetary shock in Panel 4. Awe and displacement — NOT dark, NOT despair.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. Panels stack top-to-bottom only.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.

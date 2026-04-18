@@ -1,0 +1,67 @@
+Vertical single-page Japanese manga layout. Portrait orientation (taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format. Right-to-left reading direction, top-to-bottom panel flow.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels, explosive detailed precision for climax panels.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
+Panel 4 is the page ending — place the emotional payoff here.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
+Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles (if specified).
+
+## Panel 1 (top, 25%)
+Scene: Overhead shot of a table in a dim night room. Five different sneakers lined up in a row (two Common grade, two Uncommon, one Rare — slight size/style variation). Below each sneaker, faint price tag text scattered. Only light source is smartphone screen glow from off-frame upper-right — warm orange tint, no cyan. Shouichi's right hand partially visible at upper-right frame edge.
+Expression: none (ceremonial stillness)
+Dialogue:
+- 値札: ¥40,000
+- 値札: ¥80,000
+- 値札: ¥140,000
+- 値札: ¥180,000
+- 値札: ¥220,000
+- （薄い心の声）5 足——合わせて 66 万
+
+## Panel 2 (middle, 25%)
+Scene: Ultra close-up of smartphone screen, tilted 10-15 degrees. STEPN-style Enhance screen with a large centered red button "ENHANCE (5/5)". Below it, small text "Rainbow probability: 0.4%". Shouichi's thumb caught at the exact moment of contact — button surface slightly depresses under the thumb. Pure black surrounding background.
+Expression: none (indirect — thumb only)
+Dialogue:
+- 小吹き出し（画面外）: ——ポチッとな
+- 画面: ENHANCE (5/5)
+- 画面: Rainbow probability: 0.4%
+- 効果音（小、右下）: カチッ
+
+## Panel 3 (middle-lower, 30%) — ★ritual climax
+Scene: Vertical ritual composition. Five sneakers floating upward, each dissolving into swirling spiraling particle streams. Particles render as full-spectrum rainbow prism iridescence (full rainbow, not just cyan). Ascending spirals of particle trails. Background deep black void — only particle trails and thin sneaker outlines visible. Shouichi is absent.
+Expression: none (character absent)
+Dialogue:
+- 中央テキスト: ENHANCING... 1 / 200
+- （画面下部の薄い心の声）66 万円が、煙になっていく
+
+## Panel 4 (bottom, 20%)
+Scene: Split composition. Left half: smartphone screen tilted 10-15 degrees, showing processing animation — loading circle with "CALCULATING..." label. Right half: close-up of Shouichi's clenched right fist, trembling, knuckles turned white. Face absent. Dark monochrome background.
+Expression: fist tension only (face absent)
+Dialogue:
+- 画面: CALCULATING...
+- 小吹き出し: ……1/200 に、当たってくれ
+- さらに小: 俺は、ジェム側の人間だった——
+
+Mood: Gambling ritual. Solemn machine consuming money. Tension, not despair, not comedy. The man is absorbed — his face is withheld deliberately.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. Panels stack top-to-bottom only.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.

@@ -1,0 +1,68 @@
+Vertical single-page Japanese manga layout. Portrait orientation (taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format. Right-to-left reading direction, top-to-bottom panel flow.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels, explosive detailed precision for climax panels.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
+Panel 4 is the page ending — place the emotional payoff here.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+
+## Panel 1 (top, 25%)
+Scene: Large tilted announcement banner dominates the panel with bold English "GMT EARNING IS LIVE" and small "2022/9/28". Around the banner, a particle-like cloud of celebratory SNS thumbnails bursting outward, small and anonymous silhouettes.
+Expression: none
+Dialogue:
+- バナー: GMT EARNING IS LIVE
+- 粒子テキスト: ついに来た
+- 粒子テキスト: 歩くだけで稼げる
+- 粒子テキスト: 465 時間？ジェムさえあれば
+
+## Panel 2 (middle-upper, 30%)
+Scene: Large bold impact typography dominates the panel. Red hexagonal gem icons scattered as light-burst texture. Tiny anonymous avatar silhouettes at the lower edge looking up.
+Expression: none
+Dialogue:
+- 大文字: ジェムさえあれば——
+- 大文字: 465 時間もかからない
+- 小テキスト: Comfort 100 で日給 2,500 円いけるって！
+- 小テキスト: 月 7 万！
+- 小テキスト: 副業超え！
+
+## Panel 3 (middle-lower, 25%)
+Scene: Close-up smartphone screen, tilted 10-15 degrees. Note-style blog article preview with earning data highlighted in the center. Warm orange screen tint on edges.
+Expression: none
+Dialogue:
+- 画面: Comfort 100 / Common Runner / 5 エナジー（25分）
+- 画面: Reward: +14.36 GMT
+- 画面: 当時 GMT 価格 約 90 円 → 約 1,290 円 / 25 分
+- 画面フッター: すわはす @note 10/2
+- （薄い心の声）実証データ、来たな
+
+## Panel 4 (bottom, 20%)
+Scene: Bust shot of Shouichi in home living room at night. Front-facing. Right hand holding smartphone.
+Expression: confident mode — teeth-showing grin with a shrewd undertone. Glasses glinting with a calm soft light (NOT a star flash, NOT rays).
+Dialogue:
+- 俺は——ジェム側の人間だ
+- 日給 2,500 円？……走るか
+
+Mood: Implementation day euphoria and winner's confident grin. Positive, steady-fun future tone, not sleazy.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. Panels stack top-to-bottom only.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.
