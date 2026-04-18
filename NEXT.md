@@ -8,9 +8,11 @@
 
 ## 🎯 次にやること（1 行）
 
-**EP03 P01〜P04 相当の生成画像をユーザーが Web 版に共有済み。所感「もはやコメントするのもしんどい」を受領。深追いせず、次のユーザー指示を静かに待つ**
+**ユーザーが「正解ver」5 枚を追加共有。`references/correct-version-2026-04-18.md` を最優先参照し、EP01 リブート構成＋ EP03 との絵柄整合を次ステップで判断する。ただしユーザー指示が来るまで静かに待つ**
 
-詳細は `sessions/checkpoints/2026-04-18_checkpoint.md`（ターミナル版 Claude Code 向けリレー）。
+共有履歴:
+- EP03 P01〜P04 生成結果（Web 版共有済み／ユーザー所感「もはやコメントするのもしんどい」）→ `sessions/checkpoints/2026-04-18_checkpoint.md`
+- **正解ver 5 枚（EP01 前半アーク再構成候補）→ `references/correct-version-2026-04-18.md`**
 
 旧タスク: Nano Banana で EP03 P01〜P08 を再生成（プロンプトは `episodes/ep03/prompts/build/PXX.txt`）— P01〜P04 は生成結果確認済み／P05〜P08 は未共有
 
