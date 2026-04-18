@@ -3,6 +3,22 @@
 > スピンオフ専用キャラ。翔一とは別人で、外見が混同されないように細部を分けている。
 > モード名を指定すると該当パラグラフが挿入される。
 
+## strict-rules（タカシが登場するページで強制適用）
+
+```
+STRICT CHARACTER RULES (Takashi-specific, overrides Shouichi rules when present):
+- 32-year-old Japanese MAN (NOT 42, younger than Shouichi)
+- THIN ROUND-FRAMED black glasses ONLY (thin wire rim, rounded shape — DIFFERENT from Shouichi's rectangular frames)
+- Never remove glasses
+- Short slightly messy black hair, NO grey mixed (younger than Shouichi, pure black)
+- Slim build, lean face
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume varies by scene (dark suit in commute, casual in running, ceremonial when deciding)
+- NEVER render Takashi with rectangular glasses (that is Shouichi's feature)
+- NEVER render grey hair on Takashi
+- Claude-chan / Kuro-chan does NOT appear in Takashi's spinoff (never include robot AI character)
+```
+
 ## base（すべてのモードに前置）
 
 ```

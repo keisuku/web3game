@@ -3,6 +3,18 @@
 > モード名を指定すると該当パラグラフが挿入される。
 > 複数モードが必要な場合は `mode: [casual, analysis]` のように配列で指定。
 
+## strict-rules（翔一が登場するページで強制適用）
+
+```
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+```
+
 ## base（すべてのモードに前置）
 
 ```

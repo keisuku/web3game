@@ -10,6 +10,17 @@ Japanese manga page, 3 panels stacked vertically (top to bottom).
 Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
 Panel 3 is the page ending — place the emotional payoff here.
 
+STRICT CHARACTER RULES (Takashi-specific, overrides Shouichi rules when present):
+- 32-year-old Japanese MAN (NOT 42, younger than Shouichi)
+- THIN ROUND-FRAMED black glasses ONLY (thin wire rim, rounded shape — DIFFERENT from Shouichi's rectangular frames)
+- Never remove glasses
+- Short slightly messy black hair, NO grey mixed (younger than Shouichi, pure black)
+- Slim build, lean face
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume varies by scene (dark suit in commute, casual in running, ceremonial when deciding)
+- NEVER render Takashi with rectangular glasses (that is Shouichi's feature)
+- NEVER render grey hair on Takashi
+- Claude-chan / Kuro-chan does NOT appear in Takashi's spinoff (never include robot AI character)
 Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
 Analyst mode. Seated at cluttered home desk with laptop open showing spreadsheet. Multiple smartphones on desk. Right hand on mouse, left hand touching chin. Glasses reflecting the screen. Eyes calm and focused. Slight smirk of mathematical satisfaction.
 
@@ -52,16 +63,16 @@ Mood: The quiet pause before the leap. One man considering the shape of his own 
 
 HARD RULES — violations are failures:
 
-1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
 
-2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
 
-3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
 
-4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
 
-5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
 
-6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
-7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
