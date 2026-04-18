@@ -959,13 +959,25 @@ const pagesEP99 = [
       {n:3, size:'下段右35%（小）', comp:'スマホ画面（10-15度傾け）、STEPNインベントリ9足並ぶ、各靴シアン光', expr:'顔なし、画面のみ', dial:'画面「INVENTORY: 9 shoes」／「9足。」'},
       {n:4, size:'下段左65%（田の字崩し大）', comp:'タカシの顔クローズアップ、モニター白光、眼鏡レンズに「¥1,500,000」反射', expr:'analyst-mode（口角片方上がる、目は鋭い、静かなシニカルな満足）', dial:'「月収……」「150万円。」「SEの年収の、2ヶ月分。」「——嘘みたいだ。」'}
     ]},
-  { id:'P05', title:'辞めます', role:'★最大の見せ場・退職届', density:'Lv.4-5', star:true,
+  { id:'P05', title:'鏡の前の自問', role:'メタ宣言・俯瞰・決意の溜め', density:'Lv.3-5', star:false,
+    purpose:'鏡の前で「本当に辞めるのか」と自問し、都市俯瞰のメタ宣言大ゴマで「この街の何百万人が、明日も満員電車に乗る。——でも、俺は。」と宣言。机のメモ「5/31 退職届 提出」で決意の証拠を残す',
+    panels:[
+      {n:1, size:'上段右40%（中・顔クローズアップ）', comp:'洗面所の鏡に映るタカシの顔、朝の斜光、丸型細縁眼鏡', expr:'analyst-mode（眉間の緊張、冷静な自己観察）', dial:'「——本当に、辞めるのか。」'},
+      {n:2, size:'上段〜中央70%（俯瞰大ゴマ climax）', comp:'都心早朝の俯瞰、マンション群の無数の窓光、小さな人影（顔描かず）、グレースケール朝焼け', expr:'人物小（街の一人の象徴化）', dial:'ナレ大きめ「この街の何百万人が、明日も満員電車に乗る。」「——でも、俺は。」'},
+      {n:3, size:'下段左30%（小・証拠）', comp:'机のメモ用紙クローズアップ、手書き「5/31 退職届 提出」、万年筆とコーヒーカップ', expr:'顔なし、物と文字のみ', dial:'メモ「5/31 退職届 提出」／「決めた。」'}
+    ]},
+  { id:'P06', title:'退職届の夜', role:'儀式・縦長一本コマ・垂直の重み', density:'Lv.4', star:false,
+    purpose:'深夜に一人退職届を書く儀式的瞬間。縦長1本コマで天井の電球→机と手元→床のスニーカーWalkerまでを垂直に読ませる',
+    panels:[
+      {n:1, size:'全面1本（縦長100%）', comp:'縦長1コマ構成：上20%（天井電球+月光）／中60%（机全景、退職届白紙、万年筆、タカシ俯き、glasses反射、背景に社員証）／下20%（床のスニーカー Walker）', expr:'顔伏せ気味、儀式執行者の無表情', dial:'縦書きナレ3分割「——34年。」「サラリーマンを、終える夜。」「最後のペン。」／効果音「カリ…カリ…」'}
+    ]},
+  { id:'P07', title:'辞めます', role:'★最大の見せ場・退職届提出', density:'Lv.4-5', star:true,
     purpose:'会議室で上司に退職届を差し出す瞬間。全面黒ベタ+白抜き巨大擬音「スッ…」と、下の小コマでの小さな決め台詞「辞めます。」',
     panels:[
       {n:1, size:'上段80%（極大コマ、黒ベタ）', comp:'画面80%黒ベタ、中央にタカシのシルエット背面（退職届の紙を差し出す）、対面に上司シルエット（顔なし）、窓からの白い逆光、白抜き巨大擬音「スッ…」が構図要素として配置', expr:'タカシ・上司とも顔なし、シルエットのみ', dial:'なし（構図と擬音で緊張）／白抜き巨大擬音「スッ…」'},
       {n:2, size:'下段20%（極小コマ・決め台詞）', comp:'タカシの顔の極端クローズアップ（片目+glasses縁+口角のみ見切れ）', expr:'決意モード（静かな決意、微笑ですらない真顔）', dial:'「辞めます。」（小さな手書き風、フキダシなし）'}
     ]},
-  { id:'P06', title:'街を歩く自由', role:'エピソード末・次回への引き', density:'Lv.3-4', star:false,
+  { id:'P08', title:'街を歩く自由', role:'エピソード末・次回への引き', density:'Lv.3-4', star:false,
     purpose:'退職から3ヶ月後、タカシが群衆サラリーマンと逆方向に街を歩く。振り返り片目で読者と視線を合わせ、次回への引きを作る',
     panels:[
       {n:1, size:'上段55%（大ゴマ群衆）', comp:'昼下がり都心ビジネス街、200人規模のサラリーマンシルエット（顔描かず）、曇り空に一瞬の光、遠景に高層ビル', expr:'群衆に表情なし', dial:'ナレ「——退職から、3ヶ月。」「街は、昨日と同じ流れで、動いている。」／効果音「ザッ…ザッ…ザッ…」'},
@@ -1245,6 +1257,128 @@ Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid re
 
 Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
 
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+Analyst mode. Seated at cluttered home desk with laptop open showing spreadsheet. Multiple smartphones on desk. Right hand on mouse, left hand touching chin. Glasses reflecting the screen. Eyes calm and focused. Slight smirk of mathematical satisfaction.
+
+## Panel 1 (top-right, 40% width, 35% height — face close-up)
+
+Scene: Takashi's face reflected in a simple rectangular bathroom mirror. Morning light enters at an angle from the side. Only the mirror's reflection is visible (the actual Takashi is implied, just outside the frame). Clean-shaven, round thin-framed black glasses. The reflection is slightly softened by a faint condensation at the mirror's edges.
+
+Expression: analyst-mode — slight tension between eyebrows, closed mouth, eyes calmly observing his own reflection. A man looking at himself with detachment.
+
+Monologue (handwriting caption, small): 「——本当に、辞めるのか。」
+
+Density Lv.3 — careful face detail, reflection rendering, minimal bathroom background.
+
+## Panel 2 (top-left to center, 70% width, 50% height — meta-declaration bird's-eye climax)
+
+Scene: High overhead bird's-eye view of a dense Tokyo-style residential/business district at early dawn. Dozens of apartment buildings with countless window lights individually rendered (tiny dots of light), streets with faint figures walking toward train stations as tiny silhouettes (NO individual facial details). Morning mist rising. Sky rendered in multi-layer greyscale screentone with a subtle dawn gradient. A few soft clouds.
+
+No main character visible — he is "one of the millions" implied by the scale.
+
+Narration (large caption in the upper area, approximately 1.5x normal font size, positioned as a meta-declaration):
+「この街の何百万人が、明日も満員電車に乗る。」「——でも、俺は。」
+
+No sound effects (morning silence).
+
+Density Lv.5 — this is the page climax. Maximum detail: hundreds of building windows, careful atmospheric perspective, precise greyscale gradient, multiple screentone layers.
+
+## Panel 3 (bottom-left, 30% width, 35% height — proof of decision)
+
+Scene: Extreme close-up of a single handwritten memo on a plain wooden desk. The memo reads 「5/31 退職届 提出」 in realistic hand-written Japanese (slightly messy SE handwriting, not calligraphy). A fountain pen rests beside the memo. A coffee cup with subtle steam rising. Otherwise empty desk surface.
+
+No face visible — only the memo, pen, and coffee.
+
+Monologue (handwriting caption, small, positioned in the generous negative space): 「決めた。」
+
+Generous negative space around the memo amplifies the weight of the single handwritten line.
+
+Density Lv.3 — precise rendering of handwriting, pen, coffee cup, desk grain.
+
+Mood: The quiet pause before the leap. One man considering the shape of his own life against the mass of a city still moving in salaried rhythm. Calm analytical resolve.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+Decision mode. Silhouette-heavy bust shot in an office meeting room. Only corner of mouth and glasses rim visible. Strong backlight from window behind. Very still posture. Serious but calm — not angry, not sad. A person who has chosen their own life.
+
+## Panel 1 (full page, single vertical panel — entire composition reads top-to-bottom)
+
+Scene: A single vertical panel occupying 100% of the page. The composition divides vertically into three implicit zones WITHOUT sub-panel borders:
+
+TOP ZONE (top 20% of the panel): A bare ceiling with a single hanging incandescent light bulb (vintage 40W round bulb) casting a warm-toned cone of light downward (rendered in greyscale, warm tone implied by screentone density). Behind the bulb, a small window shows the pale disc of a full moon and its cool moonlight entering the room. A faint halo around the bulb.
+
+MIDDLE ZONE (middle 60% of the panel — main focus): A side-view of a wooden desk. Takashi is seated, upper-body centered. On the desk: a sheet of white paper with "退職届" written in natural handwriting (SE-style, not calligraphic, roughly 2-3cm tall characters). A fountain pen rests in his right hand, tip just lifted from the paper. His left hand is flat on the desk. His face is tilted downward — only the rim of his round thin-framed glasses, a reflection of moonlight in the lenses, and his bangs covering his eyes are visible. Behind him: a dim late-night living room (dark TV, empty coffee cup, an analog clock reading 12:00, and a company ID card hanging from a nail on the wall as a background symbol).
+
+BOTTOM ZONE (bottom 20% of the panel): Below the desk — Takashi's feet, the chair legs, and on the floor a pair of plain white sneakers labeled "Walker" (the shoes introduced in P02-P03), softly lit in the dim light.
+
+Vertical narration text running along the right edge of the panel in three separated captions (top to bottom, Japanese vertical orientation):
+「——34年。」 (upper area, small font)
+「サラリーマンを、終える夜。」 (middle area, medium font)
+「最後のペン。」 (lower area, small font)
+
+Tiny sound effect near the hand: 「カリ…カリ…」 (pen scratching paper, extremely small).
+
+Density Lv.4 — entire vertical composition rendered with consistent careful detail. The bulb's filament, the moon's texture, the paper grain, the pen nib, the glasses reflection, the clock's hands, the sneakers' outline — all carefully drawn to carry the eye vertically down the panel.
+
+No sub-panel borders, no gutters. One continuous vertical image.
+
+Mood: The midnight ritual of ending one life. A quiet ceremonial weight. No drama, no grief — just the slow, vertical passage of time as a man signs the last page of his old life.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.`,
+`Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
 Japanese manga page, 2 panels stacked vertically (top to bottom).
 Reading order: Panel 1 (top) → Panel 2 (bottom).
 Panel 2 is the page ending — place the emotional payoff there.
@@ -1360,7 +1494,7 @@ HARD RULES — violations are failures:
 const episodes = {
   'EP02': { title: 'EP02: GMT — もう一つの弾丸（4ページ・完成）', pages: pagesEP02, promptTexts: promptTextsEP02 },
   'EP03': { title: 'EP03: 虹編 — 夢と損の方程式（6ページ・全設計完了／プロンプト生成待ち）', pages: pagesEP03, promptTexts: promptTextsEP03 },
-  'EP99': { title: 'EP99: スピンオフ「脱サランナー・タカシのDay 0」（6ページ・全設計完了／プロンプトビルド済み）', pages: pagesEP99, promptTexts: promptTextsEP99 }
+  'EP99': { title: 'EP99: スピンオフ「脱サランナー・タカシのDay 0」（8ページ・X 4枚組×2・8パターン実証）', pages: pagesEP99, promptTexts: promptTextsEP99 }
 };
 let currentEp = 'EP03';
 

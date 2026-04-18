@@ -1,39 +1,33 @@
 ---
 layout: vertical-2
 characters:
-  takashi: [back-view-free]
-mood: "A quiet liberation tinged with uncertainty. The city keeps moving in its salaried rhythm, but he has stepped out of it. The final glance-back invites the reader into his next chapter."
+  takashi: [climax-decision]
+mood: "The midnight ritual of ending one life. A quiet ceremonial weight. No drama, no grief — just the slow, vertical passage of time as a man signs the last page of his old life."
 page_specific_ban:
-  - "Do NOT draw individual faces on the salaryman crowd — silhouettes only"
-  - "Do NOT show Takashi's front face — back view with single eye over shoulder only"
-  - "Do NOT render a clearly bright sky (hope) or clearly dark sky (despair) — overcast with one thin light ray"
+  - "Do NOT create sub-panels — this is a SINGLE vertical panel filling the entire page"
+  - "Do NOT use cyan color anywhere — pure monochrome for ritual purity"
+  - "Do NOT show Takashi's face clearly — downward tilt, glasses reflection, hair covering eyes"
+  - "Do NOT render the '退職届' text at oversize headline scale — natural handwriting only"
   - "Do NOT render rectangular glasses"
 ---
 
-## Panel 1 (top, 55% of page height — crowd establishing shot)
+## Panel 1 (full page, single vertical panel — entire composition reads top-to-bottom)
 
-Scene: Midday business district intersection. A wide crowd of 200+ salaryman silhouettes crossing a pedestrian crossing, flowing left-to-right from the reader's perspective. All rendered as dark silhouettes, NO individual facial features, NO personal details. High-rise buildings in the background, slightly simplified. The sky is overcast greyscale with a single thin ray of light breaking through the clouds (ambiguous: neither pure hope nor pure despair).
+Scene: A single vertical panel occupying 100% of the page. The composition divides vertically into three implicit zones WITHOUT sub-panel borders:
 
-Narration (vertical Japanese, upper-right corner, small font): 「——退職から、3ヶ月。」「街は、昨日と同じ流れで、動いている。」
+TOP ZONE (top 20% of the panel): A bare ceiling with a single hanging incandescent light bulb (vintage 40W round bulb) casting a warm-toned cone of light downward (rendered in greyscale, warm tone implied by screentone density). Behind the bulb, a small window shows the pale disc of a full moon and its cool moonlight entering the room. A faint halo around the bulb.
 
-Sound effect across the lower portion (medium font, integrated into composition): 「ザッ…ザッ…ザッ…」 (crowd footsteps).
+MIDDLE ZONE (middle 60% of the panel — main focus): A side-view of a wooden desk. Takashi is seated, upper-body centered. On the desk: a sheet of white paper with "退職届" written in natural handwriting (SE-style, not calligraphic, roughly 2-3cm tall characters). A fountain pen rests in his right hand, tip just lifted from the paper. His left hand is flat on the desk. His face is tilted downward — only the rim of his round thin-framed glasses, a reflection of moonlight in the lenses, and his bangs covering his eyes are visible. Behind him: a dim late-night living room (dark TV, empty coffee cup, an analog clock reading 12:00, and a company ID card hanging from a nail on the wall as a background symbol).
 
-Density Lv.3 — crowd silhouettes are numerous but simplified, buildings are loose sketches, careful light direction.
+BOTTOM ZONE (bottom 20% of the panel): Below the desk — Takashi's feet, the chair legs, and on the floor a pair of plain white sneakers labeled "Walker" (the shoes introduced in P02-P03), softly lit in the dim light.
 
-## Panel 2 (bottom, 45% of page height — back-glance emotional payoff)
+Vertical narration text running along the right edge of the panel in three separated captions (top to bottom, Japanese vertical orientation):
+「——34年。」 (upper area, small font)
+「サラリーマンを、終える夜。」 (middle area, medium font)
+「最後のペン。」 (lower area, small font)
 
-Scene: Takashi walking away from the viewer, centered slightly left of frame. He is NOT wearing a suit anymore — instead: white T-shirt, light jacket, jeans, plain white sneakers. A small duffel bag slung over his right shoulder. Right hand casually in pocket. His body is angled to walk right-to-left (opposite direction from the crowd in Panel 1).
+Tiny sound effect near the hand: 「カリ…カリ…」 (pen scratching paper, extremely small).
 
-His face is turned slightly over his shoulder back toward the viewer — only his RIGHT eye is visible, framed by the right rim of his round thin-framed glasses. The rest of his face is obscured by the shoulder and hair. The single visible eye meets the reader's gaze.
+Density Lv.4 — entire vertical composition rendered with consistent careful detail. The bulb's filament, the moon's texture, the paper grain, the pen nib, the glasses reflection, the clock's hands, the sneakers' outline — all carefully drawn to carry the eye vertically down the panel.
 
-Expression: back-view-free mode — not smiling, not frowning. The composed expression of someone who has just become free. Quiet.
-
-Monologue (handwriting-style caption, small, placed in the negative space to the lower-left of his figure, NOT inside a speech bubble):
-- 「さて。」 (small)
-- 「次は、どこまで走ろうか。」 (medium)
-
-Generous negative space around Takashi — open sidewalk, distant blurred pedestrians (still as silhouettes). The emptiness around him contrasts with the crowded Panel 1 above.
-
-No additional sound effects. The silence after the crowd footsteps.
-
-Density Lv.4 — precise rendering of his back silhouette, the single eye, glasses rim, duffel bag strap. The eye is the focal point of the panel (and the page ending).
+No sub-panel borders, no gutters. One continuous vertical image.
