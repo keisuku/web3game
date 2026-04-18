@@ -1,0 +1,82 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 3 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
+Panel 3 is the page ending — place the emotional payoff here.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Casual clothes, holding a wine glass, blissful satisfied expression, relaxed setting.
+Back shot from behind. Face not visible. Posture upright, shoulders firm — indicating steady decision.
+
+## Panel 1 (top, 20% height — cold result)
+
+Scene: Close-up of smartphone screen tilted 10-15 degrees. The screen shows the enhancement result — deliberately understated, no rainbow glow, no celebration:
+"Enhancement Result"
+"Common Sneaker ×1"
+"Value: approx. 40,000 JPY"
+"Previous: 5 shoes (660,000 JPY)"
+
+Minimal UI, muted rendering.
+
+Monologue caption: 「——外れた」
+
+Density Lv.3 — clean UI, no emotional embellishment.
+
+## Panel 2 (middle, 30% height — aftermath scene)
+
+Scene: A disheveled morning desk. Empty wine glass (cheap cardboard-package type). An empty plastic bottle. A smartphone lying face-down. A digital clock reading "06:47". Natural morning light entering through a window.
+
+CRITICAL: Shouichi is NOT visible in this panel — the absence amplifies the silence.
+
+Monologue caption (positioned in the empty space): 「——勝利のワインじゃ、なかったな」
+
+Density Lv.4 — careful still-life rendering: the wine glass residue, cheap bottle label, morning light on the desk, clock digits.
+
+## Panel 3 (bottom, 50% height — the bench, observer returns)
+
+Scene: A park bench viewed at a slight angle. Shouichi seated on the bench, now BACK IN A BUSINESS SUIT (composed, cleaned up). A Pembroke Welsh Corgi (white and brown, NOT cyan) sits beside his feet. Autumn morning atmosphere: overcast sky with a single thin ray of light breaking through (T30 両義性).
+
+Shouichi is shown from a side-back-view angle — his figure mostly facing away from the viewer, but his face turned slightly so that we can see his PROFILE with one eye visible through the glasses lens (T48 side-profile + lens-highlight). The eye meets the reader's gaze momentarily.
+
+Expression: quiet realism (T69). Not defeated. Not triumphant. The face of someone who has earned his vantage point through witnessing.
+
+Vertical Japanese monologue captions (handwriting style, positioned in the open sky area):
+「期待と妄想は──毒だ」
+「そんな気がしていた」
+
+Small thin caption bar at the very bottom of the page (T29 next-episode hook, small font): 「次回：観察者として、次のブームを待つ」
+
+Density Lv.4 — detailed side-back rendering, precise lens highlight, corgi fur, bench texture, dawn-light gradient.
+
+No sound effects. The silence of the observer's position reclaimed.
+
+Mood: The morning after the ritual. Common sneaker x1. The observer returns to his bench. Not defeat — recognition. 'Expectations and delusions are poison. I knew it all along.' The city continues.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

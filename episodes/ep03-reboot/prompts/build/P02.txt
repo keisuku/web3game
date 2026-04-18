@@ -1,0 +1,80 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
+Panel 4 is the page ending — place the emotional payoff here.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+
+## Panel 1 (top-right, 50% width, 25% height)
+
+Scene: Smartphone screen (10-15 degree tilt, T13) showing a Twitter/X timeline flood. Multiple anonymous posts (silhouette avatars only, T14) discussing #Comfort党.
+
+In-screen post bubbles: 「#Comfort党」「Ruby Gem 2日で2倍」「Lv4 もう高すぎ」「今から入る人、無理」「#庶民締出し」「庶民、終わった」
+
+Density Lv.3 — SNS UI focused.
+
+## Panel 2 (top-left, 50% width, 30% height — climax in the upper row)
+
+Scene: Smartphone screen close-up (10-15 tilt). A Ruby Gem (Lv4) price chart in STAIRCASE PATTERN (T52) dominating the panel. 4 clear steps visible:
+"80,000 → 140,000 → 210,000 → 320,000 JPY"
+Header: "Ruby Gem (Lv4) — 7d +212%"
+
+Staircase rendered with bold step-by-step visualization, chart axes clear.
+
+Density Lv.4 — careful chart/UI rendering, staircase prominence.
+
+## Panel 3 (bottom-right, 35% width, 25% height)
+
+Scene: Smartphone screen split vertically. LEFT: video thumbnail of "Lv5→Lv6 パリチャレ" gem-smashing failure (no face, only gems). RIGHT: a single success thumbnail.
+
+In-screen text:
+- Left: 「Lv5→Lv6：確率20%」「3個全消失 ×10回」
+- Right: 「1勝した。もう戻れない」
+
+Density Lv.3 — dual-panel UI.
+
+## Panel 4 (bottom-left, 65% width, 20% height — grid-break, emotional landing)
+
+Scene: Bust shot of Shouichi. Left hand lightly at his mouth (contemplative confidence). Glasses catch an orange autumn-lighting REFLECTION (T41) — a clean soft glint (NOT star-flash, NOT rays). Shrewd-smile-deep mode.
+
+Expression: excited-shrewd, the "I got in early" smile. NOT mean-spirited.
+
+Monologue captions (handwriting, positioned around the head):
+「俺は──底値で掴んだ側だ。」
+「庶民諸君、お疲れ様。」
+
+Density Lv.5 — maximum face/glasses detail, orange autumn light rendering.
+
+Mood: Watching the staircase climb past where the crowd could follow. The early riser tallies his advantage. Confidence tipping into the shrewd-smile that's one step before tragedy.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).

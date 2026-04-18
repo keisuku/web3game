@@ -1,0 +1,83 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 4 panels.
+Layout: Panel 1 on top, Panel 2 below, then bottom row splits into Panel 3 (right side, read first) and Panel 4 (left side, read last — page ending).
+Reading order: Panel 1 → 2 → 3 (bottom-right) → 4 (bottom-left).
+Bottom-left panel is the page ending — place the emotional payoff there.
+
+STRICT CHARACTER RULES (Shouichi-specific):
+- 42-year-old Japanese MAN (never young, never handsome idol)
+- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
+- Never remove glasses
+- Short slightly messy black hair with grey mixed in (salt-and-pepper)
+- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
+- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+T-shirt, light jacket, jeans, sneakers. Walking a Pembroke corgi on leash. Outdoor suburban path.
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+
+## Panel 1 (top 55%, establishing climax)
+
+Scene: Early-dawn park. Shouichi is running (full body shot), wearing plain jogging gear — track pants, T-shirt, light windbreaker. Armband on upper arm holding smartphone (cyan screen glow visible). Autumn atmosphere: colored leaves, slight morning mist, white breath visible. His RECTANGULAR black-framed glasses intact. Running posture natural, not athletic-poster.
+
+Expression: mouth slightly open catching breath, eyes forward with faint light reflection, the dawn of excitement.
+
+Monologue (handwriting captions): 「朝5時の空気が、こんなに澄んでるのは──」「12年、知らなかった。」
+
+Density Lv.4 — careful dawn lighting, autumn foliage, breath mist, smartphone armband detail.
+
+## Panel 2 (bottom-right, 35% width, 45% height)
+
+Scene: Close-up of smartphone screen tilted 10-15 degrees (T13). STEPN-style app UI showing "REWARD: +14.36 GMT" with cyan counter glow.
+
+No face.
+
+Monologue caption: 「……来た。」
+
+In-screen text: "REWARD: +14.36 GMT"
+
+Density Lv.3 — careful UI rendering.
+
+## Panel 3 (bottom-center, 30% width, 45% height)
+
+Scene: Smartphone screen, different view — swap/conversion screen showing "1,290円 着金" in Japanese. Faint cyan glow.
+
+No face.
+
+Monologue caption: 「25分で……」
+
+In-screen text: 「1,290円 着金」
+
+Density Lv.3 — UI focused.
+
+## Panel 4 (bottom-left, 35% width, 45% height — emotional landing)
+
+Scene: Close-up of Shouichi's face (bust-plus), morning sunrise backlight. Jogging gear. Corner of mouth raises in a mischievous-confident grin, glasses lenses catching dawn light with clean highlight. The expression is EXCITED-SHREWD (ワクワク＋いかがわしい), NOT warning.
+
+Monologue caption (handwriting, slightly larger): 「……ジェム側、だったな。」
+
+Density Lv.4 — detailed face rendering, precise dawn lighting, glasses reflection.
+
+Mood: The participant's sunrise. Not rebellious — just awake. The first 14.36 GMT. 25 minutes. 1,290 yen. Small but real. Pure excitement-plus-suspicious.
+
+HARD RULES — violations are failures:
+
+1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+
+6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+
+7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
