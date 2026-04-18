@@ -1,0 +1,56 @@
+Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+
+RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+
+Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+
+Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+
+Japanese manga page, 2 panels stacked vertically (top to bottom).
+Reading order: Panel 1 (top) → Panel 2 (bottom).
+Panel 2 is the page ending — place the emotional payoff there.
+NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+
+Character: Takashi, a 32-year-old Japanese male software engineer. THIN ROUND-FRAMED black glasses (thin wire rim, rounded shape — clearly different from Shouichi's rectangular frames). Short slightly messy black hair, NO grey mixed (younger than Shouichi). Slim build, lean face, mildly fatigued expression at baseline. Semi-realistic manga style, ordinary-looking, NOT a handsome idol.
+Decision mode. Silhouette-heavy bust shot in an office meeting room. Only corner of mouth and glasses rim visible. Strong backlight from window behind. Very still posture. Serious but calm — not angry, not sad. A person who has chosen their own life.
+
+## Panel 1 (top, 80% of page height — the extra-large black-heavy panel)
+
+Scene: A meeting room interior, rendered with 80% solid black fill. In the center-left of the panel: Takashi's silhouette from behind, standing, extending one arm forward with a small white rectangular paper (the resignation letter — its shape visible but no text readable). On the right side: the silhouette of an older supervisor seated at a desk, face invisible, only the shoulder-line and tilted head visible — suggesting surprise without rendering features. Strong backlight from a window behind Takashi — a white rectangle cut into the black. The backlight creates a rim of light on Takashi's back silhouette.
+
+Large white-outlined onomatopoeia integrated into the composition, occupying ~30% of the panel as a structural background element: 「スッ…」 (the sound of paper being presented — rendered as giant white letters behind the figures).
+
+No speech bubbles. No dialogue text in this panel. The entire narrative is carried by silhouette, black, and the single giant onomatopoeia.
+
+Density Lv.5 — this is the page climax. Every element precise: the silhouette edges, the window backlight, the paper's crisp rectangle, the onomatopoeia typography.
+
+## Panel 2 (bottom, 20% of page height — the small whisper-punchline panel)
+
+Scene: Extreme close-up with cropped-face composition. Only the right corner of Takashi's mouth and the right rim of his round thin-framed glasses are visible at the panel edge. The rest of the face is out of frame. Background is neutral light (not black). Very still.
+
+Expression: the faintest upward tilt at the corner of the mouth — not a smile, barely a hint of resolve. Glasses rim catches a calm soft highlight.
+
+Monologue (handwriting-style caption, SMALL font, positioned in the empty negative space of the panel, NOT inside a speech bubble): 「辞めます。」
+
+No sound effect. The contrast of the previous panel's black weight amplifies this whisper.
+
+Density Lv.4 — precise close-up edge rendering, this is the whisper that the giant panel above was designed to amplify.
+
+Mood: The quiet moment of choosing one's own life. Twelve years of salaried existence ending with a single whispered word. Not rebellion — completion. A calm decisive stillness.
+
+HARD RULES — violations are failures:
+
+1. Character: 42-year-old Japanese MAN (never young, never handsome idol). Short slightly messy black hair with grey mixed in. RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval). Never remove glasses.
+
+2. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+
+3. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop screen glow and (b) Kuro-chan's robot elements. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+
+4. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+
+5. Costume default: Shouichi wears casual loungewear / T-shirt / walk casual. NOT suit (unless panel explicitly says WORK mode).
+
+6. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：".
+
+7. Consistency: Same man across all panels — same face shape, same glasses frame, same hairstyle, same age impression.
