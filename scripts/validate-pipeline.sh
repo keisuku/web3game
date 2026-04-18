@@ -182,38 +182,51 @@ validate_page() {
   check_panel_single_function "$PAGE_FILE"
 
   # ── 2. プロンプト ──
+  local BUILD_FILE="$EP_DIR/prompts/build/${PID}.txt"
+
   if [ ! -f "$PROMPT_FILE" ]; then
     echo "  - プロンプト: 未作成"
   else
     pass "プロンプトあり"
 
-    # Do Notリスト確認
-    if grep -q "Do not change" "$PROMPT_FILE" && grep -q "Do not add" "$PROMPT_FILE"; then
-      pass "Do Notリスト: 含まれている"
-    else
-      fail "Do Notリスト: 欠落（情報劣化リスク高）"
-    fi
+    # 新フォーマット（YAML フロントマター）か判定
+    if head -1 "$PROMPT_FILE" | grep -q '^---$'; then
+      # YAML フロントマター形式 → ビルド実行して build 出力を検証
+      if bash scripts/build-prompt.sh "$EP" "$PID" > /dev/null 2>&1; then
+        pass "プロンプト ビルド成功 → $BUILD_FILE"
 
-    # Panelの数がコマ数と一致するか
-    PROMPT_PANELS=$(grep -c "^Panel [0-9]" "$PROMPT_FILE" 2>/dev/null)
-    if [ "$PROMPT_PANELS" -ne "$PANEL_COUNT" ] && [ "$PANEL_COUNT" -gt 0 ]; then
-      warn "プロンプトのPanel数(${PROMPT_PANELS})がコマ数(${PANEL_COUNT})と不一致"
-    elif [ "$PROMPT_PANELS" -gt 0 ]; then
-      pass "Panel数: コマ数と一致（${PROMPT_PANELS}）"
-    fi
+        # Panel 数がコマ数と一致するか（build 出力で確認）
+        PROMPT_PANELS=$(grep -c "^## Panel [0-9]" "$BUILD_FILE" 2>/dev/null)
+        if [ "$PROMPT_PANELS" -ne "$PANEL_COUNT" ] && [ "$PANEL_COUNT" -gt 0 ]; then
+          warn "ビルド出力のPanel数(${PROMPT_PANELS})がコマ数(${PANEL_COUNT})と不一致"
+        elif [ "$PROMPT_PANELS" -gt 0 ]; then
+          pass "Panel数: コマ数と一致（${PROMPT_PANELS}）"
+        fi
 
-    # Composition, Camera, Mood の存在確認
-    for field in "Composition" "Camera" "Mood"; do
-      if grep -q "$field:" "$PROMPT_FILE"; then
-        pass "${field}: 記述あり"
+        # コア禁止事項が含まれているか
+        if grep -q "HARD RULES" "$BUILD_FILE" && grep -q "revelation mode" "$BUILD_FILE"; then
+          pass "コア禁止事項: 含まれている"
+        else
+          fail "コア禁止事項: 欠落（bible/prompt-constants/prohibited-core.md 参照）"
+        fi
+
+        # Mood の存在確認
+        if grep -q "^Mood:" "$BUILD_FILE"; then
+          pass "Mood: 記述あり"
+        else
+          warn "Mood: 欠落（フロントマターに mood を追加）"
+        fi
       else
-        warn "${field}: 欠落"
+        fail "プロンプト ビルド失敗 — scripts/build-prompt.sh を手動実行して原因確認"
       fi
-    done
-
-    # プロンプトにも話者ラベルが混入していないか
-    if grep -E "(Shouichi|Kuro|翔一|クロちゃん)[:：]" "$PROMPT_FILE" >/dev/null 2>&1; then
-      warn "プロンプトに話者ラベルの混入疑い"
+    else
+      # 旧フォーマット（自己完結プロンプト）
+      if grep -q "Do not change" "$PROMPT_FILE" && grep -q "Do not add" "$PROMPT_FILE"; then
+        pass "Do Notリスト: 含まれている（旧フォーマット）"
+      else
+        fail "Do Notリスト: 欠落（情報劣化リスク高）"
+      fi
+      warn "旧フォーマット検出 — 新 YAML フロントマター形式への移行推奨"
     fi
   fi
 
