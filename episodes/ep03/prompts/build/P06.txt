@@ -1,15 +1,10 @@
-Vertical single-page Japanese manga layout. Portrait orientation, B5 manga page proportions (aspect ratio approximately 5:7, taller than wide). NOT landscape, NOT 2x2 grid, NOT wide-format, NOT square.
+Single-page Japanese manga, portrait B5 proportions (aspect ratio 5:7, tall canvas). Right-to-left reading flow: the eye enters at the top-right corner and ends at the bottom-left corner.
 
-RIGHT-TO-LEFT reading direction (Japanese manga). Panels flow from top-right to bottom-left. The first panel the eye enters is TOP-RIGHT; the final panel that leads into the next page is BOTTOM-LEFT. This is NOT a western comic — do not reverse the reading order.
+Black-and-white manga art with grey screentone shading. Togashi-hybrid rendering — loose confident sketchy linework on setup panels (density Lv.1–2), precise dense detailing on climax panels (density Lv.4–5). Strong density contrast between setup and climax panels inside the same page.
 
-Black-and-white manga art. Grey screentone shading throughout. Togashi-hybrid rendering: loose confident sketchy lines for setup panels (Lv.1-2 density), explosive detailed precision for climax panels (Lv.4-5 density). Maximize the density contrast within a single page — do NOT render all panels at uniform density.
+Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the page plane.
 
-Smartphone screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
-
-Japanese manga page, 4 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom).
-Panel 4 is the page ending — place the emotional payoff here.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Four panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom). Panel 4 carries the page's emotional payoff. Panels share the full page width and vary in height; no panel sits side-by-side with another.
 
 STRICT CHARACTER RULES (Shouichi-specific):
 - 42-year-old Japanese MAN (never young, never handsome idol)
@@ -17,7 +12,7 @@ STRICT CHARACTER RULES (Shouichi-specific):
 - Never remove glasses
 - Short slightly messy black hair with grey mixed in (salt-and-pepper)
 - Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
 Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
 Wearing T-shirt, optional light jacket, jeans or loungewear. Home living room setting.
 Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
@@ -59,18 +54,18 @@ Dialogue:
 
 Mood: Realization turning into gleeful self-destruction. Amused, not despair. Reader should feel 'he's going to do it, and he's laughing.'
 
-HARD RULES — violations are failures:
+RENDERING CONSTRAINTS:
 
-1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+1. Face: Natural pupil size with small highlights, glasses lenses clear or softly uniform reflection, grounded middle-aged proportions, realistic semi-manga style. Faces stay consistent across all panels.
 
-2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+2. Color: Monochrome and greyscale only. Cyan (#00BCD4) appears solely inside phone/laptop screens, on Kuro-chan's mechanical parts (eyes, neck circuit, CLAUDE chest mark, right-arm chrome), and on designated ritual particles. All other hues absent on characters and backgrounds.
 
-3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+3. Page format: Single continuous Japanese manga page, portrait B5 proportions (aspect ratio 5:7), vertical tall canvas. Panels are stacked along the long axis, Japanese right-to-left reading order (top-right first panel, bottom-left final panel). One narrative page, not a collage, not a grid of character expressions, not a reference sheet with labels.
 
-4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+4. Screens: Phones and laptops drawn at a 10–15 degree tilt versus the page plane.
 
-5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+5. In-panel text: Only Japanese dialogue inside 「 」 brackets and small UI text inside phone screens. No English captions, no panel numbers, no title cards, no speaker name prefixes, no state labels such as "MODE" or "モード".
 
-6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+6. Dialogue: Keep the 「 」 Japanese text verbatim; do not translate and do not paraphrase.
 
-7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+7. Vocabulary avoided: "雀鬼", "桜井章一", "全ツッパ".

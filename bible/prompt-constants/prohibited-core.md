@@ -1,22 +1,23 @@
-# コア禁止事項（全ページ共通・末尾に必ず付加）
+# コア制約（全ページ共通・末尾に必ず付加）
 
-> **プロジェクト普遍のルールのみ**を列挙する。キャラ固有のルール（翔一の眼鏡形状など）は `characters/<name>.md` の `strict-rules` セクションに記載し、build-prompt.sh が該当キャラが登場するページで条件付きで挿入する。
-> AI が見落とす確率を下げるため、このリストを 12 行以下に保つ。
+> 画像生成モデルは否定文を素材として拾うため、**肯定的な描写**で統一する。
+> 「mode」等の英名詞はキャラチャート誤生成の原因になるので使わない。
+> 12 行以下を維持。キャラ固有ルールは `characters/<name>.md` 側。
 
 ```
-HARD RULES — violations are failures:
+RENDERING CONSTRAINTS:
 
-1. Expression ban: NO revelation mode (no flame eyes, no light bursts in eyes, no speed lines radiating from eyes). NO futon mode / dead-fish eyes / white-eyed despair. NO chibi/deformed comedy face.
+1. Face: Natural pupil size with small highlights, glasses lenses clear or softly uniform reflection, grounded middle-aged proportions, realistic semi-manga style. Faces stay consistent across all panels.
 
-2. Color ban: FULL monochrome + greyscale ONLY. Cyan (#00BCD4) permitted ONLY on (a) smartphone/laptop/computer screen glow, (b) Kuro-chan's robot elements (mechanical eyes, neck circuit, CLAUDE mark, right arm chrome), and (c) ritual collapse particles when narrative calls for it. NEVER green, NEVER other colors (except Panel-specific rainbow-prism when explicitly permitted on that page).
+2. Color: Monochrome and greyscale only. Cyan (#00BCD4) appears solely inside phone/laptop screens, on Kuro-chan's mechanical parts (eyes, neck circuit, CLAUDE chest mark, right-arm chrome), and on designated ritual particles. All other hues absent on characters and backgrounds.
 
-3. Layout ban: NEVER 2x2 grid. NEVER landscape. NEVER square. Panels stack top-to-bottom, reading right-to-left (Japanese manga). Do NOT reverse the reading order to western left-to-right.
+3. Page format: Single continuous Japanese manga page, portrait B5 proportions (aspect ratio 5:7), vertical tall canvas. Panels are stacked along the long axis, Japanese right-to-left reading order (top-right first panel, bottom-left final panel). One narrative page, not a collage, not a grid of character expressions, not a reference sheet with labels.
 
-4. Smartphone/screen tilt: Smartphone and laptop screens always drawn at 10-15 degree tilt (never flat/parallel to the page).
+4. Screens: Phones and laptops drawn at a 10–15 degree tilt versus the page plane.
 
-5. Text ban: Do NOT draw English or Japanese meta-labels inside panels (no "CLIMAX", "見せ場", "PANEL 1" labels). No speaker labels like "翔一：" or "クロちゃん：" inside speech bubbles — speaker identity comes from the drawn character, not a text prefix.
+5. In-panel text: Only Japanese dialogue inside 「 」 brackets and small UI text inside phone screens. No English captions, no panel numbers, no title cards, no speaker name prefixes, no state labels such as "MODE" or "モード".
 
-6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
+6. Dialogue: Keep the 「 」 Japanese text verbatim; do not translate and do not paraphrase.
 
-7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+7. Vocabulary avoided: "雀鬼", "桜井章一", "全ツッパ".
 ```

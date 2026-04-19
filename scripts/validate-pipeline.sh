@@ -252,11 +252,11 @@ validate_page() {
           pass "Panel数: コマ数と一致（${PROMPT_PANELS}）"
         fi
 
-        # コア禁止事項が含まれているか
-        if grep -q "HARD RULES" "$BUILD_FILE" && grep -q "revelation mode" "$BUILD_FILE"; then
-          pass "コア禁止事項: 含まれている"
+        # コア制約が含まれているか（肯定文フォーマット）
+        if grep -q "RENDERING CONSTRAINTS" "$BUILD_FILE" && grep -q "Monochrome and greyscale" "$BUILD_FILE"; then
+          pass "コア制約: 含まれている"
         else
-          fail "コア禁止事項: 欠落（bible/prompt-constants/prohibited-core.md 参照）"
+          fail "コア制約: 欠落（bible/prompt-constants/prohibited-core.md 参照）"
         fi
 
         # Mood の存在確認

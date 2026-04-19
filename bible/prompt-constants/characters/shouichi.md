@@ -12,7 +12,7 @@ STRICT CHARACTER RULES (Shouichi-specific):
 - Never remove glasses
 - Short slightly messy black hair with grey mixed in (salt-and-pepper)
 - Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear / T-shirt / walk casual (NOT suit unless panel explicitly says WORK mode)
+- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
 ```
 
 ## base（すべてのモードに前置）
