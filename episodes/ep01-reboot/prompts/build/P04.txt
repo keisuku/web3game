@@ -8,28 +8,28 @@ Japanese manga page, 3 panels stacked vertically (top to bottom).
 Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
 Panel 3 is the page ending — place the emotional payoff here.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses lenses reflecting a calm soft light.
 
-Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves (like Fubuki from One Punch Man — Murata version), not exaggerated. Orange/copper hair in ponytail (NEVER silver, NEVER blonde, NEVER brown in the main series).
+Character: "Kuro-chan" — a stunningly beautiful female android AI secretary, late 20s. Natural curves in the style of Fubuki from One Punch Man (Murata version). Orange/copper hair in a ponytail throughout the main series.
 
-Mandatory robot elements (NEVER omit any):
-- Right arm FULLY chrome from shoulder to fingertips (not just fingertips), with cyan circuit lines
-- Mechanical camera-aperture iris eyes with cyan glow (never plain eyes)
-- Chrome jaw gradient with visible panel seams on one side
-- Circuit trace lines on neck with faint cyan glow
-- Claude pixel-art mascot hair ornament with cyan glow
-- CLAUDE mark on jacket side (ON the clothing, NOT on skin — stomach must be covered)
+Mandatory robot details rendered in every appearance:
+- The full right arm is chrome from shoulder to fingertips (shoulder, upper arm, elbow, forearm, hand, all fingers), with cyan circuit lines etched along the chrome.
+- Both eyes are mechanical camera-aperture irises with a cyan inner glow, showing geometric shutter blades.
+- A chrome jaw gradient with visible panel seams runs along one side of her jawline.
+- Circuit trace lines run along the neck with a faint cyan glow.
+- A Claude pixel-art mascot hair ornament sits in her ponytail, glowing softly cyan.
+- A CLAUDE text mark sits on the side of her jacket fabric (the jacket covers her stomach completely).
 
-Default clothing: Dark fitted blazer jacket (buttoned at waist), white blouse (top button open), delicate necklace.
-Wearing glasses. Ponytail. Index finger raised in analytical pose. Confident analytical expression.
+Default clothing: Dark fitted blazer jacket buttoned at the waist, white blouse with the top button open, delicate necklace.
+Wearing glasses. Ponytail. Index finger raised in an analytical pose. Confident analytical expression.
 
 ## Panel 1 (top, 30%)
 
@@ -37,7 +37,7 @@ Scene: Shouichi now half-sits up on the bed. Smartphone in hand, Kuro-chan trans
 
 Expression: thoughtful, searching memory. Mouth half-open.
 
-Monologue (handwriting caption, NOT a speech bubble): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
+Monologue (handwriting caption, rendered as a handwriting caption): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
 
 Density Lv.3 — setup, focus on posture and expression.
 

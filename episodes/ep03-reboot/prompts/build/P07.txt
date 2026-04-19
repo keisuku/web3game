@@ -4,22 +4,18 @@ Black-and-white manga art with grey screentone shading. Togashi-hybrid rendering
 
 Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the page plane.
 
-Japanese manga page, 2 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 (bottom).
-Panel 2 is the page ending — place the emotional payoff there.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
-Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+Two panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 (bottom). Panel 2 carries the page's emotional payoff. Panels share the full page width. Size ratio varies by page-specific composition instruction (examples include 80/20 for black-punchline pages or 20/80 for strip-plus-big pages).
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
 Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
-Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles (if specified).
+Hand close-up only. Face absent from panel. Hand shows subtle tremor at knuckles when specified.
 
 ## Panel 1 (full page, single vertical panel — T07)
 
@@ -29,11 +25,11 @@ TOP ZONE (top 15%): GIANT brush-stroke calligraphy 「賭け」 in stark black i
 
 UPPER-CENTER ZONE (15% to 45% vertical): A horizontal row of 5 COMMON SNEAKERS (silhouettes, T14) placed on a desk. Price tags visible: 「¥40,000」「¥80,000」「¥140,000」「¥180,000」「¥220,000」. Narration overlaid: 「——5足、66万円」. Shouichi's right hand reaching in from the right edge, finger pressing down on a smartphone showing "ENHANCE (5/5)" button. Sound effect: 「カチッ」 (click, small).
 
-LOWER-CENTER ZONE (45% to 75% vertical — ritual climax): The 5 sneakers are RISING and DISSOLVING INTO PARTICLES in a spiral pattern. Rainbow-prism particles dispersing (T20 deification-collapse particles, T12 narrative exception allowing cyan/rainbow tint). Shouichi's figure is NOT visible — only the particles and the empty desk remain. Large white-outlined onomatopoeia integrated into the ritual visual (T37): 「シュゥゥゥ──」 as a structural compositional element (not overlay).
+LOWER-CENTER ZONE (45% to 75% vertical — ritual climax): The 5 sneakers are RISING and DISSOLVING INTO PARTICLES in a spiral pattern. Rainbow-prism particles dispersing (T20 deification-collapse particles, T12 narrative exception allowing cyan/rainbow tint). Shouichi's figure is absent from the panel — only the particles and the empty desk remain. Large white-outlined onomatopoeia integrated into the ritual visual (T37): 「シュゥゥゥ──」 as a structural compositional element (not overlay).
 
 Overlaid narration (center): 「ENHANCING... 1 / 200」
 
-BOTTOM ZONE (bottom 25%): Split into two elements. LEFT: smartphone screen showing "CALCULATING..." text with loading spinner. RIGHT: close-up of a clenched fist (Shouichi's, T43/hand-only mode), knuckles white, subtle trembling linework. Face NOT shown.
+BOTTOM ZONE (bottom 25%): Split into two elements. LEFT: smartphone screen showing "CALCULATING..." text with loading spinner. RIGHT: close-up of a clenched fist (Shouichi's, T43/hand-only mode), knuckles white, subtle trembling linework. Face out of frame.
 
 Monologue captions (handwriting, scattered in the dark background around the fist):
 「……1/200に、当たってくれ」

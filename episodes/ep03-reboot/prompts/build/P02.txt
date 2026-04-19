@@ -6,15 +6,15 @@ Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the 
 
 Four panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom). Panel 4 carries the page's emotional payoff. Panels share the full page width and vary in height; no panel sits side-by-side with another.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses reflecting a calm soft light.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
+Bust shot. Corner of mouth raised, eyes narrowed with amused realization. Left hand lightly touching mouth. Glasses lenses reflecting a calm soft light.
 
 ## Panel 1 (top-right, 50% width, 25% height)
 
@@ -46,9 +46,9 @@ Density Lv.3 — dual-panel UI.
 
 ## Panel 4 (bottom-left, 65% width, 20% height — grid-break, emotional landing)
 
-Scene: Bust shot of Shouichi. Left hand lightly at his mouth (contemplative confidence). Glasses catch an orange autumn-lighting REFLECTION (T41) — a clean soft glint (NOT star-flash, NOT rays). Shrewd-smile-deep mode.
+Scene: Bust shot of Shouichi. Left hand lightly at his mouth (contemplative confidence). Glasses catch an orange autumn-lighting REFLECTION (T41) — a clean soft glint (a clean soft glint). Shrewd-smile-deep mode.
 
-Expression: excited-shrewd, the "I got in early" smile. NOT mean-spirited.
+Expression: excited-shrewd, the "I got in early" smile. playful and upbeat.
 
 Monologue captions (handwriting, positioned around the head):
 「俺は──底値で掴んだ側だ。」

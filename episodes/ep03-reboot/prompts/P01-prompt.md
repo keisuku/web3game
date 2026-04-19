@@ -5,9 +5,9 @@ characters:
 applied_techniques: [T53, T13, T26, T50]
 mood: "The participant's sunrise. Not rebellious — just awake. The first 14.36 GMT. 25 minutes. 1,290 yen. Small but real. Pure excitement-plus-suspicious."
 page_specific_ban:
-  - "Do NOT render dead-fish eyes or revelation mode — this is calm excitement"
-  - "Do NOT use brush calligraphy (P03 reserves 「ついに」, P04 「60%」, P07 「賭け」)"
-  - "Do NOT render the running attire as overly athletic — ordinary jogging gear"
+  - "Natural semi-manga expression with consistent character features"
+  - ""
+  - ""
 ---
 
 ## Panel 1 (top 55%, establishing climax)
@@ -46,7 +46,7 @@ Density Lv.3 — UI focused.
 
 ## Panel 4 (bottom-left, 35% width, 45% height — emotional landing)
 
-Scene: Close-up of Shouichi's face (bust-plus), morning sunrise backlight. Jogging gear. Corner of mouth raises in a mischievous-confident grin, glasses lenses catching dawn light with clean highlight. The expression is EXCITED-SHREWD (ワクワク＋いかがわしい), NOT warning.
+Scene: Close-up of Shouichi's face (bust-plus), morning sunrise backlight. Jogging gear. Corner of mouth raises in a mischievous-confident grin, glasses lenses catching dawn light with clean highlight. The expression is EXCITED-SHREWD (ワクワク＋いかがわしい), as positive excitement.
 
 Monologue caption (handwriting, slightly larger): 「……ジェム側、だったな。」
 

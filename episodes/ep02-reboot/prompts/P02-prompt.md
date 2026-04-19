@@ -5,11 +5,11 @@ characters:
 applied_techniques: [T13, T14, T32, T67, T41, T48]
 mood: "A dormant market starts to murmur again. A hashtag. A graph. A few anonymous voices. The observer feels the first tremor of returning appetite — not in himself yet, but in the crowd."
 page_specific_ban:
-  - "Do NOT write '全ツ' or 'ヤバイ' (retired terminology) — use '今しかない' or 'いける' instead"
-  - "Do NOT include actual recognizable person names or avatars in SNS posts"
-  - "Do NOT render SNS user avatars with real faces (profile icons as silhouettes or simple shapes only)"
-  - "Do NOT use brush calligraphy (reserved for P03)"
-  - "Do NOT use revelation mode"
+  - " — use '今しかない' or 'いける' instead)"
+  - ""
+  - ")"
+  - ""
+  - ""
 ---
 
 ## Panel 1 (top, 40% height — SNS flood, climax)
@@ -45,10 +45,10 @@ Density Lv.2 — sketchy setup, focus on the chart.
 
 ## Panel 4 (bottom, 35% height — Shouichi reaction, emotional landing)
 
-Scene: Bust shot of Shouichi, still on the park bench but now leaning forward slightly. Smartphone in hand, screen softly lit (NO strong cyan). His glasses lenses have shadow falling on them (T41 analysis mode). Eyebrows slightly knit together, mouth barely closed, eyes focused on the screen.
+Scene: Bust shot of Shouichi, still on the park bench but now leaning forward slightly. Smartphone in hand with a soft neutral screen glow. His glasses lenses have shadow falling on them (T41 analysis mode). Eyebrows slightly knit together, mouth barely closed, eyes focused on the screen.
 
 Expression: analysis mode (T48) — serious focused eyes, shadow on glasses lenses. Corner of mouth is BEGINNING to rise — the first flicker of interest.
 
-Monologues (handwriting captions, NOT speech bubbles): 「……赤ジェム、上がってる。」「観客が、増えてる。」
+Monologues (rendered as handwriting captions): 「……赤ジェム、上がってる。」「観客が、増えてる。」
 
 Density Lv.4 — detailed face rendering, glasses shadow precise, subtle expression shift.

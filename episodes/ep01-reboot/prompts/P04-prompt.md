@@ -6,9 +6,9 @@ characters:
 applied_techniques: [T48, T22, T61]
 mood: "The moment of declaration. Not nostalgia — urgency. 'I want to draw the fire that was real.' The present dissolves as the past rises."
 page_specific_ban:
-  - "Do NOT render Kuro-chan's robot elements partially in this page (they are not the focus but must still be rendered correctly when visible)"
-  - "Do NOT use brush calligraphy (used up in P01)"
-  - "Do NOT render revelation mode"
+  - ")"
+  - ""
+  - "Natural semi-manga expression with consistent character features"
 ---
 
 ## Panel 1 (top, 30%)
@@ -17,7 +17,7 @@ Scene: Shouichi now half-sits up on the bed. Smartphone in hand, Kuro-chan trans
 
 Expression: thoughtful, searching memory. Mouth half-open.
 
-Monologue (handwriting caption, NOT a speech bubble): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
+Monologue (handwriting caption, rendered as a handwriting caption): 「……あの頃の熱狂が伝わる、最高に熱い WEB3.0 の世界を描きてえ」
 
 Density Lv.3 — setup, focus on posture and expression.
 

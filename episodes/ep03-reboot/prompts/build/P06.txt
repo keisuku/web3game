@@ -4,19 +4,16 @@ Black-and-white manga art with grey screentone shading. Togashi-hybrid rendering
 
 Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the page plane.
 
-Japanese manga page, 5 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom).
-Panel 5 is the page ending.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
+Five panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 → Panel 5 (bottom). Panel 5 carries the page's ending. Panels share the full page width and vary in height; no panel sits side-by-side with another.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
 Face is mostly out of frame — only the corner of the mouth and glasses rim are visible at the panel edge.
 
 ## Panel 1 (top-right, 45% width, 40% height — infographic climax)

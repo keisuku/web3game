@@ -4,11 +4,7 @@ Black-and-white manga art with grey screentone shading. Togashi-hybrid rendering
 
 Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the page plane.
 
-Japanese manga page, 2 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 (bottom).
-Panel 2 is the page ending — place the emotional payoff there.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
-Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+Two panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 (bottom). Panel 2 carries the page's emotional payoff. Panels share the full page width. Size ratio varies by page-specific composition instruction (examples include 80/20 for black-punchline pages or 20/80 for strip-plus-big pages).
 
 ## Panel 1 (full page main panel, 90% height — climax)
 
@@ -19,7 +15,7 @@ CENTER: A large banner rendered in a STEPN-like style (abstract, not verbatim br
 "2022.10.12"
 The banner has a red frame, glowing edges, official-announcement aesthetic.
 
-BEHIND the banner: a GIANT silhouette of a rainbow sneaker — rendered in MONOCHROME greyscale with a HALO above it (T20 deification). The silhouette carries sacred iconography — light particles radiate outward in a burst pattern (particles are neutral white/grey, NOT cyan).
+BEHIND the banner: a GIANT silhouette of a rainbow sneaker — rendered in MONOCHROME greyscale with a HALO above it (T20 deification). The silhouette carries sacred iconography — light particles radiate outward in a burst pattern (particles are neutral white/grey, monochrome).
 
 UPPER-LEFT corner: GIANT brush-stroke calligraphy 「ついに」 in stark black ink, vertical orientation (T31 — this is the 1st of 3 brush uses in EP03-REBOOT).
 

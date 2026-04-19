@@ -5,10 +5,10 @@ characters:
 applied_techniques: [T09, T25, T30, T50]
 mood: "The silent hour after shock. The question forms slowly: 'what's next?' An ambiguous dawn — neither hope nor despair, a blank ceiling waiting to be filled. Quiet setup for the summoning that follows."
 page_specific_ban:
-  - "Do NOT use cyan — the smartphone is off in this page, natural window light only"
-  - "Do NOT render dead-fish eyes — stunned+empty but pupils retain highlights"
-  - "Do NOT use any brush calligraphy on this page (used up in P01)"
-  - "Do NOT render revelation mode (no eye flames)"
+  - "Monochrome and greyscale rendering; cyan reserved for phone glow and Kuro-chan elements only"
+  - "Natural semi-manga expression with consistent character features"
+  - ")"
+  - "Natural semi-manga expression with consistent character features"
 ---
 
 ## Panel 1 (top 15%, thin horizontal establishing strip)
@@ -25,9 +25,9 @@ No sound effects. Silent dawn.
 
 Scene: Shouichi lying on his back under a futon blanket, looking up at a plain white ceiling. Bust-shot-plus view (waist upward visible). One hand resting outside the blanket. A smartphone lies on the pillow beside his head — SCREEN OFF (no cyan glow). Dim room with only diagonal morning light streaming from the window onto the bed. The ceiling is an empty pale expanse.
 
-Expression: stunned emptiness (futon-blanket-stunned mode). Eyes look at one point on the ceiling, mouth closed, but pupils retain small highlights (NEVER dead-fish eyes). Face in the quiet moment of forming the next question.
+Expression: stunned emptiness (futon-blanket-stunned mode). Eyes look at one point on the ceiling, mouth closed, but pupils retain small highlights (natural pupil size with small highlights). Face in the quiet moment of forming the next question.
 
-Monologue (handwriting caption in the empty ceiling space, NOT in speech bubbles): 「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」
+Monologue (handwriting caption in the empty ceiling space, rendered as handwriting captions): 「——ゲームは、もう終わった。」「じゃあ、次は、何だ。」
 
 Generous negative space above him on the ceiling — the blank expanse amplifies the unformed question.
 

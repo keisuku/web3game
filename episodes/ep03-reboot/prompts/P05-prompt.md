@@ -6,10 +6,10 @@ characters:
 applied_techniques: [T47, T45, T46, T12, T39]
 mood: "The teacher arrives. Not to comfort — to clarify. The math is on purpose. The despair is part of the product. Genius, in the most uncomfortable sense."
 page_specific_ban:
-  - "Do NOT omit Kuro-chan's robot elements: mechanical camera-aperture eyes, right-arm chrome (full), Claude pixel hair ornament, neck circuit lines, chrome jaw gradient. ALL visible even in mid-pose"
-  - "Do NOT use cyan except on Kuro-chan's elements and the smartphone glow"
-  - "Do NOT use brush calligraphy (reserved P03/P04/P07)"
-  - "Do NOT render Shouichi with dead-fish eyes"
+  - ", Claude pixel hair ornament, neck circuit lines, chrome jaw gradient. ALL visible even in mid-pose)"
+  - "Cyan color stays within phone screen glow, Kuro-chan robot elements, and designated ritual particles"
+  - ""
+  - "Eyes have natural pupil size with small highlights, lucid expression"
 ---
 
 ## Panel 1 (top-right, 100% width, 35% height)

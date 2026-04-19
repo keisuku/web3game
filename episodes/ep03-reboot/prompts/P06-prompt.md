@@ -5,9 +5,9 @@ characters:
 applied_techniques: [T53, T67, T14, T04, T43, T13]
 mood: "The math is brutal. Expected value negative 80%. And yet, one out of two hundred. The finger reaches for the button even as the brain screams no. The descent into participation is quiet."
 page_specific_ban:
-  - "Do NOT render Shouichi's full face in this page — cropped-face composition only (mouth corner and glasses rim visible)"
-  - "Do NOT use brush calligraphy (reserved for P07 「賭け」)"
-  - "Do NOT use cyan in Panel 5 — the trembling finger scene is deliberately monochrome (no cyan screen glow)"
+  - "Only the mouth corner and glasses rim appear at the panel edge (cropped-face composition)"
+  - ""
+  - "Monochrome and greyscale rendering; cyan reserved for phone glow and Kuro-chan elements only"
 ---
 
 ## Panel 1 (top-right, 45% width, 40% height — infographic climax)

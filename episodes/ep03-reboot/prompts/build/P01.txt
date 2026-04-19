@@ -9,16 +9,16 @@ Layout: Panel 1 on top, Panel 2 below, then bottom row splits into Panel 3 (righ
 Reading order: Panel 1 → 2 → 3 (bottom-right) → 4 (bottom-left).
 Bottom-left panel is the page ending — place the emotional payoff there.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
 T-shirt, light jacket, jeans, sneakers. Walking a Pembroke corgi on leash. Outdoor suburban path.
-Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses carry a clean soft highlight (uniform reflection, not a star shape, not rays).
 
 ## Panel 1 (top 55%, establishing climax)
 
@@ -56,7 +56,7 @@ Density Lv.3 — UI focused.
 
 ## Panel 4 (bottom-left, 35% width, 45% height — emotional landing)
 
-Scene: Close-up of Shouichi's face (bust-plus), morning sunrise backlight. Jogging gear. Corner of mouth raises in a mischievous-confident grin, glasses lenses catching dawn light with clean highlight. The expression is EXCITED-SHREWD (ワクワク＋いかがわしい), NOT warning.
+Scene: Close-up of Shouichi's face (bust-plus), morning sunrise backlight. Jogging gear. Corner of mouth raises in a mischievous-confident grin, glasses lenses catching dawn light with clean highlight. The expression is EXCITED-SHREWD (ワクワク＋いかがわしい), as positive excitement.
 
 Monologue caption (handwriting, slightly larger): 「……ジェム側、だったな。」
 

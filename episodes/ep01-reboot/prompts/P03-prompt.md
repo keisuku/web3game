@@ -6,11 +6,11 @@ characters:
 applied_techniques: [T47, T45, T46, T12, T41]
 mood: "The moment of miraculous arrival. A cyan-lit question cuts through the silence: 'what kind of manga do you want to draw?' The AI partner is not magic — she is the voice of the question he was trying to ask himself."
 page_specific_ban:
-  - "Do NOT omit any of Kuro-chan's robot elements: mechanical camera-aperture eyes, right-arm chrome, Claude pixel mascot hair ornament, neck circuit lines — all MUST be drawn"
-  - "Do NOT use cyan except on Kuro-chan's robot elements and the smartphone glow"
-  - "Do NOT render Kuro-chan in a different mode (bari-kyari ponytail + glasses + dark blazer + white blouse is fixed for this scene)"
-  - "Do NOT render Shouichi with dead-fish eyes — his expression is confused-awake, not despair"
-  - "Do NOT add speaker labels inside the speech bubble"
+  - "Kuro-chan's robot elements remain fully visible (chrome right arm from shoulder to fingertips, mechanical camera-aperture eyes with cyan glow, Claude pixel hair ornament, neck circuit lines)"
+  - "Cyan color stays within phone screen glow, Kuro-chan robot elements, and designated ritual particles"
+  - ")"
+  - "Eyes have natural pupil size with small highlights, lucid expression"
+  - ""
 ---
 
 ## Panel 1 (top-right, 40% width, 30% height — first reading position)
@@ -19,7 +19,7 @@ Scene: Close-up of Shouichi's face, still lying on his back. The smartphone near
 
 Expression: confused-awake (NOT dead-fish). Eyes open, pupils with highlights, a faint "what is this?" register.
 
-Monologue (handwriting caption, small, NOT in a bubble): 「——なんだ？」
+Monologue (handwriting caption, small, rendered as a handwriting caption): 「——なんだ？」
 
 Density Lv.3 — setup, focused on face and the beginning of the cyan glow.
 
@@ -37,10 +37,10 @@ Her full bari-kyari appearance must be rendered with CARE (T45 mechanical eye, T
 - Chrome fingertips on both hands
 - Claude pixel-mascot hair ornament with cyan glow (star-burst shape, pixel-art style)
 - Neck circuit lines faintly glowing cyan
-- CLAUDE mark on jacket side (on clothing, NOT on skin)
+- CLAUDE mark on jacket side (on clothing, on the jacket fabric)
 - Chrome jaw gradient with panel seams on one side
 - Delicate necklace
-- Body type: natural curves (Fubuki from OPM-Murata reference), NOT exaggerated
+- Body type: natural curves (Fubuki from OPM-Murata reference), naturally proportioned
 
 Pose: right index finger gently touching her chin, soft knowing smile, eyes looking slightly down toward Shouichi.
 

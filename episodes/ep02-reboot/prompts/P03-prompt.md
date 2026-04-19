@@ -3,11 +3,11 @@ layout: vertical-2
 applied_techniques: [T01, T31, T39, T14, T67, T37, T13]
 mood: "The moment the quiet market explodes back into life. September 28, 2022, 'GMT EARNING IS LIVE' — the promise that the 465-hour grind could be skipped with gems. Pure euphoria. The festival has returned."
 page_specific_ban:
-  - "Do NOT include Shouichi or any main character in this page — this is an ABSTRACT CONCEPT page representing the public explosion of excitement"
-  - "Do NOT render individual faces on the crowd — silhouettes ONLY (T14)"
-  - "Do NOT use brush calligraphy except for the single 「ついに来た」 at the top of the panel"
-  - "Do NOT use cyan outside of faint smartphone screen glow in the note-blog panel"
-  - "Do NOT include real STEPN brand logos verbatim — use abstract 'similar-looking' branding"
+  - ""
+  - "Crowd rendered as dark silhouettes only"
+  - ""
+  - "Cyan color stays within phone screen glow, Kuro-chan robot elements, and designated ritual particles"
+  - ""
 ---
 
 ## Panel 1 (full page, single vertical panel — T01 大ゴマ1枚構成)

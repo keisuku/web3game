@@ -4,22 +4,18 @@ Black-and-white manga art with grey screentone shading. Togashi-hybrid rendering
 
 Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the page plane.
 
-Japanese manga page, 2 panels stacked vertically (top to bottom).
-Reading order: Panel 1 (top) → Panel 2 (bottom).
-Panel 2 is the page ending — place the emotional payoff there.
-NOT a 2x2 grid. NOT landscape. Vertical stack only.
-Size ratio may vary dramatically (e.g., top 80% + bottom 20% for black-punchline, or top 20% + bottom 80% for strip-plus-big) — see page-specific composition instruction.
+Two panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 (bottom). Panel 2 carries the page's emotional payoff. Panels share the full page width. Size ratio varies by page-specific composition instruction (examples include 80/20 for black-punchline pages or 20/80 for strip-plus-big pages).
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
 Casual clothes, holding a wine glass, blissful satisfied expression, relaxed setting.
-Back shot from behind. Face not visible. Posture upright, shoulders firm — indicating steady decision.
+Back shot from behind. Face turned away from the viewer. Posture upright, shoulders firm — indicating steady decision.
 
 ## Panel 1 (top, 45% — establishing dusk scene)
 
@@ -33,7 +29,7 @@ No sound effects. Quiet dusk.
 
 ## Panel 2 (bottom, 55% — contemplative close)
 
-Scene: Side-profile of Shouichi seated on the park bench (T48 side profile + lens highlight). He wears a relaxed business suit now. Beside him: a Pembroke Welsh Corgi (white and brown, proper breed rendering — NOT cyan or special-colored). He holds a smartphone (screen off, no cyan glow). His eyes look into the distance.
+Scene: Side-profile of Shouichi seated on the park bench (T48 side profile + lens highlight). He wears a relaxed business suit now. Beside him: a Pembroke Welsh Corgi (white and brown Pembroke Welsh Corgi, normal markings). He holds a smartphone (screen off, no cyan glow). His eyes look into the distance.
 
 Expression: quiet resignation mixed with resolve. Calm. Not defeated. Glasses lenses catch the soft dusk light (T48 highlight through the lens).
 

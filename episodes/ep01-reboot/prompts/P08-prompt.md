@@ -5,10 +5,10 @@ characters:
 applied_techniques: [T48, T60, T69, T29, T30]
 mood: "The end of the opening arc. Not victory, not defeat — the quiet positioning of an observer. 'Expectations and delusions are poison. I knew it all along.' The dog doesn't care. The city continues. And the story has only just begun."
 page_specific_ban:
-  - "Do NOT render the dog as cyan or any special color — a normal Pembroke Welsh Corgi"
-  - "Do NOT use cyan in this page (no smartphone-focus, no Kuro-chan)"
-  - "Do NOT use brush calligraphy — the T31 limit has been reached (3 uses in P01/P06/P07)"
-  - "Do NOT reference 雀鬼 or 桜井章一 in the dialogue — replaced per retired-terms rule"
+  - "The Pembroke Welsh Corgi rendered in normal white-and-brown markings"
+  - "Monochrome and greyscale rendering; cyan reserved for phone glow and Kuro-chan elements only"
+  - ""
+  - ""
 ---
 
 ## Panel 1 (top, 45% — establishing dusk scene)
@@ -23,7 +23,7 @@ No sound effects. Quiet dusk.
 
 ## Panel 2 (bottom, 55% — contemplative close)
 
-Scene: Side-profile of Shouichi seated on the park bench (T48 side profile + lens highlight). He wears a relaxed business suit now. Beside him: a Pembroke Welsh Corgi (white and brown, proper breed rendering — NOT cyan or special-colored). He holds a smartphone (screen off, no cyan glow). His eyes look into the distance.
+Scene: Side-profile of Shouichi seated on the park bench (T48 side profile + lens highlight). He wears a relaxed business suit now. Beside him: a Pembroke Welsh Corgi (white and brown Pembroke Welsh Corgi, normal markings). He holds a smartphone (screen off, no cyan glow). His eyes look into the distance.
 
 Expression: quiet resignation mixed with resolve. Calm. Not defeated. Glasses lenses catch the soft dusk light (T48 highlight through the lens).
 

@@ -6,15 +6,15 @@ Smartphone and laptop screens rendered at a 10–15 degree tilt relative to the 
 
 Four panels arranged as a single vertical stack along the tall page axis, from top to bottom. Reading order: Panel 1 (top) → Panel 2 → Panel 3 → Panel 4 (bottom). Panel 4 carries the page's emotional payoff. Panels share the full page width and vary in height; no panel sits side-by-side with another.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
-Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses glinting with a soft highlight (NOT a star-shaped flash, NOT rays).
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
+Bust shot front. Teeth-showing confident grin with a shrewd undertone. Glasses lenses carry a clean soft highlight (uniform reflection, not a star shape, not rays).
 
 ## Panel 1 (top-right, 50% width, 35% height — first reading position)
 
@@ -41,7 +41,7 @@ Density Lv.3 — blog UI precision, focus on text.
 
 ## Panel 3 (bottom-right, 35% width, 30% height — evidence tallying)
 
-Scene: A paper notebook lying on a desk, Shouichi's hand visible holding a pen (face NOT visible). Handwritten calculation in Japanese:
+Scene: A paper notebook lying on a desk, Shouichi's hand visible holding a pen (face out of frame). Handwritten calculation in Japanese:
 「靴1足=5万 × 日給2,500 = 20日で回収」
 「3足で月20万可能」
 A coffee cup beside the notebook.
@@ -52,13 +52,13 @@ Density Lv.3 — careful handwriting rendering, loose desk-detail background.
 
 ## Panel 4 (bottom-left, 65% width, 30% height — THE GRID-BREAK, emotional landing)
 
-Scene: Close-up of Shouichi's face (fuller than bust shot). He is now BACK IN THE PARK, standing up from the bench. Autumn afternoon light. Expression: CONFIDENT MODE — teeth-showing shrewd grin, glasses lenses catching a bright WHITE HIGHLIGHT (T41 confident eyeglass-highlight — NOT star-shaped, NOT flash rays, just a clean bright highlight). Shoulders slightly back.
+Scene: Close-up of Shouichi's face (fuller than bust shot). He is now BACK IN THE PARK, standing up from the bench. Autumn afternoon light. Expression: CONFIDENT MODE — teeth-showing shrewd grin, glasses lenses catching a bright WHITE HIGHLIGHT (T41 confident eyeglass-highlight — a clean uniform soft highlight). Shoulders slightly back.
 
-The Pembroke Welsh Corgi (white and brown, NOT cyan) visible at his knees, looking up.
+The Pembroke Welsh Corgi (white and brown, monochrome) visible at his knees, looking up.
 
-CRITICAL: The smile is MISCHIEVOUS-EXCITED (ワクワク＋いかがわしい), NOT mean/smug/warning-tone.
+CRITICAL: The smile is MISCHIEVOUS-EXCITED (ワクワク＋いかがわしい), as excited-shrewd and playful.
 
-Monologue (handwriting caption, larger font, NOT in speech bubbles, positioned around the figure):
+Monologue (handwriting caption, larger font, rendered as handwriting captions, positioned around the figure):
 - 「——俺は、」 (upper-right area)
 - 「ジェム側の人間だ。」 (center-right, larger font)
 - 「日給2,500円？ ……走るか。」 (smaller, lower-left)

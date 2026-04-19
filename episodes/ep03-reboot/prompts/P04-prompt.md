@@ -5,10 +5,10 @@ characters:
 applied_techniques: [T55, T04, T31, T39, T13, T67]
 mood: "The equation reveals itself. Sixty percent of the rewards go to the wall nobody can afford. The participants realize in the same instant: you can earn, but you cannot win. Stunned comprehension."
 page_specific_ban:
-  - "Do NOT render revelation mode (no flame eyes, no speedlines from eyes)"
-  - "Do NOT render dead-fish eyes — stunned but pupils keep small highlights"
-  - "Do NOT use brush calligraphy except for the single 「60%」 in Panel 2 (2nd of 3 brush uses)"
-  - "Do NOT use cyan except on smartphone/UI glow in Panel 4"
+  - "Natural semi-manga expression with consistent character features"
+  - "Natural semi-manga expression with consistent character features"
+  - ""
+  - "Cyan color stays within phone screen glow, Kuro-chan robot elements, and designated ritual particles"
 ---
 
 ## Panel 1 (top, 15% height — date caption)

@@ -5,9 +5,9 @@ characters:
 applied_techniques: [T31, T58, T59, T20, T12, T14]
 mood: "The moment the myth dies. The ape god was never real — it was marketing. The bubble doesn't pop loudly; it dissolves with quiet bureaucratic precision. And everyone realizes at once."
 page_specific_ban:
-  - "Do NOT use cyan outside the shattering-ape-deity particles in Panel 3 (narrative exception permitted by T12 clause)"
-  - "Do NOT render individual faces on the collapsing human silhouettes in Panel 3"
-  - "Do NOT use brush calligraphy except for the single 「マーケティング」 in Panel 3 (this is the 3rd and FINAL brush use in the episode — T31 limit reached)"
+  - "Cyan color stays within phone screen glow, Kuro-chan robot elements, and designated ritual particles"
+  - ""
+  - ""
 ---
 
 ## Panel 1 (top-right, 45% width, 20% height)

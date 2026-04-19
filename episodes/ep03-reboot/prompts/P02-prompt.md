@@ -5,9 +5,9 @@ characters:
 applied_techniques: [T52, T14, T67, T13, T41]
 mood: "Watching the staircase climb past where the crowd could follow. The early riser tallies his advantage. Confidence tipping into the shrewd-smile that's one step before tragedy."
 page_specific_ban:
-  - "Do NOT render Shouichi's smile as mean — it is excited-shrewd, NOT warning"
-  - "Do NOT use brush calligraphy (reserved for P03/P04/P07)"
-  - "Do NOT include actual SNS person names/avatars"
+  - ""
+  - ""
+  - ""
 ---
 
 ## Panel 1 (top-right, 50% width, 25% height)
@@ -40,9 +40,9 @@ Density Lv.3 — dual-panel UI.
 
 ## Panel 4 (bottom-left, 65% width, 20% height — grid-break, emotional landing)
 
-Scene: Bust shot of Shouichi. Left hand lightly at his mouth (contemplative confidence). Glasses catch an orange autumn-lighting REFLECTION (T41) — a clean soft glint (NOT star-flash, NOT rays). Shrewd-smile-deep mode.
+Scene: Bust shot of Shouichi. Left hand lightly at his mouth (contemplative confidence). Glasses catch an orange autumn-lighting REFLECTION (T41) — a clean soft glint (a clean soft glint). Shrewd-smile-deep mode.
 
-Expression: excited-shrewd, the "I got in early" smile. NOT mean-spirited.
+Expression: excited-shrewd, the "I got in early" smile. playful and upbeat.
 
 Monologue captions (handwriting, positioned around the head):
 「俺は──底値で掴んだ側だ。」

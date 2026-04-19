@@ -8,14 +8,14 @@ Japanese manga page, 3 panels stacked vertically (top to bottom).
 Reading order: Panel 1 (top) → Panel 2 (middle) → Panel 3 (bottom).
 Panel 3 is the page ending — place the emotional payoff here.
 
-STRICT CHARACTER RULES (Shouichi-specific):
-- 42-year-old Japanese MAN (never young, never handsome idol)
-- RECTANGULAR black-framed glasses ONLY (never round, never thin, never oval)
-- Never remove glasses
-- Short slightly messy black hair with grey mixed in (salt-and-pepper)
-- Same face shape across all panels of this page — same glasses frame, same hairstyle, same age impression
-- Costume default: casual loungewear, T-shirt, or walk casual. A dark suit only appears when the panel text explicitly describes an office scene.
-Character: Shouichi Sakuragi, a 42-year-old Japanese man. RECTANGULAR black-framed glasses (never round, never thin). Short slightly messy black hair with grey mixed in (salt-and-pepper). Middle-aged, ordinary-looking, NOT a handsome idol. Semi-realistic manga style consistent across all panels.
+Shouichi character consistency (all panels of this page):
+- 42-year-old Japanese man with a grounded middle-aged appearance and ordinary everyday proportions.
+- Rectangular black-framed glasses with a straight horizontal top edge and flat side rails; frames sit consistently across the nose.
+- Short slightly messy black hair with salt-and-pepper greys scattered through.
+- The same face shape, same glasses frame, same hairstyle, and same age impression in every panel.
+- Glasses remain on the face in every panel.
+- Default wardrobe: casual loungewear, T-shirt, or walk-casual outfit. A dark suit appears only when the panel text explicitly describes an office scene.
+Character: Shouichi Sakuragi, a 42-year-old Japanese man. Rectangular black-framed glasses with a straight horizontal top edge. Short slightly messy black hair with salt-and-pepper greys. Middle-aged everyday face, grounded semi-realistic manga style, consistent across every panel.
 Casual clothes, holding a wine glass, blissful satisfied expression, relaxed setting.
 
 ## Panel 1 (top 30%, narrow horizontal narration strip)
@@ -30,7 +30,7 @@ No sound effects. Quiet autumn atmosphere.
 
 ## Panel 2 (middle 45%, bird's-eye establishing panel — climax setup)
 
-Scene: High bird's-eye-view of a commercial district mid-afternoon (T05 メタ宣言俯瞰). Autumn atmosphere: cafe signs, sparse pedestrian traffic, empty bench visible on a sidewalk. On the bench: a tiny seated silhouette (Shouichi, rendered small in the distance). A Pembroke Welsh Corgi (white and brown, NOT cyan) sits beside him. Bare trees, a few fallen leaves.
+Scene: High bird's-eye-view of a commercial district mid-afternoon (T05 メタ宣言俯瞰). Autumn atmosphere: cafe signs, sparse pedestrian traffic, empty bench visible on a sidewalk. On the bench: a tiny seated silhouette (Shouichi, rendered small in the distance). A Pembroke Welsh Corgi (white and brown, monochrome) sits beside him. Bare trees, a few fallen leaves.
 
 CRITICAL: All distant figures rendered as silhouettes only — no facial details (T14 principle even in distance).
 
@@ -44,7 +44,7 @@ Scene: Side-profile close-up of Shouichi on the bench. He wears a relaxed busine
 
 Expression: quiet realism (T69). Not despair, not satisfaction — the face of someone who has earned their vantage point. Calm, lucid, alert.
 
-Monologue (handwriting caption, NOT in a speech bubble, placed in the open space): 「期待と妄想は──毒だ。」「そんな気がしていた。」
+Monologue (handwriting caption, as a handwriting caption, placed in the open space): 「期待と妄想は──毒だ。」「そんな気がしていた。」
 
 No sound effects. The silence of the observer.
 

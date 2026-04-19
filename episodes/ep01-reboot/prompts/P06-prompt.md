@@ -5,9 +5,9 @@ characters:
 applied_techniques: [T31, T57, T39, T03, T14]
 mood: "The mass hallucination of July 2022. A banana symbol becomes god. Everyone rushes in. The bubble at its absolute peak — pure greed disguised as genius. 'The ape god has descended.'"
 page_specific_ban:
-  - "Do NOT use cyan in this page — this is the BAYC bubble, no robot AI, no smartphone-glow-focus"
-  - "Do NOT render individual faces on the crowd in Panel 5 — silhouettes only"
-  - "Do NOT use brush calligraphy except for the single 「バナナ」 in Panel 3 (this is the 3rd and FINAL brush use in the episode)"
+  - "Monochrome and greyscale rendering; cyan reserved for phone glow and Kuro-chan elements only"
+  - "Crowd rendered as dark silhouettes only"
+  - ""
 ---
 
 ## Panel 1 (top-right, 50% width, 25% height)

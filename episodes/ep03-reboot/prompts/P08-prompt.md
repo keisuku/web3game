@@ -5,10 +5,10 @@ characters:
 applied_techniques: [T60, T69, T29, T30, T48]
 mood: "The morning after the ritual. Common sneaker x1. The observer returns to his bench. Not defeat — recognition. 'Expectations and delusions are poison. I knew it all along.' The city continues."
 page_specific_ban:
-  - "Do NOT use brush calligraphy (T31 limit fully spent in P03/P04/P07)"
-  - "Do NOT use cyan in this page"
-  - "Do NOT reference 雀鬼 or 桜井章一"
-  - "Do NOT render revelation mode or dead-fish eyes"
+  - ""
+  - "Monochrome and greyscale rendering; cyan reserved for phone glow and Kuro-chan elements only"
+  - ""
+  - "Natural semi-manga expression with consistent character features"
 ---
 
 ## Panel 1 (top, 20% height — cold result)
@@ -29,7 +29,7 @@ Density Lv.3 — clean UI, no emotional embellishment.
 
 Scene: A disheveled morning desk. Empty wine glass (cheap cardboard-package type). An empty plastic bottle. A smartphone lying face-down. A digital clock reading "06:47". Natural morning light entering through a window.
 
-CRITICAL: Shouichi is NOT visible in this panel — the absence amplifies the silence.
+CRITICAL: Shouichi is absent from this panel — the absence amplifies the silence.
 
 Monologue caption (positioned in the empty space): 「——勝利のワインじゃ、なかったな」
 
@@ -37,7 +37,7 @@ Density Lv.4 — careful still-life rendering: the wine glass residue, cheap bot
 
 ## Panel 3 (bottom, 50% height — the bench, observer returns)
 
-Scene: A park bench viewed at a slight angle. Shouichi seated on the bench, now BACK IN A BUSINESS SUIT (composed, cleaned up). A Pembroke Welsh Corgi (white and brown, NOT cyan) sits beside his feet. Autumn morning atmosphere: overcast sky with a single thin ray of light breaking through (T30 両義性).
+Scene: A park bench viewed at a slight angle. Shouichi seated on the bench, now BACK IN A BUSINESS SUIT (composed, cleaned up). A Pembroke Welsh Corgi (white and brown, monochrome) sits beside his feet. Autumn morning atmosphere: overcast sky with a single thin ray of light breaking through (T30 両義性).
 
 Shouichi is shown from a side-back-view angle — his figure mostly facing away from the viewer, but his face turned slightly so that we can see his PROFILE with one eye visible through the glasses lens (T48 side-profile + lens-highlight). The eye meets the reader's gaze momentarily.
 
