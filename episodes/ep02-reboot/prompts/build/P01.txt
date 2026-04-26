@@ -69,3 +69,10 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT use cyan in this page (smartphone is OFF, no Kuro-chan)
+- Do NOT use brush calligraphy (T31 is reserved for P03 「ついに来た」)
+- Do NOT render the corgi as cyan or special-colored — normal Pembroke Welsh Corgi (white and brown)
+- Do NOT render revelation mode or dead-fish eyes
+- Do NOT include individual faces on distant figures — silhouettes only

@@ -66,3 +66,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT render the dog as cyan or any special color — a normal Pembroke Welsh Corgi
+- Do NOT use cyan in this page (no smartphone-focus, no Kuro-chan)
+- Do NOT use brush calligraphy — the T31 limit has been reached (3 uses in P01/P06/P07)
+- Do NOT reference 雀鬼 or 桜井章一 in the dialogue — replaced per retired-terms rule

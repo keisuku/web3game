@@ -97,3 +97,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT render revelation mode (no flame eyes, no speedlines from eyes)
+- Do NOT render dead-fish eyes — stunned but pupils keep small highlights
+- Do NOT use brush calligraphy except for the single 「60%」 in Panel 2 (2nd of 3 brush uses)
+- Do NOT use cyan except on smartphone/UI glow in Panel 4

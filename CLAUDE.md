@@ -3,6 +3,8 @@
 このリポジトリは「WEB3.0 終わたから」の漫画制作ワークフローを管理しています。
 ユーザーは git/GitHub の操作に慣れていません。**git 操作・ファイル操作はすべて Claude Code が代行します。**
 
+> 2026-04-27 追記: Codex 移行に合わせ、Bash 前提の運用を `scripts/web3game.py` 中心に再構築しました。Claude Code では従来どおりこの `CLAUDE.md` を読み、Codex では `AGENTS.md` も読むこと。
+
 ---
 
 ## 🚨 最優先原則：止まらない
@@ -24,6 +26,18 @@
 ---
 
 ## ⚡ よく使うコマンド（即実行）
+
+Windows / Codex / Claude Code 共通の正本CLI:
+
+| やりたいこと | 実行コマンド |
+|---|---|
+| 状態確認 | `python scripts/web3game.py status` |
+| プロンプト生成 | `python scripts/web3game.py build-prompt <EP> <P>` |
+| ダッシュボード同期 | `python scripts/web3game.py sync-dashboard` |
+| 検証 | `python scripts/web3game.py validate <EP> [P]` |
+| 全体検証 | `python scripts/web3game.py validate all` |
+
+旧Bashコマンドは互換ラッパーとして残す。Windowsでは `bash` がPATHにない場合があるため、上記Python CLIを優先する。
 
 | ユーザーの発話 | 実行コマンド |
 |---|---|

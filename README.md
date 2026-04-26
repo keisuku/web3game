@@ -2,6 +2,24 @@
 
 Claude Projects + Nano Banana（Gemini画像生成）を使った漫画制作のためのドキュメント管理システムです。
 
+## 2026-04-27 Codex リビルド
+
+このリポジトリは、Claude Code で作られた運用を Codex でも自走できる形に作り直しました。
+
+- 正本は `episodes/` と `bible/` の Markdown
+- 公開ダッシュボードは `python scripts/web3game.py sync-dashboard` で自動生成
+- Windows / Codex では Bash 前提にせず `scripts/web3game.py` を使う
+- Codex 用の作業規約は `AGENTS.md`
+- Claude Code の project Skills は `.claude/skills/`
+
+よく使う操作:
+
+```powershell
+python scripts\web3game.py status
+python scripts\web3game.py sync-dashboard
+python scripts\web3game.py validate 03-reboot
+```
+
 ---
 
 ## コンセプト

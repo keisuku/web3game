@@ -72,3 +72,10 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Rainbow prism (full spectrum gradient) is permitted ONLY in Panel 2 (the 60% circle segment and the floating rainbow sneaker silhouette) and Panel 4 (smartphone screen glow)
+- Do not use cyan anywhere on this page — rainbow prism replaces cyan's role
+- Do not use explosion effects or bright flashes in Panel 2 — keep it silently massive (Otomo Katsuhiro — quiet enormity)
+- Do not use revelation mode for Shouichi in Panel 3 — his reaction is stillness, not flame
+- Do not decorate the '32,000,000 JPY' number ornamentally — raw number only

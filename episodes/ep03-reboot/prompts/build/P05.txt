@@ -95,3 +95,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT omit Kuro-chan's robot elements: mechanical camera-aperture eyes, right-arm chrome (full), Claude pixel hair ornament, neck circuit lines, chrome jaw gradient. ALL visible even in mid-pose
+- Do NOT use cyan except on Kuro-chan's elements and the smartphone glow
+- Do NOT use brush calligraphy (reserved P03/P04/P07)
+- Do NOT render Shouichi with dead-fish eyes

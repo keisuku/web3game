@@ -82,3 +82,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT show Google Sheets / Excel logo in UI — render as generic spreadsheet
+- Do NOT write '1.5M' in English — use Japanese 『150万円』
+- Do NOT use revelation mode / flame eyes / speed lines — this is quiet analyst-mode
+- Do NOT render rectangular glasses on Takashi

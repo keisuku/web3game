@@ -1,9 +1,25 @@
 # Skills インベントリ — web3game
 
-**最終更新: 2026-04-19**
+**最終更新: 2026-04-27**
 
 このリポジトリで活用される Claude Code Skills の一覧。
-`~/.claude/skills/` に配置されており、会話中のキーワードで自動起動する。
+2026-04-27 の Codex リビルドで、個人環境前提の `~/.claude/skills/` から、プロジェクト共有の `.claude/skills/` に正本を移した。
+
+## 2026-04-27 現在の実体
+
+| Skill | 実体 | 役割 |
+|---|---|---|
+| **manga-page** | `.claude/skills/manga-page/SKILL.md` | ページ設計、コマ割り、表情・視線誘導・技法適用 |
+| **manga-prompt** | `.claude/skills/manga-prompt/SKILL.md` | ページ設計からNano Banana / Gemini用プロンプトへ変換 |
+| **manga-review** | `.claude/skills/manga-review/SKILL.md` | 設計書・プロンプト・生成結果のレビュー |
+| **manga-feedback** | `.claude/skills/manga-feedback/SKILL.md` | 生成結果フィードバックをページ/プロンプト/bibleへ分類反映 |
+| **manga-episode-plan** | `.claude/skills/manga-episode-plan/SKILL.md` | 新エピソード企画、ページ数、技法配分、伏線設計 |
+| **workflow-maintainer** | `.claude/skills/workflow-maintainer/SKILL.md` | Codex/Claude両対応のCLI、検証、ダッシュボード、GitHub Pages保守 |
+
+関連:
+
+- Codex 用規約: `AGENTS.md`
+- Claude Code / Codex セットアップ整理: `docs/agent-setup.md`
 
 ---
 

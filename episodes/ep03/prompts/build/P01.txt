@@ -67,3 +67,8 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do not draw excited expressions — Panel 3 is analytical, Panel 4 is cropped with only a hint of smile
+- Do not use cyan outside smartphone screens on this page
+- Do not give the '465時間' sticky note any dramatic emphasis — it is just sitting on the table
