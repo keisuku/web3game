@@ -64,3 +64,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT split the page into multiple panels — this is a SINGLE full-page panel (T01 大ゴマ1枚構成)
+- Do NOT show Shouichi's face — he is back-view only, small in the bottom-left, observing the concept from behind
+- Do NOT render the running woman in cyan — she is in MONOCHROME greyscale with a subtle glow effect, NOT cyan color (reserved for Kuro-chan and smartphone)
+- Do NOT use brush calligraphy except for the bottom-page 「確かに。天才か!!」 — this is the second of three brush uses in the episode (T31 upper limit respect)

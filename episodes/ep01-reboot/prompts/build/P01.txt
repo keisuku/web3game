@@ -66,3 +66,11 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT render Shouichi with dead-fish eyes (futon mode is banned). Keep highlights in the pupils even in the bedroom shot
+- Do NOT render chibi or deformed comedy face — this is a serious shock moment
+- Do NOT use cyan color except on the smartphone screen glow in Panel 1 and Panel 2
+- Do NOT draw sweat as cyan-tinted or as tears — sweat is white/black linework only
+- Do NOT let speedlines radiate from the eyes — speedlines are background-only (behind the head)
+- Do NOT use any calligraphy/brush text beyond the single 「終わった」 — only one giant brush text per page

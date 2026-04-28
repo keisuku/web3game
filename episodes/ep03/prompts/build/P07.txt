@@ -74,3 +74,10 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do not draw Shouichi's face in any panel on this page — hand only in Panels 1 and 4, fully absent in Panels 2 and 3
+- Do not reveal the enhance result on this page (that is Panel 1 of P08)
+- Do not use cyan anywhere on this page
+- Rainbow prism is permitted ONLY in Panel 3 (the sneaker dissolution particles)
+- Do not make the red Enhance button glow dramatically — subtle depression under thumb only

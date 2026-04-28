@@ -8,7 +8,27 @@
 
 ## 🎯 次にやること（1 行）
 
-**EP01-REBOOT 全 8 ページ設計完了（正解ver 5 枚完全踏襲）+ 技法ライブラリ 70 技法 + Skills 21 個導入済み。画像生成を待つ状態**
+**Codexリビルド実施中。Markdown正本→Python CLI→自動生成ダッシュボードへ移行済み。次はEP03-REBOOTの画像生成・差分ログ記録に戻れる状態**
+
+---
+
+## 2026-04-27 Codex リビルドで完了
+
+1. **`AGENTS.md` 新設**: Codex 用の作業規約、検証コマンド、生成ルールを追加
+2. **`scripts/web3game.py` 新設**: Windows / Codex 対応の正本CLI（status / build-prompt / sync-dashboard / validate）
+3. **`index.html` 根本再構築**: 手書き巨大JS配列を廃止し、`assets/dashboard-data.js` + `assets/site.js` + `assets/site.css` に分離
+4. **`.claude/skills/` 新設**: Claude Code project Skills をリポジトリ管理に移行
+5. **EP03-REBOOT検証改善**: スマホ傾き、右上→左下、表情フィールド不足を主要ページで補正
+6. **Bash互換ラッパー更新**: `build-prompt.sh` / `sync-dashboard.sh` / `validate-pipeline.sh` / `status.sh` / `new-episode.sh` はPython CLIを呼ぶ
+7. **EP03-REBOOT 検証結果**: `python scripts\web3game.py validate 03-reboot` がエラー0 / 警告0
+
+ローカル確認:
+
+```powershell
+python scripts\web3game.py sync-dashboard
+python scripts\web3game.py validate 03-reboot
+node --check assets\site.js
+```
 
 ---
 

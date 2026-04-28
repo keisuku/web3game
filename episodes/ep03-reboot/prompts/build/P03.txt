@@ -55,3 +55,9 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT include main characters in this page — this is the announcement banner page
+- Do NOT render individual faces on any crowd (if crowd present, silhouettes only)
+- Do NOT use brush calligraphy except for the single 「ついに」
+- Do NOT use cyan extensively (the radiating particles are neutral white/grey, NOT cyan)

@@ -65,3 +65,10 @@ HARD RULES — violations are failures:
 6. Dialogue language: Japanese dialogue stays in Japanese inside brackets 「 」. Do NOT translate to English. The quoted 「 」 text must appear in the final rendered page as Japanese characters.
 
 7. Forbidden words: Do NOT reference "雀鬼", "桜井章一", "全ツッパ" (these terms are retired from the project — the game itself is the protagonist, not the character's gambling tendencies).
+
+Additional page-specific constraints:
+- Do NOT show Takashi's full face — only silhouette from behind (Panel 1) or tight edge close-up (Panel 2)
+- Do NOT render supervisor's face in detail — silhouette shoulder-line only
+- Do NOT display the text '退職届' in large readable font — the paper's shape is enough
+- Do NOT use revelation mode or flame eyes — this is a quiet decision
+- Do NOT render rectangular glasses
